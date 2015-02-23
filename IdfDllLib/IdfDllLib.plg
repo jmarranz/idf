@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: IdfDllLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\jmarranz\CONFIG~1\Temp\RSP14F.tmp" with contents
+[
+/nologo /out:"Debug\IdfDllLib.lib" 
+.\Debug\StdAfx.obj
+.\Debug\BLOQFUNC.OBJ
+.\Debug\BLOQRETRO.OBJ
+.\Debug\bloque.obj
+.\Debug\Bloque_enlaces.obj
+.\Debug\com.obj
+.\Debug\Com_enlaces.obj
+.\Debug\ComSerial.obj
+.\Debug\Diagrama_enlaces.obj
+.\Debug\IdfDllApp.obj
+.\Debug\InfoClases.obj
+.\Debug\InfoClases_enlaces.obj
+.\Debug\InfoDiagrama.obj
+.\Debug\NULO.obj
+.\Debug\OLEAUTOM.OBJ
+.\Debug\olevar.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\jmarranz\CONFIG~1\Temp\RSP14F.tmp"
+<h3>Output Window</h3>
+Creating library...
+Creating temporary file "C:\DOCUME~1\jmarranz\CONFIG~1\Temp\RSP150.tmp" with contents
+[
+/nologo /o"Debug/IdfDllLib.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\BLOQFUNC.SBR
+.\Debug\BLOQRETRO.SBR
+.\Debug\bloque.sbr
+.\Debug\Bloque_enlaces.sbr
+.\Debug\com.sbr
+.\Debug\Com_enlaces.sbr
+.\Debug\ComSerial.sbr
+.\Debug\Diagrama_enlaces.sbr
+.\Debug\IdfDllApp.sbr
+.\Debug\InfoClases.sbr
+.\Debug\InfoClases_enlaces.sbr
+.\Debug\InfoDiagrama.sbr
+.\Debug\NULO.sbr
+.\Debug\OLEAUTOM.SBR
+.\Debug\olevar.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\jmarranz\CONFIG~1\Temp\RSP150.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+IdfDllLib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

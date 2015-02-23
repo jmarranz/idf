@@ -1,0 +1,2003 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no" ?>
+<diagrama>
+    <datos>
+      <horizontal>true</horizontal>
+      <directorioLib>C:\trabajo\empresa\opensource\idf\bin\</directorioLib>
+      <dllDiag>DLLDiag.dll</dllDiag>
+      <etiqDiagrama>SIMULACIÓN DEL APRENDIZAJE DE UNA RED NEURONAL</etiqDiagrama>
+      <vistas>
+        <xInsEtiq>68</xInsEtiq>
+        <yInsEtiq>8</yInsEtiq>
+        <rgbEtiq>
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </rgbEtiq>
+      </vistas>
+      <ayuda>Introducir aquí el texto de ayuda general del diagrama, se salvará junto al proyecto
+</ayuda>
+    </datos>
+    <bloques>
+      <funcionales>
+        <bloque id="BlqFuncDLL232322" tipo="dll">
+          <etiqueta>W</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>false</activaSalida>
+          <autoCiclosMaximo>20</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>205</xPtoInser>
+            <yPtoInser>95</yPtoInser>
+            <longAlto>15</longAlto>
+            <longAncho>15</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>Neuronal_Bloq_W</claseBloque>
+          <anexo>Escribir aquí la macro o datos asociados a la funcionalidad del bloque, se salvarán junto al proyecto
+</anexo>
+        </bloque>
+        <bloque id="BlqFuncDLL23" tipo="dll">
+          <etiqueta>x(t)</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>true</activaSalida>
+          <autoCiclosMaximo>1000</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>5</xPtoInser>
+            <yPtoInser>95</yPtoInser>
+            <longAlto>15</longAlto>
+            <longAncho>15</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>Neuronal_Bloq_x</claseBloque>
+          <anexo>Escribir aquí la macro o datos asociados a la funcionalidad del bloque, se salvarán junto al proyecto
+</anexo>
+        </bloque>
+        <bloque id="BlqFuncDLL23224" tipo="dll">
+          <etiqueta>dWs</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>false</activaSalida>
+          <autoCiclosMaximo>20</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>105</xPtoInser>
+            <yPtoInser>65</yPtoInser>
+            <longAlto>15</longAlto>
+            <longAncho>15</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>Neuronal_Bloq_dW</claseBloque>
+          <anexo>Escribir aquí la macro o datos asociados a la funcionalidad del bloque, se salvarán junto al proyecto
+</anexo>
+        </bloque>
+        <bloque id="BlqFuncDLL2322422" tipo="dll">
+          <etiqueta>dWs</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>false</activaSalida>
+          <autoCiclosMaximo>20</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>205</xPtoInser>
+            <yPtoInser>65</yPtoInser>
+            <longAlto>15</longAlto>
+            <longAncho>15</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>Neuronal_Bloq_dW</claseBloque>
+          <anexo>Escribir aquí la macro o datos asociados a la funcionalidad del bloque, se salvarán junto al proyecto
+</anexo>
+        </bloque>
+        <bloque id="N_1_1" tipo="dll">
+          <etiqueta>N</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>true</activaSalida>
+          <autoCiclosMaximo>1000</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>30</xPtoInser>
+            <yPtoInser>95</yPtoInser>
+            <longAlto>15</longAlto>
+            <longAncho>15</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>Neuronal_Bloq_Neurona</claseBloque>
+          <anexo>FUNCION_IDENTIDAD
+</anexo>
+        </bloque>
+        <bloque id="N_3_1" tipo="dll">
+          <etiqueta>N</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>true</activaSalida>
+          <autoCiclosMaximo>1000</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>130</xPtoInser>
+            <yPtoInser>95</yPtoInser>
+            <longAlto>15</longAlto>
+            <longAncho>15</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>Neuronal_Bloq_Neurona</claseBloque>
+          <anexo>FUNCION_SIGMOIDEA
+</anexo>
+        </bloque>
+        <bloque id="BlqFuncDLL2" tipo="dll">
+          <etiqueta>(-1)</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>true</activaSalida>
+          <autoCiclosMaximo>1000</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>255</xPtoInser>
+            <yPtoInser>95</yPtoInser>
+            <longAlto>15</longAlto>
+            <longAncho>15</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>Neuronal_Bloq_Inversion</claseBloque>
+          <anexo>Escribir aquí la macro o datos asociados a la funcionalidad del bloque, se salvarán junto al proyecto
+</anexo>
+        </bloque>
+        <bloque id="BlqFuncDLL" tipo="dll">
+          <etiqueta>Sistema</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>false</activaSalida>
+          <autoCiclosMaximo>20</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>65</xPtoInser>
+            <yPtoInser>125</yPtoInser>
+            <longAlto>15</longAlto>
+            <longAncho>20</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>Neuronal_Bloq_Sistema</claseBloque>
+          <anexo>Escribir aquí la macro o datos asociados a la funcionalidad del bloque, se salvarán junto al proyecto
+</anexo>
+        </bloque>
+        <bloque id="BlqFuncDLL3" tipo="dll">
+          <etiqueta>(+)</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>true</activaSalida>
+          <autoCiclosMaximo>1000</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>255</xPtoInser>
+            <yPtoInser>125</yPtoInser>
+            <longAlto>15</longAlto>
+            <longAncho>15</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>Neuronal_Bloq_Suma</claseBloque>
+          <anexo>Escribir aquí la macro o datos asociados a la funcionalidad del bloque, se salvarán junto al proyecto
+</anexo>
+        </bloque>
+        <bloque id="BlqFuncDLL4" tipo="dll">
+          <etiqueta>Err&lt;ErrMax</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>true</activaSalida>
+          <autoCiclosMaximo>1000</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>255</xPtoInser>
+            <yPtoInser>150</yPtoInser>
+            <longAlto>15</longAlto>
+            <longAncho>15</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>Neuronal_Bloq_Comparacion</claseBloque>
+          <anexo>Escribir aquí la macro o datos asociados a la funcionalidad del bloque, se salvarán junto al proyecto
+</anexo>
+        </bloque>
+        <bloque id="BlqFuncDLL2223" tipo="dll">
+          <etiqueta>N</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>true</activaSalida>
+          <autoCiclosMaximo>1000</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>80</xPtoInser>
+            <yPtoInser>95</yPtoInser>
+            <longAlto>15</longAlto>
+            <longAncho>15</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>Neuronal_Bloq_Neurona</claseBloque>
+          <anexo>FUNCION_SIGMOIDEA
+</anexo>
+        </bloque>
+        <bloque id="BlqFuncDLL2323" tipo="dll">
+          <etiqueta>W</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>false</activaSalida>
+          <autoCiclosMaximo>20</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>105</xPtoInser>
+            <yPtoInser>95</yPtoInser>
+            <longAlto>15</longAlto>
+            <longAncho>15</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>Neuronal_Bloq_W</claseBloque>
+          <anexo>Escribir aquí la macro o datos asociados a la funcionalidad del bloque, se salvarán junto al proyecto
+</anexo>
+        </bloque>
+        <bloque id="N_3_12" tipo="dll">
+          <etiqueta>N</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>true</activaSalida>
+          <autoCiclosMaximo>1000</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>180</xPtoInser>
+            <yPtoInser>95</yPtoInser>
+            <longAlto>15</longAlto>
+            <longAncho>15</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>Neuronal_Bloq_Neurona</claseBloque>
+          <anexo>FUNCION_SIGMOIDEA
+</anexo>
+        </bloque>
+        <bloque id="BlqFuncDLL232242" tipo="dll">
+          <etiqueta>dWs</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>false</activaSalida>
+          <autoCiclosMaximo>20</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>155</xPtoInser>
+            <yPtoInser>65</yPtoInser>
+            <longAlto>15</longAlto>
+            <longAncho>15</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>Neuronal_Bloq_dW</claseBloque>
+          <anexo>Escribir aquí la macro o datos asociados a la funcionalidad del bloque, se salvarán junto al proyecto
+</anexo>
+        </bloque>
+        <bloque id="BlqFuncDLL232232" tipo="dll">
+          <etiqueta>dWi</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>false</activaSalida>
+          <autoCiclosMaximo>20</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>55</xPtoInser>
+            <yPtoInser>65</yPtoInser>
+            <longAlto>15</longAlto>
+            <longAncho>15</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>Neuronal_Bloq_dW</claseBloque>
+          <anexo>Escribir aquí la macro o datos asociados a la funcionalidad del bloque, se salvarán junto al proyecto
+</anexo>
+        </bloque>
+        <bloque id="BlqFuncDLL23232" tipo="dll">
+          <etiqueta>W</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>false</activaSalida>
+          <autoCiclosMaximo>20</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>155</xPtoInser>
+            <yPtoInser>95</yPtoInser>
+            <longAlto>15</longAlto>
+            <longAncho>15</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>Neuronal_Bloq_W</claseBloque>
+          <anexo>Escribir aquí la macro o datos asociados a la funcionalidad del bloque, se salvarán junto al proyecto
+</anexo>
+        </bloque>
+        <bloque id="N_3_122" tipo="dll">
+          <etiqueta>N</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>true</activaSalida>
+          <autoCiclosMaximo>1000</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>230</xPtoInser>
+            <yPtoInser>95</yPtoInser>
+            <longAlto>15</longAlto>
+            <longAncho>15</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>Neuronal_Bloq_Neurona</claseBloque>
+          <anexo>FUNCION_IDENTIDAD
+</anexo>
+        </bloque>
+        <bloque id="BlqFuncDLL232222" tipo="dll">
+          <etiqueta>W</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>false</activaSalida>
+          <autoCiclosMaximo>20</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>55</xPtoInser>
+            <yPtoInser>95</yPtoInser>
+            <longAlto>15</longAlto>
+            <longAncho>15</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>Neuronal_Bloq_W</claseBloque>
+          <anexo>Escribir aquí la macro o datos asociados a la funcionalidad del bloque, se salvarán junto al proyecto
+</anexo>
+        </bloque>
+      </funcionales>
+      <retroanotacion/>
+    </bloques>
+    <conectores>
+      <funcionales>
+        <conector id="ConFunc5">
+          <etiqueta></etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL2</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL3</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>2</anchoLinea>
+            <flecha>
+              <xFlechaPos>265</xFlechaPos>
+              <yFlechaPos>125</yFlechaPos>
+              <orientacion>3</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>265</xPos>
+                <yPos>110</yPos>
+              </nudo>
+              <nudo>
+                <xPos>265</xPos>
+                <yPos>125</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>265</xEtiqIns>
+            <yEtiqIns>110</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConFunc6">
+          <etiqueta></etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL3</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL4</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>2</anchoLinea>
+            <flecha>
+              <xFlechaPos>265</xFlechaPos>
+              <yFlechaPos>150</yFlechaPos>
+              <orientacion>3</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>265</xPos>
+                <yPos>140</yPos>
+              </nudo>
+              <nudo>
+                <xPos>265</xPos>
+                <yPos>150</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>265</xEtiqIns>
+            <yEtiqIns>140</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConFunc7">
+          <etiqueta>NO</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>NULO</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL4</bloqueAnterior>
+          <bloquePosterior>N_1_1</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>2</anchoLinea>
+            <flecha>
+              <xFlechaPos>15</xFlechaPos>
+              <yFlechaPos>95</yFlechaPos>
+              <orientacion>3</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>270</xPos>
+                <yPos>160</yPos>
+              </nudo>
+              <nudo>
+                <xPos>290</xPos>
+                <yPos>160</yPos>
+              </nudo>
+              <nudo>
+                <xPos>290</xPos>
+                <yPos>50</yPos>
+              </nudo>
+              <nudo>
+                <xPos>15</xPos>
+                <yPos>50</yPos>
+              </nudo>
+              <nudo>
+                <xPos>15</xPos>
+                <yPos>95</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>265</xEtiqIns>
+            <yEtiqIns>50</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConFunc8">
+          <etiqueta>SI</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>NULO</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL4</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL23</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>2</anchoLinea>
+            <flecha>
+              <xFlechaPos>10</xFlechaPos>
+              <yFlechaPos>110</yFlechaPos>
+              <orientacion>1</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>255</xPos>
+                <yPos>155</yPos>
+              </nudo>
+              <nudo>
+                <xPos>10</xPos>
+                <yPos>155</yPos>
+              </nudo>
+              <nudo>
+                <xPos>10</xPos>
+                <yPos>110</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>180</xEtiqIns>
+            <yEtiqIns>150</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConFunc9">
+          <etiqueta></etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>NULO</claseDatosCom>
+          <bloqueAnterior>N_3_12</bloqueAnterior>
+          <bloquePosterior>N_3_122</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>2</anchoLinea>
+            <flecha>
+              <xFlechaPos>235</xFlechaPos>
+              <yFlechaPos>110</yFlechaPos>
+              <orientacion>1</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>190</xPos>
+                <yPos>110</yPos>
+              </nudo>
+              <nudo>
+                <xPos>190</xPos>
+                <yPos>120</yPos>
+              </nudo>
+              <nudo>
+                <xPos>235</xPos>
+                <yPos>120</yPos>
+              </nudo>
+              <nudo>
+                <xPos>235</xPos>
+                <yPos>110</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>190</xEtiqIns>
+            <yEtiqIns>110</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConFunc10">
+          <etiqueta></etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>NULO</claseDatosCom>
+          <bloqueAnterior>N_3_122</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL2</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>2</anchoLinea>
+            <flecha>
+              <xFlechaPos>260</xFlechaPos>
+              <yFlechaPos>110</yFlechaPos>
+              <orientacion>1</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>240</xPos>
+                <yPos>110</yPos>
+              </nudo>
+              <nudo>
+                <xPos>240</xPos>
+                <yPos>120</yPos>
+              </nudo>
+              <nudo>
+                <xPos>260</xPos>
+                <yPos>120</yPos>
+              </nudo>
+              <nudo>
+                <xPos>260</xPos>
+                <yPos>110</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>240</xEtiqIns>
+            <yEtiqIns>110</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConFunc">
+          <etiqueta></etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL23</bloqueAnterior>
+          <bloquePosterior>N_1_1</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>2</anchoLinea>
+            <flecha>
+              <xFlechaPos>30</xFlechaPos>
+              <yFlechaPos>105</yFlechaPos>
+              <orientacion>2</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>20</xPos>
+                <yPos>105</yPos>
+              </nudo>
+              <nudo>
+                <xPos>30</xPos>
+                <yPos>105</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>20</xEtiqIns>
+            <yEtiqIns>105</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConFunc2">
+          <etiqueta></etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>NULO</claseDatosCom>
+          <bloqueAnterior>N_1_1</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL2223</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>2</anchoLinea>
+            <flecha>
+              <xFlechaPos>85</xFlechaPos>
+              <yFlechaPos>110</yFlechaPos>
+              <orientacion>1</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>35</xPos>
+                <yPos>110</yPos>
+              </nudo>
+              <nudo>
+                <xPos>35</xPos>
+                <yPos>120</yPos>
+              </nudo>
+              <nudo>
+                <xPos>85</xPos>
+                <yPos>120</yPos>
+              </nudo>
+              <nudo>
+                <xPos>85</xPos>
+                <yPos>110</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>35</xEtiqIns>
+            <yEtiqIns>110</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConFunc3">
+          <etiqueta></etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>NULO</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL2223</bloqueAnterior>
+          <bloquePosterior>N_3_1</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>2</anchoLinea>
+            <flecha>
+              <xFlechaPos>135</xFlechaPos>
+              <yFlechaPos>110</yFlechaPos>
+              <orientacion>1</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>90</xPos>
+                <yPos>110</yPos>
+              </nudo>
+              <nudo>
+                <xPos>90</xPos>
+                <yPos>120</yPos>
+              </nudo>
+              <nudo>
+                <xPos>135</xPos>
+                <yPos>120</yPos>
+              </nudo>
+              <nudo>
+                <xPos>135</xPos>
+                <yPos>110</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>90</xEtiqIns>
+            <yEtiqIns>110</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConFunc4">
+          <etiqueta></etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>NULO</claseDatosCom>
+          <bloqueAnterior>N_3_1</bloqueAnterior>
+          <bloquePosterior>N_3_12</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>2</anchoLinea>
+            <flecha>
+              <xFlechaPos>185</xFlechaPos>
+              <yFlechaPos>110</yFlechaPos>
+              <orientacion>1</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>140</xPos>
+                <yPos>110</yPos>
+              </nudo>
+              <nudo>
+                <xPos>140</xPos>
+                <yPos>120</yPos>
+              </nudo>
+              <nudo>
+                <xPos>185</xPos>
+                <yPos>120</yPos>
+              </nudo>
+              <nudo>
+                <xPos>185</xPos>
+                <yPos>110</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>140</xEtiqIns>
+            <yEtiqIns>110</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+      </funcionales>
+      <retroanotacion>
+        <conector id="ConRetro2">
+          <etiqueta></etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL23232</bloqueAnterior>
+          <bloquePosterior>N_3_12</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>180</xFlechaPos>
+              <yFlechaPos>105</yFlechaPos>
+              <orientacion>2</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>170</xPos>
+                <yPos>105</yPos>
+              </nudo>
+              <nudo>
+                <xPos>180</xPos>
+                <yPos>105</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>170</xEtiqIns>
+            <yEtiqIns>105</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro92">
+          <etiqueta>W</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL23224</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL2323</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>115</xFlechaPos>
+              <yFlechaPos>95</yFlechaPos>
+              <orientacion>3</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>115</xPos>
+                <yPos>80</yPos>
+              </nudo>
+              <nudo>
+                <xPos>115</xPos>
+                <yPos>95</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>115</xEtiqIns>
+            <yEtiqIns>85</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro132">
+          <etiqueta>W</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL232232</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL232222</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>65</xFlechaPos>
+              <yFlechaPos>95</yFlechaPos>
+              <orientacion>3</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>65</xPos>
+                <yPos>80</yPos>
+              </nudo>
+              <nudo>
+                <xPos>65</xPos>
+                <yPos>95</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>65</xEtiqIns>
+            <yEtiqIns>85</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro3">
+          <etiqueta>W</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL23232</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL232242</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>160</xFlechaPos>
+              <yFlechaPos>80</yFlechaPos>
+              <orientacion>1</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>160</xPos>
+                <yPos>95</yPos>
+              </nudo>
+              <nudo>
+                <xPos>160</xPos>
+                <yPos>80</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>155</xEtiqIns>
+            <yEtiqIns>85</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro82">
+          <etiqueta>a</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL2223</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL23224</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>105</xFlechaPos>
+              <yFlechaPos>75</yFlechaPos>
+              <orientacion>2</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>90</xPos>
+                <yPos>95</yPos>
+              </nudo>
+              <nudo>
+                <xPos>90</xPos>
+                <yPos>75</yPos>
+              </nudo>
+              <nudo>
+                <xPos>105</xPos>
+                <yPos>75</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>95</xEtiqIns>
+            <yEtiqIns>75</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro4">
+          <etiqueta>W</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL232242</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL23232</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>165</xFlechaPos>
+              <yFlechaPos>95</yFlechaPos>
+              <orientacion>3</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>165</xPos>
+                <yPos>80</yPos>
+              </nudo>
+              <nudo>
+                <xPos>165</xPos>
+                <yPos>95</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>165</xEtiqIns>
+            <yEtiqIns>85</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro5">
+          <etiqueta></etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL23</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>65</xFlechaPos>
+              <yFlechaPos>135</yFlechaPos>
+              <orientacion>2</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>15</xPos>
+                <yPos>110</yPos>
+              </nudo>
+              <nudo>
+                <xPos>15</xPos>
+                <yPos>135</yPos>
+              </nudo>
+              <nudo>
+                <xPos>65</xPos>
+                <yPos>135</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>15</xEtiqIns>
+            <yEtiqIns>110</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro1122">
+          <etiqueta>dg/de</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL2223</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL232232</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>70</xFlechaPos>
+              <yFlechaPos>75</yFlechaPos>
+              <orientacion>4</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>85</xPos>
+                <yPos>95</yPos>
+              </nudo>
+              <nudo>
+                <xPos>85</xPos>
+                <yPos>75</yPos>
+              </nudo>
+              <nudo>
+                <xPos>70</xPos>
+                <yPos>75</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>80</xEtiqIns>
+            <yEtiqIns>85</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro6">
+          <etiqueta></etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL3</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>255</xFlechaPos>
+              <yFlechaPos>135</yFlechaPos>
+              <orientacion>2</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>85</xPos>
+                <yPos>135</yPos>
+              </nudo>
+              <nudo>
+                <xPos>255</xPos>
+                <yPos>135</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>85</xEtiqIns>
+            <yEtiqIns>135</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro102">
+          <etiqueta>Err</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL23224</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL232232</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>70</xFlechaPos>
+              <yFlechaPos>70</yFlechaPos>
+              <orientacion>4</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>105</xPos>
+                <yPos>70</yPos>
+              </nudo>
+              <nudo>
+                <xPos>70</xPos>
+                <yPos>70</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>99</xEtiqIns>
+            <yEtiqIns>66</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro7">
+          <etiqueta>Err</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL232242</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL23224</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>120</xFlechaPos>
+              <yFlechaPos>70</yFlechaPos>
+              <orientacion>4</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>155</xPos>
+                <yPos>70</yPos>
+              </nudo>
+              <nudo>
+                <xPos>120</xPos>
+                <yPos>70</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>145</xEtiqIns>
+            <yEtiqIns>65</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro20">
+          <etiqueta>dg/de</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>N_3_1</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL23224</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>120</xFlechaPos>
+              <yFlechaPos>75</yFlechaPos>
+              <orientacion>4</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>135</xPos>
+                <yPos>95</yPos>
+              </nudo>
+              <nudo>
+                <xPos>135</xPos>
+                <yPos>75</yPos>
+              </nudo>
+              <nudo>
+                <xPos>120</xPos>
+                <yPos>75</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>130</xEtiqIns>
+            <yEtiqIns>80</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro8">
+          <etiqueta>dg/de</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>N_3_12</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL232242</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>170</xFlechaPos>
+              <yFlechaPos>75</yFlechaPos>
+              <orientacion>4</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>185</xPos>
+                <yPos>95</yPos>
+              </nudo>
+              <nudo>
+                <xPos>185</xPos>
+                <yPos>75</yPos>
+              </nudo>
+              <nudo>
+                <xPos>170</xPos>
+                <yPos>75</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>180</xEtiqIns>
+            <yEtiqIns>80</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro32">
+          <etiqueta></etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL2223</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL2323</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>105</xFlechaPos>
+              <yFlechaPos>105</yFlechaPos>
+              <orientacion>2</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>95</xPos>
+                <yPos>105</yPos>
+              </nudo>
+              <nudo>
+                <xPos>105</xPos>
+                <yPos>105</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>95</xEtiqIns>
+            <yEtiqIns>105</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro21">
+          <etiqueta>a</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>N_1_1</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL232232</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>55</xFlechaPos>
+              <yFlechaPos>75</yFlechaPos>
+              <orientacion>2</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>40</xPos>
+                <yPos>95</yPos>
+              </nudo>
+              <nudo>
+                <xPos>40</xPos>
+                <yPos>75</yPos>
+              </nudo>
+              <nudo>
+                <xPos>55</xPos>
+                <yPos>75</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>45</xEtiqIns>
+            <yEtiqIns>75</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro9">
+          <etiqueta>a</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>N_3_1</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL232242</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>155</xFlechaPos>
+              <yFlechaPos>75</yFlechaPos>
+              <orientacion>2</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>140</xPos>
+                <yPos>95</yPos>
+              </nudo>
+              <nudo>
+                <xPos>140</xPos>
+                <yPos>75</yPos>
+              </nudo>
+              <nudo>
+                <xPos>155</xPos>
+                <yPos>75</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>145</xEtiqIns>
+            <yEtiqIns>75</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro10">
+          <etiqueta></etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>N_3_12</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL232322</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>205</xFlechaPos>
+              <yFlechaPos>105</yFlechaPos>
+              <orientacion>2</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>195</xPos>
+                <yPos>105</yPos>
+              </nudo>
+              <nudo>
+                <xPos>205</xPos>
+                <yPos>105</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>195</xEtiqIns>
+            <yEtiqIns>105</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro22">
+          <etiqueta></etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL232222</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL2223</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>80</xFlechaPos>
+              <yFlechaPos>105</yFlechaPos>
+              <orientacion>2</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>70</xPos>
+                <yPos>105</yPos>
+              </nudo>
+              <nudo>
+                <xPos>80</xPos>
+                <yPos>105</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>70</xEtiqIns>
+            <yEtiqIns>105</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro11">
+          <etiqueta>W</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL232322</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL2322422</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>210</xFlechaPos>
+              <yFlechaPos>80</yFlechaPos>
+              <orientacion>1</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>210</xPos>
+                <yPos>95</yPos>
+              </nudo>
+              <nudo>
+                <xPos>210</xPos>
+                <yPos>80</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>205</xEtiqIns>
+            <yEtiqIns>85</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro">
+          <etiqueta></etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>N_3_1</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL23232</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>155</xFlechaPos>
+              <yFlechaPos>105</yFlechaPos>
+              <orientacion>2</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>145</xPos>
+                <yPos>105</yPos>
+              </nudo>
+              <nudo>
+                <xPos>155</xPos>
+                <yPos>105</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>145</xEtiqIns>
+            <yEtiqIns>105</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro12">
+          <etiqueta>W</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL232322</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL2322422</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>215</xFlechaPos>
+              <yFlechaPos>80</yFlechaPos>
+              <orientacion>1</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>215</xPos>
+                <yPos>95</yPos>
+              </nudo>
+              <nudo>
+                <xPos>215</xPos>
+                <yPos>80</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>215</xEtiqIns>
+            <yEtiqIns>85</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro23">
+          <etiqueta></etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>N_3_122</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL2</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>255</xFlechaPos>
+              <yFlechaPos>105</yFlechaPos>
+              <orientacion>2</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>245</xPos>
+                <yPos>105</yPos>
+              </nudo>
+              <nudo>
+                <xPos>255</xPos>
+                <yPos>105</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>245</xEtiqIns>
+            <yEtiqIns>105</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro13">
+          <etiqueta>Err</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL2322422</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL232242</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>170</xFlechaPos>
+              <yFlechaPos>70</yFlechaPos>
+              <orientacion>4</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>205</xPos>
+                <yPos>70</yPos>
+              </nudo>
+              <nudo>
+                <xPos>170</xPos>
+                <yPos>70</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>195</xEtiqIns>
+            <yEtiqIns>65</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro14">
+          <etiqueta></etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL232322</bloqueAnterior>
+          <bloquePosterior>N_3_122</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>230</xFlechaPos>
+              <yFlechaPos>105</yFlechaPos>
+              <orientacion>2</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>220</xPos>
+                <yPos>105</yPos>
+              </nudo>
+              <nudo>
+                <xPos>230</xPos>
+                <yPos>105</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>220</xEtiqIns>
+            <yEtiqIns>105</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro15">
+          <etiqueta>a</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>N_3_12</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL2322422</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>205</xFlechaPos>
+              <yFlechaPos>75</yFlechaPos>
+              <orientacion>2</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>190</xPos>
+                <yPos>95</yPos>
+              </nudo>
+              <nudo>
+                <xPos>190</xPos>
+                <yPos>75</yPos>
+              </nudo>
+              <nudo>
+                <xPos>205</xPos>
+                <yPos>75</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>195</xEtiqIns>
+            <yEtiqIns>75</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro16">
+          <etiqueta>dg/de</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>N_3_122</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL2322422</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>220</xFlechaPos>
+              <yFlechaPos>75</yFlechaPos>
+              <orientacion>4</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>235</xPos>
+                <yPos>95</yPos>
+              </nudo>
+              <nudo>
+                <xPos>235</xPos>
+                <yPos>75</yPos>
+              </nudo>
+              <nudo>
+                <xPos>220</xPos>
+                <yPos>75</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>235</xEtiqIns>
+            <yEtiqIns>80</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro17">
+          <etiqueta></etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>N_1_1</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL232222</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>55</xFlechaPos>
+              <yFlechaPos>105</yFlechaPos>
+              <orientacion>2</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>45</xPos>
+                <yPos>105</yPos>
+              </nudo>
+              <nudo>
+                <xPos>55</xPos>
+                <yPos>105</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>45</xEtiqIns>
+            <yEtiqIns>105</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro162">
+          <etiqueta>W</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL232222</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL232232</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>60</xFlechaPos>
+              <yFlechaPos>80</yFlechaPos>
+              <orientacion>1</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>60</xPos>
+                <yPos>95</yPos>
+              </nudo>
+              <nudo>
+                <xPos>60</xPos>
+                <yPos>80</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>55</xEtiqIns>
+            <yEtiqIns>85</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro18">
+          <etiqueta></etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL2323</bloqueAnterior>
+          <bloquePosterior>N_3_1</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>130</xFlechaPos>
+              <yFlechaPos>105</yFlechaPos>
+              <orientacion>2</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>120</xPos>
+                <yPos>105</yPos>
+              </nudo>
+              <nudo>
+                <xPos>130</xPos>
+                <yPos>105</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>120</xEtiqIns>
+            <yEtiqIns>105</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro152">
+          <etiqueta>W</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL2323</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL23224</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>110</xFlechaPos>
+              <yFlechaPos>80</yFlechaPos>
+              <orientacion>1</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>110</xPos>
+                <yPos>95</yPos>
+              </nudo>
+              <nudo>
+                <xPos>110</xPos>
+                <yPos>80</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>105</xEtiqIns>
+            <yEtiqIns>85</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro19">
+          <etiqueta>Err</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>Neuronal_Com_Dato</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL4</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL2322422</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>220</xFlechaPos>
+              <yFlechaPos>70</yFlechaPos>
+              <orientacion>4</orientacion>
+              <altura>3</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>270</xPos>
+                <yPos>155</yPos>
+              </nudo>
+              <nudo>
+                <xPos>280</xPos>
+                <yPos>155</yPos>
+              </nudo>
+              <nudo>
+                <xPos>280</xPos>
+                <yPos>70</yPos>
+              </nudo>
+              <nudo>
+                <xPos>220</xPos>
+                <yPos>70</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>270</xEtiqIns>
+            <yEtiqIns>65</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+      </retroanotacion>
+    </conectores>
+  </diagrama>

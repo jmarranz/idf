@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DLLDiag", "DLLDiag\DLLDiag.vcproj", "{CC16D4E7-3363-40BE-BBB1-B02E47AEC469}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1666DC8D-46A9-4FCF-9163-39D8791ADD45} = {1666DC8D-46A9-4FCF-9163-39D8791ADD45}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Idf", "Idf\Idf.vcproj", "{3738AE40-46A8-4384-8193-DE828C7CB9BA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IdfDllLib", "IdfDllLib\IdfDllLib.vcproj", "{1666DC8D-46A9-4FCF-9163-39D8791ADD45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC16D4E7-3363-40BE-BBB1-B02E47AEC469}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CC16D4E7-3363-40BE-BBB1-B02E47AEC469}.Debug|Win32.Build.0 = Debug|Win32
+		{CC16D4E7-3363-40BE-BBB1-B02E47AEC469}.Release|Win32.ActiveCfg = Release|Win32
+		{CC16D4E7-3363-40BE-BBB1-B02E47AEC469}.Release|Win32.Build.0 = Release|Win32
+		{3738AE40-46A8-4384-8193-DE828C7CB9BA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3738AE40-46A8-4384-8193-DE828C7CB9BA}.Debug|Win32.Build.0 = Debug|Win32
+		{3738AE40-46A8-4384-8193-DE828C7CB9BA}.Release|Win32.ActiveCfg = Release|Win32
+		{3738AE40-46A8-4384-8193-DE828C7CB9BA}.Release|Win32.Build.0 = Release|Win32
+		{1666DC8D-46A9-4FCF-9163-39D8791ADD45}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1666DC8D-46A9-4FCF-9163-39D8791ADD45}.Debug|Win32.Build.0 = Debug|Win32
+		{1666DC8D-46A9-4FCF-9163-39D8791ADD45}.Release|Win32.ActiveCfg = Release|Win32
+		{1666DC8D-46A9-4FCF-9163-39D8791ADD45}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+
+* Idf application source code: 
+
+	GNU GPL v3.0
+
+
+* IdfLib code for making DLL executable extensions: 
+
+	GNU LGPL v3.0
+
+* Copyright: Jose María Arranz Santamaría (Spanish citizen)
+
