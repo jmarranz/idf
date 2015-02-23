@@ -1,0 +1,594 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\DLLDiag.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "DLLDiag DLL\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "DLLDiag\0"
+            VALUE "LegalCopyright", "Copyright (C) 1998\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "DLLDiag.DLL\0"
+            VALUE "ProductName", "DLLDiag Dynamic Link Library\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "OLESelfRegister", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_NEWTON DIALOG DISCARDABLE  34, 22, 186, 85
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Algoritmo de Newton:"
+FONT 10, "Arial"
+BEGIN
+    DEFPUSHBUTTON   "Aceptar",IDOK,135,25,37,14,WS_GROUP
+    CTEXT           "Diálogo de mensajes",IDC_TEXTOMEN,38,5,120,8
+    PUSHBUTTON      "Cancelar",IDCANCEL,135,55,35,14
+    EDITTEXT        IDC_EDITX,40,20,80,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITERROR,40,60,80,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITFX,40,40,80,12,ES_AUTOHSCROLL
+    LTEXT           "x =",IDC_STATIC,10,20,10,8
+    LTEXT           "f(x) =",IDC_STATIC,10,40,20,8
+    LTEXT           "error  =",IDC_STATIC,10,60,25,8
+END
+
+IDD_NEWTONINI DIALOG DISCARDABLE  34, 22, 206, 85
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Algoritmo de Newton: Inicialización."
+FONT 10, "Arial"
+BEGIN
+    DEFPUSHBUTTON   "Aceptar",IDOK,155,25,35,14,WS_GROUP
+    CTEXT           "Diálogo de mensajes",IDC_TEXTOMEN,43,5,120,8
+    PUSHBUTTON      "Cancelar",IDCANCEL,155,55,35,14
+    EDITTEXT        IDC_EDITX0,75,20,70,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITEMAX,75,40,70,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITH,75,60,70,12,ES_AUTOHSCROLL
+    LTEXT           "Error máximo :",IDC_STATIC,10,40,54,8
+    LTEXT           "Precisión derivada :",IDC_STATIC,10,60,65,8
+    LTEXT           "Valor inicial x0 :",IDC_STATIC,10,23,55,8
+END
+
+IDD_NEWTONRETRO DIALOG DISCARDABLE  34, 22, 184, 82
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Algoritmo de Newton: Retroanotación."
+FONT 10, "Arial"
+BEGIN
+    DEFPUSHBUTTON   "Aceptar",IDOK,67,59,50,14,WS_GROUP
+    EDITTEXT        IDC_EDITEMAX,90,10,70,12,ES_AUTOHSCROLL
+    LTEXT           "Error máximo :",IDC_STATIC,15,15,50,8
+    EDITTEXT        IDC_EDITH,90,35,70,13,ES_AUTOHSCROLL
+    LTEXT           "Precisión Derivada :",IDC_STATIC,15,40,73,8
+END
+
+IDD_CIEMAT_PARAMIRRADEXT DIALOG DISCARDABLE  0, 0, 490, 348
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Entrada de parámetros de Irradiación Externa"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Aceptar",IDOK,352,326,50,14
+    PUSHBUTTON      "Cancelar",IDCANCEL,433,326,50,14
+    GROUPBOX        "Factores de conversión a dosis por irradiación externa",
+                    IDC_STATIC,7,28,476,86
+    EDITTEXT        IDC_DESINTEGRACION,221,7,78,14,ES_AUTOHSCROLL
+    LTEXT           "Constante de desintegración radiactiva del radionúclido (s -¹):",
+                    IDC_STATIC,18,9,201,8
+    LTEXT           "Inmersión en aire emisor gamma (Sv m³/año Bq):",
+                    IDC_STATIC,18,47,160,8
+    EDITTEXT        IDC_DF_AIRE_GAMMA,204,41,40,14,ES_AUTOHSCROLL
+    LTEXT           "Inmersión en aire emisor beta (Sv m³/año Bq):",
+                    IDC_STATIC,256,44,157,8
+    EDITTEXT        IDC_DF_SUELO_GAMMA,204,65,40,14,ES_AUTOHSCROLL
+    LTEXT           "Inmersión desde el depósito en el suelo emisor gamma (Sv m²/año Bq):",
+                    IDC_STATIC,18,63,175,20
+    EDITTEXT        IDC_DF_AIRE_BETA,436,41,40,14,ES_AUTOHSCROLL
+    LTEXT           "Inmersión desde el depósito en el suelo emisor beta (Sv m²/año Bq):",
+                    IDC_STATIC,256,65,170,19
+    EDITTEXT        IDC_DF_SUELO_BETA,436,65,40,14,ES_AUTOHSCROLL
+    LTEXT           "Inmersión en agua emisor gamma (Sv m³/año Bq):",
+                    IDC_STATIC,17,92,165,8
+    EDITTEXT        IDC_DF_AGUA_GAMMA,204,89,40,14,ES_AUTOHSCROLL
+    LTEXT           "Inmersión en agua emisor beta (Sv m³/año Bq):",
+                    IDC_STATIC,256,93,157,8
+    EDITTEXT        IDC_DF_AGUA_BETA,436,89,40,14,ES_AUTOHSCROLL
+    LTEXT           "Concentración en el aire (Bq/m³) :",IDC_STATIC,17,131,
+                    121,8
+    EDITTEXT        IDC_CONC_AGUA,204,147,40,14,ES_AUTOHSCROLL
+    LTEXT           "Tasa de depósito atmosférico (Bq/m² día) :",IDC_STATIC,
+                    256,131,144,8
+    EDITTEXT        IDC_TASA_ATMOSFERA,436,128,40,14,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATIC,7,116,476,54
+    GROUPBOX        "Factores Adimensionales",IDC_STATIC,7,175,476,114
+    LTEXT           "Factor de blindaje de los edificios para radiación gamma: ",
+                    IDC_STATIC,18,194,184,12
+    EDITTEXT        IDC_FBLINDAJE_GAMMA,204,191,40,14,ES_AUTOHSCROLL
+    LTEXT           "Factor de blindaje de los edificios para radiación beta: ",
+                    IDC_STATIC,256,195,177,11
+    EDITTEXT        IDC_FBLINDAJE_BETA,436,191,40,14,ES_AUTOHSCROLL
+    LTEXT           "Factor de ocupación para permanencia en exteriores:",
+                    IDC_STATIC,18,218,170,13
+    LTEXT           "Factor de ocupación para permanencia en interiores:",
+                    IDC_STATIC,256,219,175,11
+    EDITTEXT        IDC_FOCUPACION_EXT,204,216,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FOCUPACION_INT,436,216,40,14,ES_AUTOHSCROLL
+    LTEXT           "Factor de ocupación para permanencia en el agua durante el baño:",
+                    IDC_STATIC,18,242,182,19
+    LTEXT           "Factor de ocupación para permanencia en orillas:",
+                    IDC_STATIC,256,245,168,10
+    EDITTEXT        IDC_FOCUPACION_AGUA,204,242,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FOCUPACION_ORILLA,436,242,40,14,ES_AUTOHSCROLL
+    LTEXT           "Duración total del vertido de efluentes (años):",
+                    IDC_STATIC,19,301,163,8
+    EDITTEXT        IDC_DURACION_VERTIDO,203,298,40,14,ES_AUTOHSCROLL
+    LTEXT           "Factor de ponderación de dosis efectiva para la piel: ",
+                    IDC_STATIC,18,269,171,11
+    EDITTEXT        IDC_FPOND_PIEL,203,266,40,14,ES_AUTOHSCROLL
+    LTEXT           "Concentración en el agua (Bq/m³) :",IDC_STATIC,17,150,
+                    121,8
+    EDITTEXT        IDC_CONC_AIRE,204,126,40,14,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATIC,7,291,476,24
+    EDITTEXT        IDC_CONC_ORILLA,436,147,40,14,ES_AUTOHSCROLL
+    LTEXT           "Concentración de sedimentos en la orilla (Bq/m²) :",
+                    IDC_STATIC,257,150,169,8
+END
+
+IDD_CIEMAT_RESIRRAD_EXTERNA DIALOG DISCARDABLE  0, 0, 318, 132
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Resultados de Dosis por Irradiación Externa"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Aceptar",IDOK,192,112,50,14
+    PUSHBUTTON      "&Cancelar",IDCANCEL,261,112,50,14
+    GROUPBOX        "Irradiación externa (dosis efectivas anuales, Sv)",
+                    IDC_STIRRADIACION_EXTERNA,7,11,304,92
+    LTEXT           "Dosis por inmersión en el aire:   Eext,aire =",
+                    IDC_STINMERSION_AIRE,18,27,134,8
+    LTEXT           "Dosis por irradiación desde el depósito en suelo:   Eext,suelo =",
+                    IDC_STIRRADIACION_SUELO,18,46,197,8
+    LTEXT           "Dosis por inmersión en agua durante el baño:   Eext,baño =",
+                    IDC_STINMERSION_BANO,18,64,187,8
+    LTEXT           "Dosis por irradiación desde sedimentos de orilla:   Eext,orilla =",
+                    IDC_STIRRADIACION_ORILLA,17,83,193,8
+    EDITTEXT        IDC_INMERSION_AIRE,220,24,74,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_IRRADIACION_SUELO,220,43,74,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_INMERSION_BANO,220,61,74,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_IRRADIACION_ORILLA,220,80,74,14,ES_AUTOHSCROLL
+END
+
+IDD_CIEMAT_RESIRRAD_EXT_INT DIALOG DISCARDABLE  0, 0, 341, 212
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Aceptar",IDOK,207,192,50,14
+    PUSHBUTTON      "&Cancelar",IDCANCEL,284,192,50,14
+    GROUPBOX        "Irradiación externa (dosis efectivas anuales, Sv)",
+                    IDC_STIRRADIACION_EXTERNA,7,11,327,92
+    LTEXT           "Dosis por inmersión en el aire:   Eext,aire =",
+                    IDC_STINMERSION_AIRE,18,27,134,8
+    LTEXT           "Dosis por irradiación desde el depósito en suelo:   Eext,suelo =",
+                    IDC_STIRRADIACION_SUELO,18,46,197,8
+    LTEXT           "Dosis por inmersión en agua durante el baño:   Eext,baño =",
+                    IDC_STINMERSION_BANO,18,64,187,8
+    LTEXT           "Dosis por irradiación desde sedimentos de orilla:   Eext,orilla =",
+                    IDC_STIRRADIACION_ORILLA,17,83,193,8
+    EDITTEXT        IDC_INMERSION_AIRE,220,24,74,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_IRRADIACION_SUELO,220,43,74,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_INMERSION_BANO,220,61,74,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_IRRADIACION_ORILLA,220,80,74,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    GROUPBOX        "Irradiación interna (dosis comprometidas por la incorporación de un año, Sv)",
+                    IDC_STIRRADIACION_INTERNA,7,110,327,71
+    LTEXT           "Dosis por incorporación con el consumo de alimentos:   Eint,alimentos =",
+                    IDC_STINCORPORACION_ALIMENTOS,18,126,226,8
+    LTEXT           "Dosis por incorporación con el consumo de agua:   Eint,agua =",
+                    IDC_STINCORPORACION_AGUA,18,145,199,8
+    LTEXT           "Dosis por incorporación debida a inhalación:   Eint,inh =",
+                    IDC_STINCORPORACION_INHALACION,18,163,176,8
+    EDITTEXT        IDC_INCORPORACION_ALIMENTOS,251,123,74,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_INCORPORACION_AGUA,251,142,74,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_INCORPORACION_INHALACION,251,160,74,14,
+                    ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_CIEMAT_VER_E DIALOG DISCARDABLE  0, 0, 186, 71
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Resultado Irradiación"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Aceptar",IDOK,36,49,50,14
+    PUSHBUTTON      "&Cancelar",IDCANCEL,99,49,50,14
+    LTEXT           "E ext, =",IDC_ETIQ_E,48,20,46,8
+    EDITTEXT        IDC_VALOR_E,98,17,40,14,ES_AUTOHSCROLL
+END
+
+IDD_CIEMAT_VER_2E DIALOG DISCARDABLE  0, 0, 186, 79
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Resultado Irradiación"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Aceptar",IDOK,36,58,50,14
+    PUSHBUTTON      "&Cancelar",IDCANCEL,99,58,50,14
+    LTEXT           "E ext, =",IDC_ETIQ_E,33,16,56,8
+    EDITTEXT        IDC_VALOR_E,103,12,40,14,ES_AUTOHSCROLL
+    LTEXT           "E ext, =",IDC_ETIQ_E2,33,37,56,8
+    EDITTEXT        IDC_VALOR_E2,103,34,40,14,ES_AUTOHSCROLL
+END
+
+IDD_CIEMAT_SEDIMENTACION DIALOG DISCARDABLE  0, 0, 240, 98
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Entrada Datos de Sedimentación"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Aceptar",IDOK,58,78,50,14
+    PUSHBUTTON      "&Cancelar",IDCANCEL,131,78,50,14
+    LTEXT           "Superficie de sedimentación:",IDC_STATIC,18,14,143,8
+    EDITTEXT        IDC_SEDIM_S,182,8,40,14,ES_AUTOHSCROLL
+    LTEXT           "Concentración de sedimentos en el fondo:",IDC_STATIC,18,
+                    35,149,8
+    LTEXT           "Concentración en los sedimentos en suspensión: ",
+                    IDC_STATIC,18,56,156,8
+    EDITTEXT        IDC_SEDIM_FONDO,182,29,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SEDIM_SUSP,182,50,40,14,ES_AUTOHSCROLL
+END
+
+IDD_CTRLADAP_X DIALOG DISCARDABLE  34, 22, 193, 74
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Referencia de Control"
+FONT 10, "Arial"
+BEGIN
+    DEFPUSHBUTTON   "Aceptar",IDOK,144,15,35,14,WS_GROUP
+    PUSHBUTTON      "Cancelar",IDCANCEL,144,45,35,14
+    EDITTEXT        IDC_EDIT_X,58,10,70,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_K,58,30,70,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_T,58,50,70,12,ES_AUTOHSCROLL
+    LTEXT           "K :",IDC_STATIC,10,31,20,8
+    LTEXT           "Periodo T :",IDC_STATIC,10,51,38,8
+    LTEXT           "X (k) :",IDC_STATIC,10,13,26,8
+END
+
+IDD_CTRLADAP_R DIALOG DISCARDABLE  34, 22, 189, 51
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Regulador"
+FONT 10, "Arial"
+BEGIN
+    DEFPUSHBUTTON   "Aceptar",IDOK,47,30,35,14,WS_GROUP
+    PUSHBUTTON      "Cancelar",IDCANCEL,105,30,35,14
+    EDITTEXT        IDC_EDIT_KR,106,7,70,12,ES_AUTOHSCROLL
+    LTEXT           "Ganacia del Regulador Kr :",IDC_STATIC,10,10,92,8
+END
+
+IDD_CTRLADAP_LEY DIALOG DISCARDABLE  34, 22, 219, 71
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Ley de Control"
+FONT 10, "Arial"
+BEGIN
+    DEFPUSHBUTTON   "Aceptar",IDOK,61,50,35,14,WS_GROUP
+    PUSHBUTTON      "Cancelar",IDCANCEL,119,50,35,14
+    LTEXT           "Cte. de amortiguamiento Tau:",IDC_STATIC,10,10,105,8
+    EDITTEXT        IDC_EDIT_TAU,136,7,70,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ME,136,28,70,12,ES_AUTOHSCROLL
+    LTEXT           "Máx. error en reg. permanente (%) :",IDC_STATIC,10,30,
+                    120,8
+END
+
+IDD_SISTEXPERT_LEY DIALOG DISCARDABLE  34, 22, 219, 51
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Ley de Control"
+FONT 10, "Arial"
+BEGIN
+    DEFPUSHBUTTON   "Aceptar",IDOK,62,30,35,14,WS_GROUP
+    PUSHBUTTON      "Cancelar",IDCANCEL,120,30,35,14
+    EDITTEXT        IDC_EDIT_ME,136,8,70,12,ES_AUTOHSCROLL
+    LTEXT           "Máx. error en reg. permanente (%) :",IDC_STATIC,10,10,
+                    120,8
+END
+
+IDD_CTRLADAP_AJUSTE DIALOG DISCARDABLE  34, 22, 134, 47
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Permitir Ajuste Externo"
+FONT 10, "Arial"
+BEGIN
+    DEFPUSHBUTTON   "Aceptar",IDOK,20,26,35,14,WS_GROUP
+    PUSHBUTTON      "Cancelar",IDCANCEL,77,26,35,14
+    CONTROL         "Permitir Ajuste Externo",IDC_AJUSTE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,19,7,95,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_DLLDIAG             ICON    DISCARDABLE     "res\\DLLDiag.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CIEMAT_PARAMIRRADEXT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 483
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 340
+    END
+
+    IDD_CIEMAT_RESIRRAD_EXTERNA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 311
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 126
+    END
+
+    IDD_CIEMAT_RESIRRAD_EXT_INT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 334
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 206
+    END
+
+    IDD_CIEMAT_VER_E, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_CIEMAT_VER_2E, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 72
+    END
+
+    IDD_CIEMAT_SEDIMENTACION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 233
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 92
+    END
+
+    IDD_CTRLADAP_X, DIALOG
+    BEGIN
+        LEFTMARGIN, 10
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 67
+    END
+
+    IDD_CTRLADAP_R, DIALOG
+    BEGIN
+        LEFTMARGIN, 10
+        RIGHTMARGIN, 176
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 44
+    END
+
+    IDD_CTRLADAP_LEY, DIALOG
+    BEGIN
+        LEFTMARGIN, 10
+        RIGHTMARGIN, 206
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_SISTEXPERT_LEY, DIALOG
+    BEGIN
+        LEFTMARGIN, 10
+        RIGHTMARGIN, 206
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 44
+    END
+
+    IDD_CTRLADAP_AJUSTE, DIALOG
+    BEGIN
+        LEFTMARGIN, 10
+        RIGHTMARGIN, 121
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 40
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Castilian) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESP)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_NEURONAL_X DIALOG DISCARDABLE  0, 0, 201, 79
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Red Neuronal"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Aceptar",IDOK,144,7,50,14
+    PUSHBUTTON      "Cancelar",IDCANCEL,144,24,50,14
+    LTEXT           "X (k)  = ",IDC_STATIC,7,11,26,8
+    EDITTEXT        IDC_X,44,8,83,14,ES_AUTOHSCROLL
+    LTEXT           "X (k - 1)  = ",IDC_STATIC,7,35,36,8
+    EDITTEXT        IDC_X1,44,32,83,14,ES_AUTOHSCROLL
+    LTEXT           "X (k - 2)  = ",IDC_STATIC,7,60,36,8
+    EDITTEXT        IDC_X2,44,57,83,14,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_NEURONAL_X, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 194
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 72
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Spanish (Castilian) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\DLLDiag.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

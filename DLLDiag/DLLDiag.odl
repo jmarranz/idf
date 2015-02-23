@@ -1,0 +1,15 @@
+// DLLDiag.odl : type library source for DLLDiag.dll
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (DLLDiag.tlb).
+
+[ uuid(E8C20816-FF6E-11D1-87DC-0000C057CDE3), version(1.0) ]
+library DLLDiag
+{
+	importlib("stdole32.tlb");
+	
+
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};
