@@ -1,0 +1,15 @@
+// Idf.odl : type library source for Idf.dll
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (Idf.tlb).
+
+[ uuid(40295995-FC6A-11D1-87DC-0000C057CDE3), version(1.0) ]
+library Idf
+{
+	importlib("stdole32.tlb");
+	
+
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

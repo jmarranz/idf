@@ -1,0 +1,1822 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\Idf.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CLEAR,          VIRTKEY, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_ESCAPE,      ID_CANCEL_EDIT,         VIRTKEY, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+IDR_PROYTYPE_CNTR_IP ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    VK_ESCAPE,      ID_CANCEL_EDIT,         VIRTKEY, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+END
+
+IDR_PROYTYPE_SRVR_EMB ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_OLE_COPY,       VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_UPDATE,         VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_OLE_PASTE,      VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_ESCAPE,      ID_CANCEL_EDIT,         VIRTKEY, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_OLE_CUT,        VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+IDR_PROYTYPE_SRVR_IP ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_OLE_COPY,       VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_OLE_PASTE,      VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_OLE_CUT,        VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+IDR_PROYTYPE ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_OLE_COPY,       VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_OLE_PASTE,      VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CLEAR,          VIRTKEY, NOINVERT
+    VK_DELETE,      57635,                  VIRTKEY, SHIFT, NOINVERT
+    VK_ESCAPE,      ID_CANCEL_EDIT,         VIRTKEY, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      57634,                  VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      57637,                  VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_OLE_CUT,        VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BLQFUNC_DIAG        BITMAP  DISCARDABLE     "RES\\BFNCDIAG.BMP"
+IDB_BLQFUNC_DLL         BITMAP  DISCARDABLE     "RES\\BFUNCDLL.BMP"
+IDB_BLQRETRO            BITMAP  DISCARDABLE     "RES\\BLQRETRO.BMP"
+IDB_CANCELAR_EDIC       BITMAP  DISCARDABLE     "RES\\CANCELAR.BMP"
+IDB_CIRCULO             BITMAP  DISCARDABLE     "RES\\CIRCULO.BMP"
+IDB_CONFUNC             BITMAP  DISCARDABLE     "RES\\CONFUNC_.BMP"
+IDB_CONRETRO            BITMAP  DISCARDABLE     "RES\\CONRETRO.BMP"
+IDB_CPOSETIQDIAG        BITMAP  DISCARDABLE     "RES\\CPOSETIQ.BMP"
+IDB_MOVGRUPOSEL         BITMAP  DISCARDABLE     "RES\\MOVGRUPO.BMP"
+IDB_RECTANG             BITMAP  DISCARDABLE     "RES\\RECTANG.BMP"
+IDB_ROMBO               BITMAP  DISCARDABLE     "RES\\ROMBO.BMP"
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDR_PROYTYPE_SRVR_IP    BITMAP  MOVEABLE PURE   "res\\IToolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_AREAZOOM            CURSOR  DISCARDABLE     "RES\\ZOOM.CUR"
+IDC_ASOCFIN             CURSOR  DISCARDABLE     "RES\\ASOCFIN.CUR"
+IDC_ASOCINI             CURSOR  DISCARDABLE     "RES\\ASOCINI.CUR"
+IDC_BLQFUNC             CURSOR  DISCARDABLE     "RES\\BLQFUNC.CUR"
+IDC_BLQRETRO            CURSOR  DISCARDABLE     "RES\\BLQRETRO.CUR"
+IDC_EDICTXT             CURSOR  DISCARDABLE     "RES\\EDICTXT.CUR"
+IDC_INSCONEC            CURSOR  DISCARDABLE     "RES\\INSCONEC.CUR"
+IDC_INSCONECRETRO       CURSOR  DISCARDABLE     "RES\\INSCONR.CUR"
+IDC_MOVER               CURSOR  DISCARDABLE     "RES\\MOVER.CUR"
+IDC_MOVGRUPO_PDEST      CURSOR  DISCARDABLE     "RES\\MOVGRPD.CUR"
+IDC_MOVGRUPO_PORIG      CURSOR  DISCARDABLE     "RES\\MOVGRPO.CUR"
+IDC_PROHIBIDO           CURSOR  DISCARDABLE     "RES\\PROHIBID.CUR"
+IDC_RECTDESELEC         CURSOR  DISCARDABLE     "RES\\RECDESEL.CUR"
+IDC_RECTSELEC           CURSOR  DISCARDABLE     "RES\\RECTSEL.CUR"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_BLOQUE DIALOG DISCARDABLE  0, 0, 115, 54
+STYLE DS_MODALFRAME | WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "Static",IDC_ETIQ,31,20,52,15,SS_NOPREFIX | WS_TABSTOP
+END
+
+IDD_BLOQUEDIS DIALOGEX 0, 0, 114, 54
+STYLE WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS | WS_THICKFRAME
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CTEXT           "Static",IDC_ETIQ,31,20,52,15,SS_NOPREFIX | WS_TABSTOP
+END
+
+IDD_CANCEL_AUTO DIALOG DISCARDABLE  300, 350, 151, 20
+STYLE DS_ABSALIGN | WS_VISIBLE | WS_CAPTION | WS_THICKFRAME
+CAPTION "Cancelar Modo Auto: NEWTONPP.PRY"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "&Cancelar",IDCANCEL,0,0,151,20
+END
+
+IDD_CONFIRM DIALOG DISCARDABLE  100, 100, 239, 53
+STYLE DS_ABSALIGN | DS_SYSMODAL | DS_MODALFRAME | DS_CENTER | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Integrador de Diagramas de Flujo:"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Sí",IDOK,61,30,39,14,WS_GROUP
+    CTEXT           "(mensaje)",IDC_TEXTOMEN,11,5,216,21
+    PUSHBUTTON      "No",IDCANCEL,140,30,40,14,WS_GROUP
+END
+
+IDD_LOGDIAG DIALOG DISCARDABLE  0, 300, 188, 98
+STYLE DS_ABSALIGN | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Consola:"
+MENU IDR_MENU_CONSOLA
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LISTA_CON,0,0,188,102,NOT LBS_NOTIFY | 
+                    LBS_EXTENDEDSEL | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+END
+
+IDD_MENSAJE DIALOG DISCARDABLE  0, 0, 240, 70
+STYLE DS_ABSALIGN | DS_SYSMODAL | DS_MODALFRAME | DS_CENTER | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Integrador de Diagramas de Flujo:"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Aceptar",IDOK,86,47,66,17,WS_GROUP
+    CTEXT           "Diálogo de mensajes",IDC_TEXTOMEN,11,7,216,33
+END
+
+IDD_MENSAJE_EXT DIALOG DISCARDABLE  0, 0, 240, 99
+STYLE DS_ABSALIGN | DS_SYSMODAL | DS_MODALFRAME | DS_CENTER | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Integrador de Diagramas de Flujo:"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Aceptar",IDOK,88,77,66,17,WS_GROUP
+    EDITTEXT        IDC_TEXTO,7,6,225,67,ES_MULTILINE | ES_READONLY | 
+                    ES_WANTRETURN | WS_VSCROLL
+END
+
+IDD_MULTIDIAG DIALOG DISCARDABLE  50, 50, 420, 274
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Enlace con Diagrama Superior"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_DIAG_PADRE,79,49,193,13,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "Diagrama Superior:",IDC_STATIC,55,30,310,71
+    PUSHBUTTON      "Propiedades",IDC_PROP_DIAGPADRE,294,49,56,14
+    LTEXT           "Bloque Inicio:",IDC_STATIC,77,143,45,8
+    LTEXT           "Bloque Fin:",IDC_STATIC,77,168,44,8
+    EDITTEXT        IDC_BLOQUE_INICIO,144,138,128,13,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_BLOQUE_FIN,144,163,128,13,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    GROUPBOX        "Bloques de entrada y salida del diagrama:",IDC_STATIC,
+                    55,115,310,80
+    PUSHBUTTON      "Propiedades",IDC_PROP_INICIO,294,137,56,14
+    PUSHBUTTON      "Propiedades",IDC_PROP_FIN,294,161,56,14
+    LTEXT           "Propiedades de Enlace con el Diagrama Superior",
+                    IDC_STATIC,131,10,156,8
+    EDITTEXT        IDC_BLOQUE_DIAGRAMA,142,74,130,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Bloque Diagrama:",IDC_STATIC,77,78,61,8
+    PUSHBUTTON      "Propiedades",IDC_PROP_BLOQUEDIAG,294,74,56,14
+END
+
+IDD_NUDOCON DIALOG DISCARDABLE  0, 0, 113, 55
+STYLE DS_MODALFRAME | WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_NUEVOTXT DIALOG DISCARDABLE  0, 0, 187, 95
+STYLE DS_ABSALIGN | DS_SYSMODAL | DS_MODALFRAME | DS_CENTER | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Introducir el nuevo texto:"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,35,68,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,100,68,50,14
+    EDITTEXT        IDC_TEXTO,5,45,175,13,ES_AUTOHSCROLL
+    CTEXT           "Introducir el nuevo texto: ",IDC_TITULO,10,5,165,25
+END
+
+IDD_OPERAC_BLOQUE DIALOG DISCARDABLE  0, 0, 210, 101
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Operaciones:"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "&Aceptar Datos",IDC_ACEPTAR_DATOS,17,12,55,14
+    PUSHBUTTON      "&Devolver Datos",IDC_DEVOLVER_DATOS,78,12,55,14
+    PUSHBUTTON      "&Retroanotar",IDC_RETROANOTA,20,36,50,14
+    PUSHBUTTON      "&Enviar Retro.",IDC_ENVIAR_RETROANO,80,36,50,14
+    PUSHBUTTON      "R&ecibir Retro.",IDC_RECIBIR_RETROANO,140,36,50,14
+    EDITTEXT        IDC_CONECTOR_ETIQ,132,56,62,13,ES_AUTOHSCROLL
+    LTEXT           "A través del conector de etiqueta:",IDC_STATIC,12,60,
+                    116,8
+    DEFPUSHBUTTON   "&Cancelar",IDCANCEL,80,82,50,14
+    GROUPBOX        "",IDC_STATIC,5,0,199,76
+    PUSHBUTTON      "A&cción",IDC_ACCION,138,12,55,14
+END
+
+IDD_OPERAC_BRETRO DIALOG DISCARDABLE  0, 0, 211, 87
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Operaciones:"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "&Retroanotar",IDC_RETROANOTA,20,14,50,14
+    PUSHBUTTON      "&Enviar Retro.",IDC_ENVIAR_RETROANO,80,14,50,14
+    PUSHBUTTON      "R&ecibir Retro.",IDC_RECIBIR_RETROANO,140,14,50,14
+    EDITTEXT        IDC_CONECTOR_ETIQ,132,34,62,13,ES_AUTOHSCROLL
+    LTEXT           "A través del conector de etiqueta:",IDC_STATIC,12,38,
+                    116,8
+    DEFPUSHBUTTON   "&Cancelar",IDCANCEL,83,62,50,14
+    GROUPBOX        "",IDC_STATIC,5,0,199,55
+END
+
+IDD_PROP_CONECT DIALOG DISCARDABLE  0, 0, 260, 247
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Generales"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_ETIQ,88,10,159,13,ES_AUTOHSCROLL
+    LTEXT           "Etiqueta del conector:",IDC_STATIC,8,12,78,8
+    EDITTEXT        IDC_ID,87,98,95,13,ES_AUTOHSCROLL
+    LTEXT           "Nombre Interno:",IDC_STATIC,18,99,63,9
+    EDITTEXT        IDC_BLOQUE_INICIAL,68,42,112,15,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Bloque inicial:",IDC_STATIC,13,47,49,8
+    PUSHBUTTON      "Propiedades",IDC_PROPBLOQ_INI,189,42,50,14
+    EDITTEXT        IDC_BLOQUE_FIN,68,67,112,15,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Bloque final:",IDC_STATIC,13,72,49,8
+    PUSHBUTTON      "Propiedades",IDC_PROPBLOQ_FIN,189,67,50,14
+    GROUPBOX        "Bloques conectados:",IDC_STATIC,8,30,242,60
+    LTEXT           "Clase de comunicación de datos:",IDC_STATIC,15,125,156,
+                    10
+    CONTROL         "Conector Visible",IDC_VISIBLE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,8,225,66,10
+    EDITTEXT        IDC_GROSOR,219,196,25,13,ES_AUTOHSCROLL
+    LTEXT           "Grosor de Línea (0.1mm):",IDC_STATIC,134,199,80,8
+    GROUPBOX        "",IDC_STATIC,8,117,242,64
+    GROUPBOX        "",IDC_STATIC,8,186,242,30
+    PUSHBUTTON      "Listar Clases",IDC_LISTAR_CLASES,190,138,50,14
+    COMBOBOX        IDC_CLASE_COM,15,138,166,69,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Inspección del Código del Módulo",IDC_INSPECCION_CODIGO,
+                    14,159,121,14
+    PUSHBUTTON      "Generación de Código",IDC_GENERACION_CODIGO,144,159,98,
+                    14
+    EDITTEXT        IDC_ALTURAFLECHA,96,197,25,13,ES_AUTOHSCROLL
+    LTEXT           "Altura de la Flecha (mm):",IDC_STATIC,12,200,82,8
+    GROUPBOX        "",IDC_STATIC,8,89,242,27
+END
+
+IDD_PROP_DIAG DIALOG DISCARDABLE  0, 0, 420, 151
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Propiedades"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_TITULO,82,8,293,13,ES_AUTOHSCROLL
+    GROUPBOX        "Ficheros fuente:",IDC_STATIC,6,25,224,66
+    EDITTEXT        IDC_FICHLDD,12,72,154,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Cambiar",IDC_CAMBIA_LDD,174,72,45,14
+    LTEXT           "Título del diagrama:",IDC_STATIC,11,12,69,8
+    LTEXT           "Nombre del fichero L.D.D. origen:",IDC_STATIC,11,62,112,
+                    8
+    LTEXT           "Nombre del fichero binario actual:",IDC_STATIC,11,34,
+                    110,8
+    EDITTEXT        IDC_FICHBIN,11,45,207,13,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Nombre del fichero DLL:",IDC_STATIC,245,55,85,8
+    EDITTEXT        IDC_DLLDIAG,245,69,160,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Cambiar",IDC_CAMBIA_DLLDIAG,329,36,72,14
+    CONTROL         "Usa módulo DLL",IDC_USADLL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,246,40,70,10
+    GROUPBOX        "Módulo DLL por defecto para el diagrama",IDC_STATIC,238,
+                    25,176,65
+    EDITTEXT        IDC_FECHA,316,128,90,13,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Última modificación:",IDC_STATIC,242,131,68,8
+    GROUPBOX        "",IDC_STATIC,229,121,185,24
+    GROUPBOX        "",IDC_STATIC,6,91,407,29
+    EDITTEXT        IDC_DIR_LIBRERIAS,169,100,236,14,ES_AUTOHSCROLL
+    LTEXT           "Directorio por defecto de módulos de librería :",
+                    IDC_STATIC,15,103,144,8
+    GROUPBOX        "",IDC_STATIC,6,121,208,24
+    CONTROL         "Posición Horizontal",IDC_POSHORIZONTAL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,129,76,10
+END
+
+IDD_PROP_BLOQUE DIALOG DISCARDABLE  0, 0, 300, 279
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Generales"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_ESTADOUSUARIO,92,105,65,42,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Estado Usuario:",IDC_STATIC,32,110,53,8
+    EDITTEXT        IDC_ETIQUETA,81,8,139,13,ES_AUTOHSCROLL
+    LTEXT           "Nombre:",IDC_STATIC,40,12,30,8
+    CONTROL         "Activo en Entrada",IDC_ACTIVO_ENTRADA,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,198,105,72,10
+    CONTROL         "Activo en Salida",IDC_ACTIVO_SALIDA,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,198,125,65,10
+    LTEXT           "Estado Interno:",IDC_STATIC,32,130,53,8
+    EDITTEXT        IDC_ESTADOINTERNO,92,125,65,13,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    GROUPBOX        "Comunicación:",IDC_STATIC,182,90,98,55
+    GROUPBOX        "Estados de ejecución:",IDC_STATIC,15,90,157,55
+    GROUPBOX        "Tipo:",IDC_STATIC,15,25,265,25
+    LTEXT           "Condición de fin de Modo Auto:",IDC_STATIC,47,165,110,8
+    EDITTEXT        IDC_SALIDA_AUTO,167,160,85,13,ES_AUTOHSCROLL
+    LTEXT           "Max. número de iteraciones en Modo Auto:",IDC_STATIC,47,
+                    184,140,8
+    EDITTEXT        IDC_MAXITER_AUTO,197,180,55,13,ES_AUTOHSCROLL
+    GROUPBOX        "Comportamiento Modo Auto:",IDC_STATIC,15,150,265,50
+    EDITTEXT        IDC_ID,193,65,73,13,ES_AUTOHSCROLL
+    LTEXT           "Nombre Interno:",IDC_STATIC,126,67,60,9
+    GROUPBOX        "",IDC_STATIC,119,55,161,30
+    GROUPBOX        "Orden en multidiagrama:",IDC_STATIC,15,55,100,30
+    LTEXT           "TIPO BLOQUE",IDC_TIPO_BLOQUE,23,36,204,8
+    LTEXT           "Tipo de dibujo en el diagrama:",IDC_STATIC,54,230,107,8
+    COMBOBOX        IDC_TIPO_DIBUJO,166,227,70,44,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC,15,202,265,43
+    CONTROL         "Bloque Visible",IDC_VISIBLE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,40,212,59,10
+    PUSHBUTTON      "Operaciones",IDC_OPERACIONES,62,252,175,20
+    EDITTEXT        IDC_GROSOR,212,210,47,13,ES_AUTOHSCROLL
+    LTEXT           "Grosor del borde (impresión):",IDC_STATIC,111,212,98,8
+    EDITTEXT        IDC_ORDEN_BLOQUE,32,68,70,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+END
+
+IDD_PROP_BLOQUE_DIAG DIALOG DISCARDABLE  0, 0, 300, 279
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Específicas de Bloque-Diagrama"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Nombre Interno bloque Final:",IDC_STATIC,27,162,97,8
+    LTEXT           "Nombre Interno bloque Inicial:",IDC_STATIC,27,136,101,8
+    EDITTEXT        IDC_DIAG_HIJO,27,26,158,13,ES_AUTOHSCROLL | ES_READONLY
+    COMBOBOX        IDC_HIJOTIPOFICH,116,48,104,40,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Tipo de fichero enlazado:",IDC_STATIC,27,50,85,8
+    GROUPBOX        "Diagrama Enlazado:",IDC_STATIC,12,13,275,87
+    GROUPBOX        "Bloques de entrada y salida del diagrama enlazado:",
+                    IDC_STATIC,12,116,275,65
+    PUSHBUTTON      "Propiedades",IDC_PROP_INICIO,225,131,50,14
+    PUSHBUTTON      "Propiedades",IDC_PROP_FIN,225,156,50,14
+    PUSHBUTTON      "Propiedades",IDC_PROP_DIAGHIJO,199,26,73,14
+    LTEXT           "Nombre del fichero:",IDC_STATIC,28,65,70,8
+    EDITTEXT        IDC_FICH_HIJO,27,78,187,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Cambiar",IDC_CAMBIA_HIJO,226,78,45,14
+    EDITTEXT        IDC_FECHA,161,205,111,13,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Última modificación diagrama hijo:",IDC_STATIC,160,193,
+                    115,8
+    LTEXT           "Ventana diagrama hijo:",IDC_STATIC,40,193,76,8
+    COMBOBOX        IDC_VENT_HIJO,39,206,75,40,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_BLOQUE_INICIO,132,133,85,58,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_BLOQUE_FIN,132,158,85,55,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_PROP_BLOQUE_DLL DIALOG DISCARDABLE  0, 0, 300, 279
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Específicas de Bloque-DLL"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Clase del objeto en el DLL:",IDC_STATIC,14,60,90,8
+    LTEXT           "Nombre del fichero DLL:",IDC_STATIC,14,41,85,8
+    EDITTEXT        IDC_DLLBLOQUE,109,38,125,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Cambiar",IDC_CAMBIA_DLL,244,38,45,14
+    CONTROL         "Usa el módulo DLL común al diagrama",IDC_USADLLDIAG,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,23,133,10
+    GROUPBOX        "Módulo DLL asociado al Bloque",IDC_STATIC,4,9,290,93
+    EDITTEXT        IDC_FECHA,91,115,96,13,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Última modificación:",IDC_STATIC,15,119,69,8
+    EDITTEXT        IDC_MACRO,6,158,289,109,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    LTEXT           "Datos o macro asociados al bloque",IDC_STATIC,87,140,
+                    125,8
+    PUSHBUTTON      "Propiedades Módulo",IDC_PROP_USUARIO,201,111,88,21
+    COMBOBOX        IDC_CLASE_BLOQUE,109,57,125,58,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Listar Clases",IDC_LISTAR_CLASES,244,57,45,14
+    PUSHBUTTON      "Inspección del Código del Módulo",IDC_INSPECCION_CODIGO,
+                    15,82,128,14
+    PUSHBUTTON      "Generación de Código",IDC_GENERACION_CODIGO,157,82,128,
+                    14
+END
+
+IDD_PROP_REJILLA DIALOG DISCARDABLE  0, 0, 187, 86
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Diálogo de propiedades de la Rejilla"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Aceptar",IDOK,130,10,50,14
+    PUSHBUTTON      "Cancelar",IDCANCEL,130,35,50,14
+    EDITTEXT        IDC_INCX,75,43,40,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_INCY,75,63,40,13,ES_AUTOHSCROLL
+    LTEXT           "Intervalo x (mm):",IDC_STATIC,10,48,60,8
+    LTEXT           "Intervalo y (mm):",IDC_STATIC,10,68,58,8
+    CONTROL         "Obligar coordenadas a rejilla",IDC_FORZCOOR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,10,106,10
+    CONTROL         "Ver rejilla",IDC_VERREJILLA,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,28,50,10
+    PUSHBUTTON      "&Ayuda",ID_AYUDA,130,60,50,14
+END
+
+IDD_TABLADISENO DIALOG DISCARDABLE  300, 100, 39, 171
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "",IDC_INS_BLQFUNC_DIAG,2,26,35,20
+    DEFPUSHBUTTON   "",IDC_INS_BLQFUNC_DLL,2,6,35,20
+    PUSHBUTTON      "",IDC_INS_BLQ_RETRO,2,46,35,20
+    PUSHBUTTON      "",IDC_INS_CONECT,2,66,35,20
+    PUSHBUTTON      "",IDC_INS_CONECT_RETRO,2,86,35,20
+    PUSHBUTTON      "",IDC_CPOSETIQDIAG,2,106,35,20
+    PUSHBUTTON      "Cancelar",IDC_CANCELAR_EDIC,2,146,35,20
+    PUSHBUTTON      "",IDC_MOVGRUPOSEL,2,126,35,20
+END
+
+IDD_PROP_BLOQUE_INFORM DIALOG DISCARDABLE  0, 0, 300, 279
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Información"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_AYUDA,7,24,286,248,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    LTEXT           "Información de ayuda sobre el bloque",IDC_STATIC,84,7,
+                    131,8
+END
+
+IDD_PROP_DIAG_INFORM DIALOG DISCARDABLE  0, 0, 420, 274
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Información"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_AYUDA,7,19,406,248,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    LTEXT           "Información de ayuda sobre el diagrama",IDC_STATIC,144,
+                    7,131,8
+END
+
+IDD_PROP_CONECT_INFORM DIALOG DISCARDABLE  0, 0, 260, 244
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Información"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_TEXTO_AYUDA,9,25,242,206,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | 
+                    WS_VSCROLL | WS_HSCROLL
+    LTEXT           "Información de ayuda del usuario sobre el uso de la conexión:",
+                    -1,31,9,198,8
+END
+
+IDD_ANALISIS_DLL DIALOG DISCARDABLE  0, 0, 320, 261
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Inspección de Clases en Módulos-Diagrama"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Salir",IDOK,263,241,50,14
+    LTEXT           "Nombre del módulo DLL de objetos de Diagrama:",
+                    IDC_STATIC,9,7,164,8
+    EDITTEXT        IDC_DLLDIAGRAMA,7,19,177,13,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_IMPLEMENTACION,7,151,306,83,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | 
+                    WS_VSCROLL | WS_HSCROLL
+    LTEXT           "Declaraciones:",IDC_STATIC,7,37,48,8
+    EDITTEXT        IDC_EDIT_CABECERAS,7,48,306,83,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | 
+                    WS_VSCROLL | WS_HSCROLL
+    LTEXT           "Implementación:",IDC_STATIC,7,137,52,8
+    PUSHBUTTON      "Salvar (.h)",IDC_SALVAR_H,263,31,50,14
+    PUSHBUTTON      "Salvar (.cpp)",IDC_SALVAR_CPP,263,134,50,14
+END
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 211, 64
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Acerca de "
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,9,13,20,20
+    LTEXT           "Integrador de Diagramas de Flujo",IDC_STATIC,41,11,119,
+                    8
+    LTEXT           "(c) José María Arranz Santamaría",IDC_STATIC,41,39,107,
+                    11
+    DEFPUSHBUTTON   "Aceptar",IDOK,155,35,43,16,WS_GROUP
+    LTEXT           "Versión 2.0",IDC_STATIC,41,25,45,8
+    LTEXT           "1998-2003",IDC_STATIC,90,25,36,10
+END
+
+IDD_PROP_DIAG_COMPONENTES DIALOG DISCARDABLE  0, 0, 420, 274
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Componentes"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Tree1",IDC_DIAG_ARBOL,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_TABSTOP,
+                    7,7,406,260
+END
+
+IDD_PROP_BLOQUE_CONECTORES DIALOG DISCARDABLE  0, 0, 300, 279
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Conectores"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Tree1",IDC_BLOQUE_ARBOL,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_TABSTOP,
+                    0,7,293,265
+END
+
+IDD_PROP_CLASES_CON_DLL DIALOG DISCARDABLE  0, 0, 309, 206
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Componentes Módulo DLL"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Tree1",IDC_PROP_DLL_ARBOL,"SysTreeView32",
+                    TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | 
+                    WS_BORDER | WS_TABSTOP,7,28,295,171
+    EDITTEXT        IDC_DLLDIAGRAMA,7,7,173,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Cambiar",IDC_CAMBIA_DLL,188,7,49,14
+    PUSHBUTTON      "Generar Código",IDC_GENERAR_CODIGO,244,7,58,14
+END
+
+IDD_PROP_CLASES_SIN_DLL DIALOG DISCARDABLE  0, 0, 309, 206
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Clases Usadas en el Diagrama"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Tree1",IDC_PROP_DLL_ARBOL,"SysTreeView32",
+                    TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | 
+                    WS_BORDER | WS_TABSTOP,7,19,295,180
+    PUSHBUTTON      "Generar Código Diagrama",IDC_GENERAR_CODIGO,214,3,88,14
+END
+
+IDD_ANALISIS_CLASE DIALOG DISCARDABLE  0, 0, 320, 239
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Visualización de Código"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Salir",IDOK,263,218,50,14
+    EDITTEXT        IDC_EDIT_IMPLEMENTACION,7,127,306,83,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | 
+                    WS_VSCROLL | WS_HSCROLL
+    LTEXT           "Declaraciones:",IDC_STATIC,7,13,48,8
+    EDITTEXT        IDC_EDIT_CABECERAS,7,24,306,83,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | 
+                    WS_VSCROLL | WS_HSCROLL
+    LTEXT           "Implementación:",IDC_STATIC,7,113,52,8
+    PUSHBUTTON      "Salvar (.h)",IDC_SALVAR_H,263,7,50,14
+    PUSHBUTTON      "Salvar (.cpp)",IDC_SALVAR_CPP,263,110,50,14
+END
+
+IDD_PROP_CONECT_INICIO_DLL DIALOG DISCARDABLE  0, 0, 260, 146
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Comienzo"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Clase de comunicación de datos:",IDC_STATIC,15,17,156,
+                    10
+    GROUPBOX        "",IDC_STATIC,8,9,245,64
+    PUSHBUTTON      "Listar Clases",IDC_LISTAR_CLASES,191,30,50,14
+    COMBOBOX        IDC_CLASE_COM,15,30,166,69,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Inspección del Código del Módulo",IDC_INSPECCION_CODIGO,
+                    14,51,121,14
+    PUSHBUTTON      "Generación de Código",IDC_GENERACION_CODIGO,144,51,98,
+                    14
+END
+
+IDD_PROP_CONECT_FIN_DLL DIALOG DISCARDABLE  0, 0, 260, 149
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Final"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Clase de comunicación de datos:",IDC_STATIC,15,17,156,
+                    10
+    GROUPBOX        "",IDC_STATIC,8,9,245,64
+    PUSHBUTTON      "Listar Clases",IDC_LISTAR_CLASES,191,30,50,14
+    COMBOBOX        IDC_CLASE_COM,15,30,166,69,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Inspección del Código del Módulo",IDC_INSPECCION_CODIGO,
+                    14,51,121,14
+    PUSHBUTTON      "Generación de Código",IDC_GENERACION_CODIGO,144,51,98,
+                    14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_PROP_BLOQUE DLGINIT
+BEGIN
+    IDC_TIPO_DIBUJO, 0x403, 11, 0
+0x4552, 0x5443, 0x4ec1, 0x5547, 0x4f4c, "\000" 
+    IDC_TIPO_DIBUJO, 0x403, 6, 0
+0x4f52, 0x424d, 0x004f, 
+    IDC_TIPO_DIBUJO, 0x403, 7, 0
+0x4c45, 0x5049, 0x4553, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "RES\\IDF.ICO"
+IDR_PROY_DISENO         ICON    DISCARDABLE     "RES\\IDFDIS.ICO"
+IDR_PROYTYPE            ICON    DISCARDABLE     "RES\\IDFDOC.ICO"
+IDI_BLOQUES             ICON    DISCARDABLE     "res\\bloques.ico"
+IDI_CONECTORES          ICON    DISCARDABLE     "res\\conector.ico"
+IDI_CONECTOR            ICON    DISCARDABLE     "res\\ico00001.ico"
+IDI_BLOQUE              ICON    DISCARDABLE     "res\\bloque.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+ID_OBJECT_POPUP_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "1"
+    BEGIN
+        MENUITEM "&Proteger/De&sproteger objeto", ID_OLEITEM_BLOQUEAR
+        MENUITEM "&Mostrar Contenido",          ID_OBJECT_DISPLAYCONTENT
+        MENUITEM "Mostrar como &Icono",         ID_OBJECT_DISPLAYASICON
+        MENUITEM "Cambiar &Icono...",           ID_OLE_EDIT_CHANGE_ICON
+        MENUITEM "&Restaura tamaño",            ID_OBJECT_RESETSIZE
+        MENUITEM "&Ver nombre del objeto",      ID_NOMBRE_ITEM
+        MENUITEM SEPARATOR
+        MENUITEM "Cor&tar objeto\tCtrl+X",      ID_EDIT_OLE_CUT
+        MENUITEM "&Copiar objeto\tCtrl+C",      ID_EDIT_OLE_COPY
+        MENUITEM "&Borrar objeto\tDel",         ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "<<OLE VERBS GO HERE>>",       ID_OLE_VERB_FIRST
+    END
+END
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Archivo"
+    BEGIN
+        MENUITEM "&Nuevo\tCtrl+N",              ID_FILE_NEW
+        MENUITEM "&Abrir...\tCtrl+O",           ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "Configu&rar Impresora...",    ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Diagrama Reciente",           ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Salir",                      ID_APP_EXIT
+    END
+    POPUP "&Ver"
+    BEGIN
+        MENUITEM "&Barra de herramientas",      ID_VIEW_TOOLBAR
+        MENUITEM "&Barra de estado",            ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Ayuda"
+    BEGIN
+        MENUITEM "&Índice",                     ID_HELP_INDEX
+        MENUITEM "&Usando Ayuda",               ID_HELP_USING
+        MENUITEM SEPARATOR
+        MENUITEM "&Acerca de Int. de Diagramas...", ID_APP_ABOUT
+    END
+END
+
+IDR_MENU_BLOQUE_FUNC_DCHO MENU DISCARDABLE 
+BEGIN
+    POPUP "1"
+    BEGIN
+        MENUITEM "Propiedades &Generales",      ID_PROP_GEN
+        MENUITEM "Propiedades &Específicas",    ID_PROP_ESPEC
+        MENUITEM "&Conectores Asociados",       ID_PROP_LISTACONECT
+        MENUITEM "&Información sobre el bloque", ID_PROP_INFORM
+        MENUITEM "Propiedades en el &Módulo",   ID_PROP_DLL
+        MENUITEM SEPARATOR
+        MENUITEM "&Operaciones",                ID_OPERACIONES
+    END
+END
+
+IDR_MENU_CONEC_DCHO MENU DISCARDABLE 
+BEGIN
+    POPUP "1"
+    BEGIN
+        MENUITEM "&Propiedades &Conector",      ID_PROPIEDADES
+        MENUITEM SEPARATOR
+        MENUITEM "&Liberar el ratón",           ID_LIBERAR_RATON
+        MENUITEM "Ir al nudo &siguiente y capturar ratón", ID_IRALNUDOSIG
+        MENUITEM "Ir al nudo &previo y capturar ratón", ID_IRALNUDOPREV
+        MENUITEM SEPARATOR
+        MENUITEM "Añadir nuevo nudo &previo",   ID_ANYADIRNUDOANT
+        MENUITEM "Añadir nuevo nudo p&osterior", ID_ANYADIRNUDOPOST
+        MENUITEM SEPARATOR
+        MENUITEM "Cambiar posición de la &etiqueta", ID_CAMBIAPOSETIQ
+        MENUITEM SEPARATOR
+        MENUITEM "Asociar el &inicio del flujo del conector a un bloque", 
+                                                ID_ASOCIAR_BLQINI
+        MENUITEM "Asociar el &destino del flujo conector a un bloque", 
+                                                ID_ASOCIAR_BLQFIN
+        MENUITEM SEPARATOR
+        MENUITEM "Conectar y asociar el &inicio del conector a un bloque", 
+                                                ID_GRAVASOCIAR_BLQINI
+        MENUITEM "Conectar y asociar el &destino del conector a un bloque", 
+                                                ID_GRAVASOCIAR_BLQFIN
+        MENUITEM SEPARATOR
+        MENUITEM "Seleccionar/Deseleccionar Nudo", ID_SELEC_NUDO
+        MENUITEM "Seleccionar/Deseleccionar Conector", ID_SELEC_CONECTOR
+        MENUITEM SEPARATOR
+        MENUITEM "&Eliminar Nudo",              ID_ELIMINARNUDO
+        MENUITEM "E&liminar Conector",          ID_ELIMINAR_CONEC
+    END
+END
+
+IDR_PROY_DISENO MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Archivo"
+    BEGIN
+        MENUITEM "&Nuevo\tCtrl+N",              ID_FILE_NEW
+        MENUITEM "&Abrir...\tCtrl+O",           ID_FILE_OPEN
+        MENUITEM "&Cerrar",                     ID_FILE_CLOSE
+        MENUITEM "&Guardar\tCtrl+S",            ID_FILE_SAVE
+        MENUITEM "Guardar Co&mo...",            ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Imprimir...\tCtrl+P",        ID_FILE_PRINT
+        MENUITEM "&Presentación pre&liminar",   ID_FILE_PRINT_PREVIEW
+        MENUITEM "Confi&gurar Impresora...",    ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Sali&r",                      ID_APP_EXIT
+    END
+    POPUP "&Edición"
+    BEGIN
+        MENUITEM "Des&hacer\tCtrl+Z",           ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cor&tar\tCtrl+X",             ID_EDIT_CUT
+        MENUITEM "&Copiar\tCtrl+C",             ID_EDIT_COPY
+        MENUITEM "&Pegar\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "S&eleccionar Todo",           ID_SELECC_TODO
+        MENUITEM "&Anular selección",           ID_ANULARSELECC
+        MENUITEM SEPARATOR
+        MENUITEM "&Seleccionar Grupo",          ID_SELECC_RECT
+        MENUITEM "&Deseleccionar Grupo",        ID_DESELECC_RECT
+        MENUITEM SEPARATOR
+        MENUITEM "Eliminar Grupo seleccionado", ID_SELECC_ELIMINAR
+    END
+    POPUP "Edic./Ins. Elementos"
+    BEGIN
+        POPUP "&Insertar"
+        BEGIN
+            MENUITEM "Bloque Funcional &DLL",       ID_INS_BLQFUNC_DLL
+            MENUITEM "Bloque Funcional Dia&grama",  ID_INS_BLQFUNC_DIAG
+            MENUITEM "Bloque de &Retroanotación",   ID_INS_BLQ_RETRO
+            MENUITEM SEPARATOR
+            MENUITEM "&Conector Funcional",         ID_INS_CONECT
+            MENUITEM "Conector de Re&troanotación", ID_INS_CONECT_RETRO
+        END
+        MENUITEM SEPARATOR
+        POPUP "&Editar"
+        BEGIN
+            MENUITEM "Posición Título del diagrama", ID_CPOSETIQDIAG
+            MENUITEM "&Desplazar grupo de elementos", ID_MOVERGRUPO
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Cancelar Operación",         ID_CANCELAR_EDIC
+    END
+    POPUP "&Propiedades"
+    BEGIN
+        MENUITEM "Propiedades &Diagrama",       ID_PROP_DIAG
+        MENUITEM SEPARATOR
+        MENUITEM "Propiedades &Rejilla",        ID_PROP_REJILLA
+        MENUITEM SEPARATOR
+        POPUP "DLL"
+        BEGIN
+            MENUITEM "Inspección de Módulos-Diagrama", ID_ANALIZAR_DLL
+            MENUITEM "&Clases Usadas en el Diagrama", 
+                                                    ID_CLASES_USADAS_SIN_DLL
+        END
+    END
+    POPUP "&Operaciones"
+    BEGIN
+        MENUITEM "Ejecutar Diagrama",           ID_EJECUTAR_DIAG
+        MENUITEM SEPARATOR
+        MENUITEM "Generar el fichero L.D.D.& Original", ID_GENERAR_LDDORIGEN
+        MENUITEM "Generar el fichero &L.D.D.",  ID_GENERAR_LDD
+        MENUITEM SEPARATOR
+        MENUITEM "Generar &Metafichero gráfico", ID_GENERAR_METAFILE
+    END
+    POPUP "E&stados"
+    BEGIN
+        MENUITEM "Permitir operaciones de &Zoom", ID_OPERAC_ZOOM, CHECKED
+    END
+    POPUP "&Zoom"
+    BEGIN
+        MENUITEM "&Ajustar la ventana al área DIN A4", ID_AJUSTAR_VENTANA
+        MENUITEM "&Restaurar Escala Original",  ID_ZOOM_RESTAURAR
+        MENUITEM "A&cercar diagrama",           ID_ZOOM_ACERCAR
+        MENUITEM "A&lejar diagrama",            ID_ZOOM_ALEJAR
+        MENUITEM "Ver &todo el diagrama",       ID_VER_TODO
+    END
+    POPUP "&Ver"
+    BEGIN
+        MENUITEM "&Barra de herramientas",      ID_VIEW_TOOLBAR
+        MENUITEM "Barra de &estado",            ID_VIEW_STATUS_BAR
+        MENUITEM "&Tabla de elementos",         ID_VER_TABLADIAG
+    END
+    POPUP "Ve&ntana"
+    BEGIN
+        MENUITEM "&Nueva ventana",              ID_WINDOW_NEW
+        MENUITEM "&Cascada",                    ID_WINDOW_CASCADE
+        MENUITEM "&Mosaico",                    ID_WINDOW_TILE_HORZ
+        MENUITEM "&Organizar iconos",           ID_WINDOW_ARRANGE
+    END
+    POPUP "A&yuda"
+    BEGIN
+        MENUITEM "&Índice",                     ID_HELP_INDEX
+        MENUITEM "&Usando Ayuda",               ID_HELP_USING
+        MENUITEM SEPARATOR
+        MENUITEM "&Acerca de Int. de Diagramas...", ID_APP_ABOUT
+    END
+END
+
+IDR_PROYTYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Archivo"
+    BEGIN
+        MENUITEM "&Nuevo\tCtrl+N",              ID_FILE_NEW
+        MENUITEM "&Abrir...\tCtrl+O",           ID_FILE_OPEN
+        MENUITEM "&Cerrar",                     ID_FILE_CLOSE
+        MENUITEM "&Guardar\tCtrl+S",            ID_FILE_SAVE
+        MENUITEM "Guardar &Como...",            ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Imprimir...\tCtrl+P",        ID_FILE_PRINT
+        MENUITEM "&Presentación pre&liminar",   ID_FILE_PRINT_PREVIEW
+        MENUITEM "Configu&rar Impresora...",    ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Salir",                      ID_APP_EXIT
+    END
+    POPUP "&Edición"
+    BEGIN
+        MENUITEM "&Deshacer\tCtrl+Z",           ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Copiar &Diagrama",            ID_EDIT_COPIARDIAG
+    END
+    POPUP "&Ver"
+    BEGIN
+        MENUITEM "&Barra de herramientas",      ID_VIEW_TOOLBAR
+        MENUITEM "Barra de &estado",            ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Propiedades"
+    BEGIN
+        MENUITEM "&Propiedades Diagrama",       ID_PROP_DIAG
+        MENUITEM SEPARATOR
+        POPUP "DLL"
+        BEGIN
+            MENUITEM "Inspección de Módulos-Diagrama", ID_ANALIZAR_DLL
+            MENUITEM "&Clases Usadas en el Diagrama", 
+                                                    ID_CLASES_USADAS_SIN_DLL
+        END
+    END
+    POPUP "&Operaciones"
+    BEGIN
+        MENUITEM "&Editar Diagrama",            ID_EDITAR_DIAG
+        MENUITEM SEPARATOR
+        MENUITEM "&Inicializar Diagrama",       ID_INICIALIZAR_DIAGRAMA
+        MENUITEM "Inicializar &Conectores",     ID_INICIAR_CONECT
+        MENUITEM SEPARATOR
+        MENUITEM "Generar el fichero L.D.D. &Original", ID_GENERAR_LDDORIGEN
+        MENUITEM "Generar el fichero &L.D.D.",  ID_GENERAR_LDD
+        MENUITEM SEPARATOR
+        MENUITEM "Generar &Metafichero gráfico", ID_GENERAR_METAFILE
+    END
+    POPUP "Consola"
+    BEGIN
+        MENUITEM "Mostrar ventana de la &consola", ID_CONSOLA_MOSTRAR
+        , CHECKED
+        MENUITEM "Mostrar mensajes de &usuario", ID_CONSOLA_MOSTRAR_USUARIO
+        , CHECKED
+        MENUITEM "Mostrar mensajes de &sistema", ID_CONSOLA_MOSTRAR_SISTEMA
+        , CHECKED
+        MENUITEM "&Guardar consola junto al diagrama", 
+                                                ID_CONSOLA_SALVAR_CON_DIAGRAMA
+        , CHECKED
+    END
+    POPUP "E&stados"
+    BEGIN
+        MENUITEM "Scroll automático de seguimiento", ID_SCROLL_AUTO, CHECKED
+        MENUITEM "Permitir operaciones de &Zoom", ID_OPERAC_ZOOM, CHECKED
+    END
+    POPUP "&Zoom"
+    BEGIN
+        MENUITEM "&Ajustar la ventana al área DIN A4", ID_AJUSTAR_VENTANA
+        MENUITEM "&Restaurar Escala Original",  ID_ZOOM_RESTAURAR
+        MENUITEM "A&cercar diagrama",           ID_ZOOM_ACERCAR
+        MENUITEM "A&lejar diagrama",            ID_ZOOM_ALEJAR
+        MENUITEM "Ver &todo el diagrama",       ID_VER_TODO
+    END
+    POPUP "&Ventana"
+    BEGIN
+        MENUITEM "&Nueva ventana",              ID_WINDOW_NEW
+        MENUITEM "&Cascada",                    ID_WINDOW_CASCADE
+        MENUITEM "&Mosaico",                    ID_WINDOW_TILE_HORZ
+        MENUITEM "&Organizar iconos",           ID_WINDOW_ARRANGE
+    END
+    POPUP "&Ayuda"
+    BEGIN
+        MENUITEM "&Índice",                     ID_HELP_INDEX
+        MENUITEM "&Usando Ayuda",               ID_HELP_USING
+        MENUITEM SEPARATOR
+        MENUITEM "&Acerca de Int. de Diagramas...", ID_APP_ABOUT
+    END
+END
+
+IDR_PROYTYPE_CNTR_IP MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Archivo"
+    BEGIN
+        MENUITEM "&Nuevo\tCtrl+N",              ID_FILE_NEW
+        MENUITEM "&Abrir...\tCtrl+O",           ID_FILE_OPEN
+        MENUITEM "&Cerrar",                     ID_FILE_CLOSE
+        MENUITEM "&Guardar \tCtrl+S",           ID_FILE_SAVE
+        MENUITEM "Guardar  &Como...",           ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Imprimir...\tCtrl+P",        ID_FILE_PRINT
+        MENUITEM "&Presentación pre&liminar",   ID_FILE_PRINT_PREVIEW
+        MENUITEM "Configu&rar Impresora...",    ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Salir",                      ID_APP_EXIT
+    END
+    MENUITEM SEPARATOR
+    MENUITEM SEPARATOR
+    POPUP "&Ventana"
+    BEGIN
+        MENUITEM "&Nueva ventana",              ID_WINDOW_NEW
+        MENUITEM "&Cascada",                    ID_WINDOW_CASCADE
+        MENUITEM "&Mosaico",                    ID_WINDOW_TILE_HORZ
+        MENUITEM "&Organizar iconos",           ID_WINDOW_ARRANGE
+    END
+END
+
+IDR_PROYTYPE_SRVR_EMB MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Archivo"
+    BEGIN
+        MENUITEM "&Nuevo\tCtrl+N",              ID_FILE_NEW
+        MENUITEM "&Abrir...\tCtrl+O",           ID_FILE_OPEN
+        MENUITEM "&Cerrar",                     ID_FILE_CLOSE
+        MENUITEM "Ac&tualizar",                 ID_FILE_UPDATE
+        MENUITEM "Guardar &Como...",            ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Imprimir...\tCtrl+P",        ID_FILE_PRINT
+        MENUITEM "&Presentación pre&liminar",   ID_FILE_PRINT_PREVIEW
+        MENUITEM "Configu&rar Impresora...",    ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Salir",                      ID_APP_EXIT
+    END
+    POPUP "&Edición"
+    BEGIN
+        MENUITEM "&Deshacer\tCtrl+Z",           ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Copiar &Diagrama",            ID_EDIT_COPIARDIAG
+    END
+    POPUP "&Ver"
+    BEGIN
+        MENUITEM "&Barra de herramientas",      ID_VIEW_TOOLBAR
+        MENUITEM "Barra de &estado",            ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Propiedades"
+    BEGIN
+        MENUITEM "&Propiedades Diagrama",       ID_PROP_DIAG
+        MENUITEM SEPARATOR
+        POPUP "DLL"
+        BEGIN
+            MENUITEM "Inspección de Módulos-Diagrama", ID_ANALIZAR_DLL
+            MENUITEM "&Clases Usadas en el Diagrama", 
+                                                    ID_CLASES_USADAS_SIN_DLL
+        END
+    END
+    POPUP "&Operaciones"
+    BEGIN
+        MENUITEM "&Editar Diagrama",            ID_EDITAR_DIAG
+        MENUITEM SEPARATOR
+        MENUITEM "&Inicializar Diagrama",       ID_INICIALIZAR_DIAGRAMA
+        MENUITEM "Inicializar &Conectores",     ID_INICIAR_CONECT
+        MENUITEM SEPARATOR
+        MENUITEM "Generar el fichero L.D.D. &Original", ID_GENERAR_LDDORIGEN
+        MENUITEM "Generar el fichero &L.D.D.",  ID_GENERAR_LDD
+        MENUITEM SEPARATOR
+        MENUITEM "Generar &Metafichero gráfico", ID_GENERAR_METAFILE
+    END
+    POPUP "Consola"
+    BEGIN
+        MENUITEM "Mostrar ventana de la &consola", ID_CONSOLA_MOSTRAR
+        , CHECKED
+        MENUITEM "Mostrar mensajes de &usuario", ID_CONSOLA_MOSTRAR_USUARIO
+        , CHECKED
+        MENUITEM "Mostrar mensajes de &sistema", ID_CONSOLA_MOSTRAR_SISTEMA
+        , CHECKED
+        MENUITEM "&Guardar consola junto al diagrama", 
+                                                ID_CONSOLA_SALVAR_CON_DIAGRAMA
+        , CHECKED
+    END
+    POPUP "E&stados"
+    BEGIN
+        MENUITEM "Scroll automático de seguimiento", ID_SCROLL_AUTO, CHECKED
+        MENUITEM "Permitir operaciones de &Zoom", ID_OPERAC_ZOOM, CHECKED
+    END
+    POPUP "&Zoom"
+    BEGIN
+        MENUITEM "&Ajustar la ventana al área DIN A4", ID_AJUSTAR_VENTANA
+        MENUITEM "&Restaurar Escala Original",  ID_ZOOM_RESTAURAR
+        MENUITEM "A&cercar diagrama",           ID_ZOOM_ACERCAR
+        MENUITEM "A&lejar diagrama",            ID_ZOOM_ALEJAR
+        MENUITEM "Ver &todo el diagrama",       ID_VER_TODO
+    END
+    POPUP "&Ventana"
+    BEGIN
+        MENUITEM "&Nueva ventana",              ID_WINDOW_NEW
+        MENUITEM "&Cascada",                    ID_WINDOW_CASCADE
+        MENUITEM "&Mosaico",                    ID_WINDOW_TILE_HORZ
+        MENUITEM "&Organizar iconos",           ID_WINDOW_ARRANGE
+    END
+    POPUP "&Ayuda"
+    BEGIN
+        MENUITEM "&Índice",                     ID_HELP_INDEX
+        MENUITEM "&Usando Ayuda",               ID_HELP_USING
+        MENUITEM SEPARATOR
+        MENUITEM "&Acerca de Int. de Diagramas...", ID_APP_ABOUT
+    END
+END
+
+IDR_PROYTYPE_SRVR_IP MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Edición"
+    BEGIN
+        MENUITEM "&Deshacer\tCtrl+Z",           ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Copiar &Diagrama",            ID_EDIT_COPIARDIAG
+        MENUITEM SEPARATOR
+        MENUITEM "Cor&tar objeto\tCtrl+X",      ID_EDIT_OLE_CUT
+        MENUITEM "&Copiar objeto\tCtrl+C",      ID_EDIT_OLE_COPY
+        MENUITEM "&Pegar objeto\tCtrl+V",       ID_EDIT_OLE_PASTE
+        MENUITEM "Pegar objeto e&special...",   ID_EDIT_PASTE_SPECIAL
+        MENUITEM "Peg&ado con enlace de objeto", ID_EDIT_PASTE_LINK
+        MENUITEM "&Hacer copia del objeto",     ID_EDIT_CLONE
+        MENUITEM SEPARATOR
+        MENUITEM "&Borrar objeto\tDel",         ID_EDIT_CLEAR
+        MENUITEM "Borr&ar todos los objetos",   ID_EDIT_CLEAR_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "Insertar &Nuevo Objeto...",   ID_OLE_INSERT_NEW
+        MENUITEM "&Vínculos...",                ID_OLE_EDIT_LINKS
+        MENUITEM "<<OLE VERBS GO HERE>>",       ID_OLE_VERB_FIRST
+    END
+    POPUP "&Ver"
+    BEGIN
+        MENUITEM "&Barra de herramientas",      ID_VIEW_TOOLBAR
+        MENUITEM "Barra de &estado",            ID_VIEW_STATUS_BAR
+    END
+    MENUITEM SEPARATOR
+    MENUITEM SEPARATOR
+    POPUP "&Propiedades"
+    BEGIN
+        MENUITEM "&Propiedades Diagrama",       ID_PROP_DIAG
+        MENUITEM SEPARATOR
+        POPUP "DLL"
+        BEGIN
+            MENUITEM "Inspección de Módulos-Diagrama", ID_ANALIZAR_DLL
+            MENUITEM "&Clases Usadas en el Diagrama", 
+                                                    ID_CLASES_USADAS_SIN_DLL
+        END
+    END
+    POPUP "&Operaciones"
+    BEGIN
+        MENUITEM "&Editar Diagrama",            ID_EDITAR_DIAG
+        MENUITEM SEPARATOR
+        MENUITEM "&Inicializar Diagrama",       ID_INICIALIZAR_DIAGRAMA
+        MENUITEM "Inicializar &Conectores",     ID_INICIAR_CONECT
+        MENUITEM SEPARATOR
+        MENUITEM "Generar el fichero L.D.D. &Original", ID_GENERAR_LDDORIGEN
+        MENUITEM "Generar el fichero &L.D.D.",  ID_GENERAR_LDD
+        MENUITEM SEPARATOR
+        MENUITEM "Generar &Metafichero gráfico", ID_GENERAR_METAFILE
+    END
+    POPUP "Consola"
+    BEGIN
+        MENUITEM "Mostrar ventana de la &consola", ID_CONSOLA_MOSTRAR
+        , CHECKED
+        MENUITEM "Mostrar mensajes de &usuario", ID_CONSOLA_MOSTRAR_USUARIO
+        , CHECKED
+        MENUITEM "Mostrar mensajes de &sistema", ID_CONSOLA_MOSTRAR_SISTEMA
+        , CHECKED
+        MENUITEM "&Guardar consola junto al diagrama", 
+                                                ID_CONSOLA_SALVAR_CON_DIAGRAMA
+        , CHECKED
+    END
+    POPUP "E&stados"
+    BEGIN
+        MENUITEM "Scroll automático de seguimiento", ID_SCROLL_AUTO, CHECKED
+        MENUITEM "Permitir operaciones de &Zoom", ID_OPERAC_ZOOM, CHECKED
+    END
+    POPUP "&Zoom"
+    BEGIN
+        MENUITEM "&Ajustar la ventana al área DIN A4", ID_AJUSTAR_VENTANA
+        MENUITEM "&Restaurar Escala Original",  ID_ZOOM_RESTAURAR
+        MENUITEM "A&cercar diagrama",           ID_ZOOM_ACERCAR
+        MENUITEM "A&lejar diagrama",            ID_ZOOM_ALEJAR
+        MENUITEM "Ver &todo el diagrama",       ID_VER_TODO
+    END
+    POPUP "&Ayuda"
+    BEGIN
+        MENUITEM "&Índice",                     ID_HELP_INDEX
+        MENUITEM "&Usando Ayuda",               ID_HELP_USING
+        MENUITEM SEPARATOR
+        MENUITEM "&Acerca de Int. de Diagramas...", ID_APP_ABOUT
+    END
+END
+
+IDR_MENU_CONSOLA MENU DISCARDABLE 
+BEGIN
+    POPUP "&Archivo"
+    BEGIN
+        MENUITEM "&Guardar",                    ID_CONSOLA_SALVA
+        MENUITEM SEPARATOR
+        MENUITEM "&Salir",                      ID_CONSOLA_SALIDA
+    END
+    POPUP "&Edición"
+    BEGIN
+        MENUITEM "Cor&tar",                     ID_CONSOLA_CORTAR
+        MENUITEM "&Copiar",                     ID_CONSOLA_COPIAR
+        MENUITEM "&Borrar consola",             ID_CONSOLA_LIMPIAR
+    END
+END
+
+IDR_MENU_CLASEDLL_POPUP MENU DISCARDABLE 
+BEGIN
+    POPUP "1"
+    BEGIN
+        MENUITEM "Generar Código",              ID_CLASEDLL_GENERAR_CODIGO
+    END
+END
+
+IDR_MENU_COMPONENTE_PROP_POPUP MENU DISCARDABLE 
+BEGIN
+    POPUP "1"
+    BEGIN
+        MENUITEM "Propiedades",                 ID_MENU_COMPONENTE_PROP
+    END
+END
+
+IDR_MENU_BLOQUE_DIS_DCHO MENU DISCARDABLE 
+BEGIN
+    POPUP "1"
+    BEGIN
+        MENUITEM "Propiedades &Generales",      ID_PROP_GEN
+        MENUITEM "Propiedades &Específicas",    ID_PROP_ESPEC
+        MENUITEM "&Conectores Asociados",       ID_PROP_LISTACONECT
+        MENUITEM "&Información sobre el bloque", ID_PROP_INFORM
+        MENUITEM SEPARATOR
+        MENUITEM "Seleccionar/Deseleccionar",   ID_SELEC_BLOQUE
+        MENUITEM SEPARATOR
+        MENUITEM "Cargar &Subdiagrama",         ID_CARGAR_SUBDIAGRAMA
+        MENUITEM SEPARATOR
+        MENUITEM "&Eliminar",                   ID_ELIMINAR_BLOQUE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_CONTEXT_HELP
+END
+
+IDR_PROYTYPE_SRVR_IP TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_CONTEXT_HELP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MULTIDIAG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 265
+    END
+
+    IDD_OPERAC_BRETRO, DIALOG
+    BEGIN
+        HORZGUIDE, 76
+    END
+
+    IDD_PROP_CONECT, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 242
+    END
+
+    IDD_PROP_DIAG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 145
+    END
+
+    IDD_PROP_BLOQUE, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 278
+    END
+
+    IDD_PROP_BLOQUE_DIAG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 278
+    END
+
+    IDD_PROP_BLOQUE_DLL, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+    END
+
+    IDD_PROP_BLOQUE_INFORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 272
+    END
+
+    IDD_PROP_DIAG_INFORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 413
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 267
+    END
+
+    IDD_PROP_CONECT_INFORM, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 239
+    END
+
+    IDD_ANALISIS_DLL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 255
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        RIGHTMARGIN, 206
+        BOTTOMMARGIN, 62
+    END
+
+    IDD_PROP_DIAG_COMPONENTES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 413
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 267
+    END
+
+    IDD_PROP_BLOQUE_CONECTORES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 272
+    END
+
+    IDD_PROP_CLASES_CON_DLL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 199
+    END
+
+    IDD_PROP_CLASES_SIN_DLL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 199
+    END
+
+    IDD_ANALISIS_CLASE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 232
+    END
+
+    IDD_PROP_CONECT_INICIO_DLL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 253
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+
+    IDD_PROP_CONECT_FIN_DLL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 253
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 142
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Idf MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Idf\0"
+            VALUE "LegalCopyright", "Copyright (C) 1998\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Idf.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Idf Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+    IDS_PRIVATE_CF_DESCR    "MFC Container Object\nan MFC Container Object"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "Integrador de Diagramas de Flujo"
+    IDR_PROYTYPE            "\nDExe\nDiagrama Funcional\nDiagrama Funcional (*.dex)\n.dex\nDExe.Document\nIntegrador de Diagramas de Flujo (D.Funcional)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_FAILED_TO_CREATE    "Failed to create object.  Make sure the object is entered in the system registry."
+    IDP_OLE_INIT_FAILED     "OLE 2.0 initialization failed.  Make sure that the OLE libraries are the correct version."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_CLIPBOARD_CUT_FAILED "Cut to clipboard failed."
+    IDP_CLIPBOARD_COPY_FAILED "Copy to clipboard failed."
+    IDP_GET_FROM_CLIPBOARD_FAILED "Failed to paste object from clipboard."
+    IDP_SAVEINCOMPLETE      "Document is incomplete, save anyway?"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLONE           "Crea una copia del objeto OLE actualmente seleccionado"
+    ID_OBJECT_RESETSIZE     "Restaura el tamaño original (100%) en el momento de la inserción del objeto OLE seleccionado"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INICIALIZAR_DIAGRAMA "Inicializa los bloques y datos del diagrama"
+    ID_PROP_INFORM          "Muestra la información sobre la funcionalidad del bloque"
+    ID_AJUSTAR_VENTANA      "Muestra las listas de conectores que entran y salen del bloque"
+    ID_ZOOM_TODO            "Ejecuta el diagrama diseñado a partir del LDD que se genera"
+    ID_ZOOM_RESTAURAR       "Seleccionar bloque para moverlo, copiarlo al portapapeles etc."
+    ID_ZOOM_ACERCAR         "Realiza una ampliación de la escala de visualización del diagrama"
+    ID_ZOOM_ALEJAR          "Realiza una disminución de la escala de visualización del diagrama"
+    ID_VER_TODO             "Ajusta la escala del diagrama para que pueda verse entero en la ventana actual"
+    ID_CONSOLA_MOSTRAR_USUARIO "Elimina el grupo de elementos seleccionado"
+    ID_EDIT_OLE_CUT         "Copia al portapapeles y elimina el objeto OLE seleccionado"
+    ID_CONSOLA_MOSTRAR_SISTEMA 
+                            "Muestra los mensajes enviados a la consola por el sistema"
+    ID_EDIT_OLE_COPY        "Copia al portapapeles el objeto OLE seleccionado"
+    ID_EDIT_OLE_PASTE       "Inserta en el diagrama el objeto OLE del portapapeles"
+    ID_SCROLL_AUTO          "Activa o desactiva el cambio de posición del diagrama siguiendo al bloque actual"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_CONSOLA_MOSTRAR      "Muestra u oculta la ventana de la consola"
+    ID_CONSOLA_LIMPIAR      "Borra todo el contenido de la consola"
+    ID_ANALIZAR_DLL         "Análisis de las clases de bloques y de comunicación presentes en un módulo DLL-diagrama"
+    ID_GENERACION_CODIGO    "Genera código fuente con las clases usadas en el diagrama"
+    ID_CONSOLA_SALVAR_CON_DIAGRAMA 
+                            "Se guarda el contenido de la consola junto al diagrama"
+    ID_CONSOLA_CORTAR       "Corta las líneas seleccionadas y las copia en el portapapeles"
+    ID_CONSOLA_COPIAR       "Elimina el bloque del diagrama"
+    ID_PROP_DIAG            "Propiedades del diagrama"
+    ID_CLASEDLL_GENERAR_CODIGO "Propiedades del componente seleccionado"
+    ID_GENERAR_LDD          "Propiedades del componente seleccionado"
+    ID_CLASES_USADAS_SIN_DLL "Clases basadas en DLL usadas en el diagrama"
+    ID_OBJECT_DISPLAYCONTENT 
+                            "Muestra el contenido visualmente del objeto OLE seleccionado"
+    ID_OBJECT_DISPLAYASICON "Muestra el objeto OLE seleccionado como un icono"
+    ID_EDITAR_DIAG          "Edición del diagrama a partir del LDD que se genera"
+    ID_ENLAZAR_SUBDIAGRAMA  "Cargar"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Integrador de Diagramas"
+    AFX_IDS_IDLEMESSAGE     "Para obtener ayuda presionar F1"
+    AFX_IDS_HELPMODEMESSAGE "Select an object on which to get Help"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Crear un nuevo Diagrama"
+    ID_FILE_OPEN            "Abrir un diagrama existente"
+    ID_FILE_CLOSE           "Cerrar el diagrama activo"
+    ID_FILE_SAVE            "Salvar el diagrama activo"
+    ID_FILE_SAVE_AS         "Salvar el diagrama activo con nuevo nombre"
+    ID_FILE_PAGE_SETUP      "Cambiar opciones de impresión"
+    ID_FILE_PRINT_SETUP     "Cambiar la impresora y las opciones de impresión"
+    ID_FILE_PRINT           "Imprimir el diagrama activo"
+    ID_FILE_PRINT_PREVIEW   "Mostrar páginas de preimpresión"
+    ID_FILE_UPDATE          "Actualiza la visualización del objeto insertado en la aplicación que lo contiene"
+    ID_FILE_SAVE_COPY_AS    "Save a copy of the active document with a new name"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Abrir este Diagrama"
+    ID_FILE_MRU_FILE2       "Abrir este diagrama"
+    ID_FILE_MRU_FILE3       "Abrir este diagrama"
+    ID_FILE_MRU_FILE4       "Abrir este diagrama"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Borra el objeto OLE seleccionado"
+    ID_EDIT_CLEAR_ALL       "Borra todos los objetos OLE insertados en el diagrama"
+    ID_EDIT_COPY            "Copia al portapapeles el grupo de bloques y conectores seleccionado"
+    ID_EDIT_CUT             "Copia al portapapeles y elimina el grupo de bloques y conectores seleccionado"
+    ID_EDIT_FIND            "Find the specified text"
+    ID_EDIT_PASTE           "Inserta el conjunto de bloques y conectores del portapapeles en el diagrama"
+    ID_EDIT_PASTE_LINK      "Inserta en el diagrama el objeto OLE desde el portapapeles con un enlace a su origen"
+    ID_EDIT_PASTE_SPECIAL   "Inserta el objeto OLE contenido en el portapapeles con diálogo de opciones"
+    ID_EDIT_REPEAT          "Repeat the last action"
+    ID_EDIT_REPLACE         "Replace specific text with different text"
+    ID_EDIT_SELECT_ALL      "Select the entire document"
+    ID_EDIT_UNDO            "Invierte la última acción"
+    ID_EDIT_REDO            "Redo the previously undone action"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "Abre otra ventana con el diagrama activo"
+    ID_WINDOW_ARRANGE       "Ordenar iconos en la parte inferior de la ventana"
+    ID_WINDOW_CASCADE       "Organiza las ventanas para que no se superpongan"
+    ID_WINDOW_TILE_HORZ     "Organiza las ventanas en forma de mosaico sin superponerse"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles"
+    ID_WINDOW_SPLIT         "Split the active window into panes"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Muestra información acerca del programa, número de la versión y copyright"
+    ID_APP_EXIT             "Abandona la aplicación; pide confirmación para salvar diagrama"
+    ID_HELP_INDEX           "Lista de Temas de Ayuda"
+    ID_HELP_USING           "Muestra instrucciones acerca de usar Ayuda"
+    ID_CONTEXT_HELP         "Display help for clicked on buttons, menus and windows"
+    ID_HELP                 "Display help for current task or command"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane"
+    ID_PREV_PANE            "Switch back to the previous window pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OLE_INSERT_NEW       "Insertar un nuevo objeto incrustado"
+    ID_OLE_EDIT_LINKS       "Edita objetos vinculados"
+    ID_OLE_EDIT_CONVERT     "Convert object to different type"
+    ID_OLE_EDIT_CHANGE_ICON "Cambia el icono que muestra el objeto OLE seleccionado"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OLE_VERB_FIRST       "Activa el objeto incrustado o vinculado"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Muestra u oculta la barra de herramientas"
+    ID_VIEW_STATUS_BAR      "Muestra u oculta la barra de estado"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    AFX_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_PROP_GEN             "Muestra el diálogo de propiedades generales de cualquier bloque."
+    ID_PROP_ESPEC           "Muestra el diálogo de propiedades específicas según el tipo de bloque (diagrama, o basado en DLL)."
+    ID_PROP_DLL             "Muestra el diálogo de propiedades que el programador del módulo DLL del diagrama o bloque puede haber creado asociado al bloque."
+    ID_OPERACIONES          "Muestra el diálogo de operaciones posibles según el tipo de bloque (funcional o de retroanotación)."
+    ID_GENERAR_METAFILE     "Genera un fichero gráfico del formato Windows Metafile del diagrama"
+    ID_EDIT_COPIARDIAG      "Copia el diagrama completo en su estado actual como un objeto OLE que puede insertarse en otros programas"
+    ID_OLEITEM_BLOQUEAR     "Protege el objeto OLE seleccionado tal que no pueda ser borrado o cambiado de tamaño, posición o nombre"
+    ID_INICIAR_CONECT       "Inicializa el estado (color) de los conectores respecto al paso de información por ellos."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NOMBRE_ITEM          "Muestra el nombre de usuario del objeto OLE seleccionado"
+    ID_CPOSETIQDIAG         "Cambia la posición de la etiqueta del diagrama"
+    ID_INS_BLQFUNC_DIAG     "Inserta un bloque funcional que engloba un subdiagrama"
+    ID_INS_BLQFUNC_DLL      "Inserta un bloque funcional basado en DLL"
+    ID_INS_CONECT           "Inserta un nuevo conector que une bloques funcionales"
+    ID_INS_CONECT_RETRO     "Inserta un nuevo conector que une un bloque funcional y uno de retroanotación "
+    ID_PROPIEDADES          "Muestra el diálogo de propiedades del conector al que pertenece el nudo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_PROY_DISENO         "\nDDis\nDiseño de Diagrama\nDiseño de Diagrama (*.dds)\n.dds\nDDis.Document\nIntegrador de Diagramas de Flujo (D.Diseñol)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_ANYADIRNUDO          "Añade un nuevo nudo intermedio al conector a continuación del nudo seleccionado"
+    ID_ELIMINARNUDO         "Elimina el nudo seleccionado del conector"
+    ID_ELIMINAR_CONEC       "Elimina el conector completo que posee el nudo seleccionado"
+    ID_ANYADIRNUDOPOST      "Añade un nuevo nudo intermedio al conector a continuación del nudo seleccionadoAñade un nuevo nudo intermedio al conector a continuación del nudo seleccionado"
+    ID_ANYADIRNUDOANT       "Añade un nuevo nudo intermedio al conector anterior al nudo seleccionado"
+    ID_ASOCIAR_BLQINI       "Asocia el conector a un bloque tal que sea origen del flujo de información"
+    ID_ASOCIAR_BLQFIN       "Asocia el conector a un bloque tal que sea destino del flujo de información"
+    ID_CAMBIAPOSETIQ        "Cambia la posición de la etiqueta del conector"
+    ID_CANCELAR_EDIC        "Cancela cualquier operación de inserción o modificación de elementos o propiedades en proceso"
+    ID_INS_BLQ_RETRO        "Inserta un bloque de retroanotación"
+    ID_VER_TABLADIAG        "Muestra u oculta la tabla de elementos del diagrama"
+    ID_IRALNUDOSIG          "Sitúa el cursor en el nudo siguiente (hacia el final del conector) y se captura el ratón (necesario cuando el nudo está oculto por un bloque)"
+    ID_IRALNUDOPREV         "Sitúa el cursor en el nudo previo (hacia el comienzo del conector) y se captura el ratón (necesario cuando el nudo está oculto por un bloque)"
+    ID_LIBERAR_RATON        "Libera el ratón si ha sido capturado por el nudo."
+    ID_GRAVASOCIAR_BLQINI   "Acerca a modo de gravedad el extremo inicial del conector al bloque seleccionado y asocia el conector al bloque como origen del flujo de información"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_GRAVASOCIAR_BLQFIN   "Acerca a modo de gravedad el extremo final del conector al bloque seleccionado  y asocia el conector al bloque como destino del flujo de información"
+    ID_PROP_REJILLA         "Muestra el diálogo de propiedades de la rejilla de fondo del área del diagrama"
+    ID_MOVERGRUPO           "Desplaza el grupo de elementos (bloques y conectores) seleccionado, introduciendo los puntos origen y destino con el ratón"
+    ID_GENERAR_LDDORIGEN    "Genera el fichero L.D.D. original con el que se creó el diagrama "
+    ID_ANULARSELECC         "Quita la selección de los bloques y nudos de conectores seleccionados"
+    ID_SELECC_TODO          "Selecciona todos los objetos (bloques y conectores) del diagrama"
+    ID_SELECC_RECT          "Selecciona un grupo de bloques y conectores dentro de un rectángulo de selección"
+    ID_DESELECC_RECT        "Quita la selección de un grupo de bloques y conectores dentro de un rectángulo de selección"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_CARGAR_SUBDIAGRAMA   "Carga el subdiagrama especificado en el bloque"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\Idf.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

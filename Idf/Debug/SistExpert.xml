@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no" ?>
+<diagrama>
+    <datos>
+      <horizontal>false</horizontal>
+      <directorioLib>C:\trabajo\empresa\opensource\idf\Idf\Debug\</directorioLib>
+      <dllDiag>DLLDiag.dll</dllDiag>
+      <etiqDiagrama>SIMULADOR DE CONTROLADOR FUZZY CON AUTOAPRENDIZAJE</etiqDiagrama>
+      <vistas>
+        <xInsEtiq>55</xInsEtiq>
+        <yInsEtiq>25</yInsEtiq>
+        <rgbEtiq>
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </rgbEtiq>
+      </vistas>
+      <ayuda>Introducir aquí el texto de ayuda general del diagrama, se salvará junto al proyecto
+</ayuda>
+    </datos>
+    <bloques>
+      <funcionales>
+        <bloque id="BlqFuncDLL2" tipo="dll">
+          <etiqueta>(+)</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>true</activaSalida>
+          <autoCiclosMaximo>-1</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>60</xPtoInser>
+            <yPtoInser>120</yPtoInser>
+            <longAlto>20</longAlto>
+            <longAncho>25</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>CtrlAdap_Bloq_Plus</claseBloque>
+          <anexo>Escribir aquí la macro o datos asociados a la funcionalidad del bloque, se salvarán junto al proyecto
+</anexo>
+        </bloque>
+        <bloque id="BlqFuncDLL3" tipo="dll">
+          <etiqueta>R</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>true</activaSalida>
+          <autoCiclosMaximo>-1</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>105</xPtoInser>
+            <yPtoInser>120</yPtoInser>
+            <longAlto>20</longAlto>
+            <longAncho>30</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>SistExpert_Bloq_R</claseBloque>
+          <anexo>Escribir aquí la macro o datos asociados a la funcionalidad del bloque, se salvarán junto al proyecto
+</anexo>
+        </bloque>
+        <bloque id="BlqFuncDLL" tipo="dll">
+          <etiqueta>X(k)</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>true</activaSalida>
+          <autoCiclosMaximo>-1</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>10</xPtoInser>
+            <yPtoInser>120</yPtoInser>
+            <longAlto>20</longAlto>
+            <longAncho>30</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>CtrlAdap_Bloq_x</claseBloque>
+          <anexo>Escribir aquí la macro o datos asociados a la funcionalidad del bloque, se salvarán junto al proyecto
+</anexo>
+        </bloque>
+        <bloque id="BlqFuncDLL5" tipo="dll">
+          <etiqueta>G(z)</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>true</activaSalida>
+          <autoCiclosMaximo>-1</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>155</xPtoInser>
+            <yPtoInser>120</yPtoInser>
+            <longAlto>20</longAlto>
+            <longAncho>30</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>CtrlAdap_Bloq_Sistema</claseBloque>
+          <anexo>Escribir aquí la macro o datos asociados a la funcionalidad del bloque, se salvarán junto al proyecto
+</anexo>
+        </bloque>
+      </funcionales>
+      <retroanotacion>
+        <bloque id="BlqRetro2" tipo="dll">
+          <etiqueta>M. de Aprendizaje</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>false</activaSalida>
+          <autoCiclosMaximo>-1</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>25</xPtoInser>
+            <yPtoInser>60</yPtoInser>
+            <longAlto>20</longAlto>
+            <longAncho>35</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>SistExpert_Bloq_Aprend</claseBloque>
+          <anexo>Escribir aquí la macro o datos asociados a la funcionalidad del bloque, se salvarán junto al proyecto
+</anexo>
+        </bloque>
+        <bloque id="BlqRetro3" tipo="dll">
+          <etiqueta>(-1)</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>false</activaSalida>
+          <autoCiclosMaximo>-1</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>60</xPtoInser>
+            <yPtoInser>155</yPtoInser>
+            <longAlto>20</longAlto>
+            <longAncho>25</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>CtrlAdap_Bloq_Inversor</claseBloque>
+          <anexo>Escribir aquí la macro o datos asociados a la funcionalidad del bloque, se salvarán junto al proyecto
+</anexo>
+        </bloque>
+        <bloque id="BlqRetro" tipo="dll">
+          <etiqueta>Reglas de Control</etiqueta>
+          <ayuda>Escribir aquí la ayuda asociada a la funcionalidad del bloque, se salvará junto al proyecto
+</ayuda>
+          <etiqSalidaAuto></etiqSalidaAuto>
+          <activaEntrada>false</activaEntrada>
+          <activaSalida>false</activaSalida>
+          <autoCiclosMaximo>-1</autoCiclosMaximo>
+          <vistas>
+            <visible>true</visible>
+            <tipoDibujo>1</tipoDibujo>
+            <xPtoInser>85</xPtoInser>
+            <yPtoInser>60</yPtoInser>
+            <longAlto>20</longAlto>
+            <longAncho>35</longAncho>
+            <anchoLin>2</anchoLin>
+          </vistas>
+          <dllBloque></dllBloque>
+          <claseBloque>SistExpert_Bloq_Reglas</claseBloque>
+          <anexo>Escribir aquí la macro o datos asociados a la funcionalidad del bloque, se salvarán junto al proyecto
+</anexo>
+        </bloque>
+      </retroanotacion>
+    </bloques>
+    <conectores>
+      <funcionales>
+        <conector id="ConFunc5">
+          <etiqueta></etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>NULO</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL5</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>2</anchoLinea>
+            <flecha>
+              <xFlechaPos>25</xFlechaPos>
+              <yFlechaPos>140</yFlechaPos>
+              <orientacion>1</orientacion>
+              <altura>5</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>185</xPos>
+                <yPos>135</yPos>
+              </nudo>
+              <nudo>
+                <xPos>195</xPos>
+                <yPos>135</yPos>
+              </nudo>
+              <nudo>
+                <xPos>195</xPos>
+                <yPos>185</yPos>
+              </nudo>
+              <nudo>
+                <xPos>25</xPos>
+                <yPos>185</yPos>
+              </nudo>
+              <nudo>
+                <xPos>25</xPos>
+                <yPos>140</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>185</xEtiqIns>
+            <yEtiqIns>135</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="Con_X">
+          <etiqueta>x(k)</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>CtrlAdap_Com_Var</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL2</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>2</anchoLinea>
+            <flecha>
+              <xFlechaPos>60</xFlechaPos>
+              <yFlechaPos>130</yFlechaPos>
+              <orientacion>2</orientacion>
+              <altura>5</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>40</xPos>
+                <yPos>130</yPos>
+              </nudo>
+              <nudo>
+                <xPos>60</xPos>
+                <yPos>130</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>45</xEtiqIns>
+            <yEtiqIns>125</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConFunc3">
+          <etiqueta>e(k)</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>CtrlAdap_Com_Var</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL2</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL3</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>2</anchoLinea>
+            <flecha>
+              <xFlechaPos>105</xFlechaPos>
+              <yFlechaPos>130</yFlechaPos>
+              <orientacion>2</orientacion>
+              <altura>5</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>85</xPos>
+                <yPos>130</yPos>
+              </nudo>
+              <nudo>
+                <xPos>105</xPos>
+                <yPos>130</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>90</xEtiqIns>
+            <yEtiqIns>125</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConFunc4">
+          <etiqueta>u(k)</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>CtrlAdap_Com_Var</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL3</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL5</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>2</anchoLinea>
+            <flecha>
+              <xFlechaPos>155</xFlechaPos>
+              <yFlechaPos>130</yFlechaPos>
+              <orientacion>2</orientacion>
+              <altura>5</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>135</xPos>
+                <yPos>130</yPos>
+              </nudo>
+              <nudo>
+                <xPos>155</xPos>
+                <yPos>130</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>140</xEtiqIns>
+            <yEtiqIns>125</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+      </funcionales>
+      <retroanotacion>
+        <conector id="Con_Uk">
+          <etiqueta>u(k)</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>CtrlAdap_Com_Var</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL5</bloqueAnterior>
+          <bloquePosterior>BlqRetro</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>120</xFlechaPos>
+              <yFlechaPos>70</yFlechaPos>
+              <orientacion>4</orientacion>
+              <altura>5</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>160</xPos>
+                <yPos>120</yPos>
+              </nudo>
+              <nudo>
+                <xPos>160</xPos>
+                <yPos>70</yPos>
+              </nudo>
+              <nudo>
+                <xPos>120</xPos>
+                <yPos>70</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>150</xEtiqIns>
+            <yEtiqIns>65</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro3">
+          <etiqueta>R(k)</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>SistExpert_Com_Ley_R</claseDatosCom>
+          <bloqueAnterior>BlqRetro</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL3</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>110</xFlechaPos>
+              <yFlechaPos>120</yFlechaPos>
+              <orientacion>3</orientacion>
+              <altura>5</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>110</xPos>
+                <yPos>80</yPos>
+              </nudo>
+              <nudo>
+                <xPos>110</xPos>
+                <yPos>120</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>115</xEtiqIns>
+            <yEtiqIns>95</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro4">
+          <etiqueta>y(k)</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>CtrlAdap_Com_Var</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL5</bloqueAnterior>
+          <bloquePosterior>BlqRetro3</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>85</xFlechaPos>
+              <yFlechaPos>165</yFlechaPos>
+              <orientacion>4</orientacion>
+              <altura>5</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>170</xPos>
+                <yPos>140</yPos>
+              </nudo>
+              <nudo>
+                <xPos>170</xPos>
+                <yPos>165</yPos>
+              </nudo>
+              <nudo>
+                <xPos>85</xPos>
+                <yPos>165</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>130</xEtiqIns>
+            <yEtiqIns>160</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="Con_E_A">
+          <etiqueta>e(k)</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>CtrlAdap_Com_Var</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL2</bloqueAnterior>
+          <bloquePosterior>BlqRetro2</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>50</xFlechaPos>
+              <yFlechaPos>80</yFlechaPos>
+              <orientacion>1</orientacion>
+              <altura>5</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>65</xPos>
+                <yPos>120</yPos>
+              </nudo>
+              <nudo>
+                <xPos>65</xPos>
+                <yPos>105</yPos>
+              </nudo>
+              <nudo>
+                <xPos>50</xPos>
+                <yPos>105</yPos>
+              </nudo>
+              <nudo>
+                <xPos>50</xPos>
+                <yPos>80</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>55</xEtiqIns>
+            <yEtiqIns>100</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="Con_E_R">
+          <etiqueta>e(k)</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>CtrlAdap_Com_Var</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL2</bloqueAnterior>
+          <bloquePosterior>BlqRetro</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>100</xFlechaPos>
+              <yFlechaPos>80</yFlechaPos>
+              <orientacion>1</orientacion>
+              <altura>5</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>75</xPos>
+                <yPos>120</yPos>
+              </nudo>
+              <nudo>
+                <xPos>75</xPos>
+                <yPos>105</yPos>
+              </nudo>
+              <nudo>
+                <xPos>100</xPos>
+                <yPos>105</yPos>
+              </nudo>
+              <nudo>
+                <xPos>100</xPos>
+                <yPos>80</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>80</xEtiqIns>
+            <yEtiqIns>100</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="Con_X_R">
+          <etiqueta>x(k)</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>CtrlAdap_Com_Var</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL</bloqueAnterior>
+          <bloquePosterior>BlqRetro</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>90</xFlechaPos>
+              <yFlechaPos>80</yFlechaPos>
+              <orientacion>1</orientacion>
+              <altura>5</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>35</xPos>
+                <yPos>120</yPos>
+              </nudo>
+              <nudo>
+                <xPos>35</xPos>
+                <yPos>95</yPos>
+              </nudo>
+              <nudo>
+                <xPos>90</xPos>
+                <yPos>95</yPos>
+              </nudo>
+              <nudo>
+                <xPos>90</xPos>
+                <yPos>80</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>40</xEtiqIns>
+            <yEtiqIns>90</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="Con_X_A">
+          <etiqueta>x(k)</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>CtrlAdap_Com_Var</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL</bloqueAnterior>
+          <bloquePosterior>BlqRetro2</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>30</xFlechaPos>
+              <yFlechaPos>80</yFlechaPos>
+              <orientacion>1</orientacion>
+              <altura>5</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>30</xPos>
+                <yPos>120</yPos>
+              </nudo>
+              <nudo>
+                <xPos>30</xPos>
+                <yPos>80</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>25</xEtiqIns>
+            <yEtiqIns>95</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="ConRetro">
+          <etiqueta>Ajuste</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>SistExpert_Com_Coefs</claseDatosCom>
+          <bloqueAnterior>BlqRetro2</bloqueAnterior>
+          <bloquePosterior>BlqRetro</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>85</xFlechaPos>
+              <yFlechaPos>75</yFlechaPos>
+              <orientacion>2</orientacion>
+              <altura>5</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>60</xPos>
+                <yPos>75</yPos>
+              </nudo>
+              <nudo>
+                <xPos>85</xPos>
+                <yPos>75</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>70</xEtiqIns>
+            <yEtiqIns>70</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="Con_A_Uk">
+          <etiqueta>u(k)</etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>CtrlAdap_Com_Var</claseDatosCom>
+          <bloqueAnterior>BlqFuncDLL5</bloqueAnterior>
+          <bloquePosterior>BlqRetro2</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>40</xFlechaPos>
+              <yFlechaPos>60</yFlechaPos>
+              <orientacion>3</orientacion>
+              <altura>5</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>170</xPos>
+                <yPos>120</yPos>
+              </nudo>
+              <nudo>
+                <xPos>170</xPos>
+                <yPos>45</yPos>
+              </nudo>
+              <nudo>
+                <xPos>40</xPos>
+                <yPos>45</yPos>
+              </nudo>
+              <nudo>
+                <xPos>40</xPos>
+                <yPos>60</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>175</xEtiqIns>
+            <yEtiqIns>80</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+        <conector id="Con_Yn">
+          <etiqueta></etiqueta>
+          <ayuda>Introducir aquí el texto de ayuda sobre la funcionalidad de la unión por el conector, se salvará junto al proyecto
+</ayuda>
+          <claseDatosCom>CtrlAdap_Com_Var</claseDatosCom>
+          <bloqueAnterior>BlqRetro3</bloqueAnterior>
+          <bloquePosterior>BlqFuncDLL2</bloquePosterior>
+          <vistas>
+            <visible>true</visible>
+            <anchoLinea>1</anchoLinea>
+            <flecha>
+              <xFlechaPos>70</xFlechaPos>
+              <yFlechaPos>140</yFlechaPos>
+              <orientacion>1</orientacion>
+              <altura>5</altura>
+              <anchoBorde>2</anchoBorde>
+            </flecha>
+            <nudos>
+              <nudo>
+                <xPos>70</xPos>
+                <yPos>155</yPos>
+              </nudo>
+              <nudo>
+                <xPos>70</xPos>
+                <yPos>140</yPos>
+              </nudo>
+            </nudos>
+            <xEtiqIns>70</xEtiqIns>
+            <yEtiqIns>155</yEtiqIns>
+            <rgbCon>
+              <red>0</red>
+              <green>255</green>
+              <blue>0</blue>
+            </rgbCon>
+          </vistas>
+        </conector>
+      </retroanotacion>
+    </conectores>
+  </diagrama>
