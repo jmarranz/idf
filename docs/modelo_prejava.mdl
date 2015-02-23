@@ -1,0 +1,4255 @@
+
+(object Petal
+    version    	45
+    _written   	"Rose 7.6.0109.2314"
+    charSet    	0)
+
+(object Design "Logical View"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    attributes 	(list Attribute_Set
+	(object Attribute
+	    tool       	"Java"
+	    name       	"IDE"
+	    value      	"Internal Editor")
+	(object Attribute
+	    tool       	"Java"
+	    name       	"UserDefineTagName1"
+	    value      	"")
+	(object Attribute
+	    tool       	"Java"
+	    name       	"UserDefineTagText1"
+	    value      	"")
+	(object Attribute
+	    tool       	"Java"
+	    name       	"UserDefineTagApply1"
+	    value      	"")
+	(object Attribute
+	    tool       	"Java"
+	    name       	"UserDefineTagName2"
+	    value      	"")
+	(object Attribute
+	    tool       	"Java"
+	    name       	"UserDefineTagText2"
+	    value      	"")
+	(object Attribute
+	    tool       	"Java"
+	    name       	"UserDefineTagApply2"
+	    value      	"")
+	(object Attribute
+	    tool       	"Java"
+	    name       	"UserDefineTagName3"
+	    value      	"")
+	(object Attribute
+	    tool       	"Java"
+	    name       	"UserDefineTagText3"
+	    value      	"")
+	(object Attribute
+	    tool       	"Java"
+	    name       	"UserDefineTagApply3"
+	    value      	""))
+    quid       	"3E31A3F4006D"
+    defaults   	(object defaults
+	rightMargin 	0.250000
+	leftMargin 	0.250000
+	topMargin  	0.250000
+	bottomMargin 	0.500000
+	pageOverlap 	0.250000
+	clipIconLabels 	TRUE
+	autoResize 	TRUE
+	snapToGrid 	TRUE
+	gridX      	16
+	gridY      	16
+	defaultFont 	(object Font
+	    size       	10
+	    face       	"Arial"
+	    bold       	FALSE
+	    italics    	FALSE
+	    underline  	FALSE
+	    strike     	FALSE
+	    color      	0
+	    default_color 	TRUE)
+	showMessageNum 	1
+	showClassOfObject 	TRUE
+	notation   	"Unified")
+    root_usecase_package 	(object Class_Category "Use Case View"
+	quid       	"3E31A3F4006F"
+	exportControl 	"Public"
+	global     	TRUE
+	logical_models 	(list unit_reference_list)
+	logical_presentations 	(list unit_reference_list
+	    (object UseCaseDiagram "Main"
+		quid       	"3E31A3F50158"
+		title      	"Main"
+		zoom       	100
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	0
+		items      	(list diagram_item_list))))
+    root_category 	(object Class_Category "Logical View"
+	quid       	"3E31A3F4006E"
+	exportControl 	"Public"
+	global     	TRUE
+	subsystem  	"Component View"
+	quidu      	"3E31A3F40070"
+	logical_models 	(list unit_reference_list
+	    (object Class_Category "mfc"
+		quid       	"3E31B1E40290"
+		exportControl 	"Public"
+		logical_models 	(list unit_reference_list
+		    (object Class "COleServerDoc"
+			quid       	"3E31B1F30261")
+		    (object Class "CScrollView"
+			quid       	"3E7AD943032C"))
+		logical_presentations 	(list unit_reference_list))
+	    (object Class_Category "DLLDiag"
+		quid       	"3E7ACF90029F"
+		exportControl 	"Public"
+		logical_models 	(list unit_reference_list)
+		logical_presentations 	(list unit_reference_list))
+	    (object Class_Category "Idf"
+		quid       	"3E7ACF9A0186"
+		exportControl 	"Public"
+		logical_models 	(list unit_reference_list
+		    (object Class_Category "model"
+			quid       	"3E7ACFC80213"
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list
+			    (object Class "CBaseDoc"
+				quid       	"3E31B202030D"
+				superclasses 	(list inheritance_relationship_list
+				    (object Inheritance_Relationship
+					quid       	"3E31B21802DE"
+					supplier   	"Logical View::mfc::COleServerDoc"
+					quidu      	"3E31B1F30261")))
+			    (object Class "CBloque"
+				quid       	"3E33BF8E0232"
+				superclasses 	(list inheritance_relationship_list
+				    (object Inheritance_Relationship
+					quid       	"3E7AD6E200CB"
+					supplier   	"Logical View::Idf::model::CComponenteDiag"
+					quidu      	"3E7AD51E0203")))
+			    (object Class "CConect"
+				quid       	"3E351C5F030D"
+				superclasses 	(list inheritance_relationship_list
+				    (object Inheritance_Relationship
+					quid       	"3E7AD6DF0213"
+					supplier   	"Logical View::Idf::model::CComponenteDiag"
+					quidu      	"3E7AD51E0203")))
+			    (object Class "CDiagBase"
+				quid       	"3E31B22E005D")
+			    (object Class "CComponenteDiag"
+				quid       	"3E7AD51E0203")
+			    (object Class "CComunicacion"
+				quid       	"3E7AD53702AF")
+			    (object Class "Instante"
+				quid       	"3E7AD54C035B")
+			    (object Class "ListaBloques"
+				quid       	"3E7AD56302AF"
+				superclasses 	(list inheritance_relationship_list
+				    (object Inheritance_Relationship
+					quid       	"3E7AD6BD0157"
+					supplier   	"Logical View::Idf::model::ListaGestor"
+					quidu      	"3E7AD57900BB")))
+			    (object Class "ListaConectores"
+				quid       	"3E7AD56B032C"
+				superclasses 	(list inheritance_relationship_list
+				    (object Inheritance_Relationship
+					quid       	"3E7AD6BF0242"
+					supplier   	"Logical View::Idf::model::ListaGestor"
+					quidu      	"3E7AD57900BB")))
+			    (object Class "ListaGestor"
+				quid       	"3E7AD57900BB")
+			    (object Class "CBloqueModo"
+				quid       	"3E7EC72600EA")
+			    (object Association "$UNNAMED$0"
+				quid       	"3E7AD59200DA"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$1"
+					quid       	"3E7AD5920251"
+					supplier   	"Logical View::Idf::model::CDiagBase"
+					quidu      	"3E31B22E005D"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$2"
+					quid       	"3E7AD5920253"
+					supplier   	"Logical View::Idf::model::CBaseDoc"
+					quidu      	"3E31B202030D"
+					is_navigable 	TRUE
+					is_aggregate 	TRUE)))
+			    (object Association "$UNNAMED$3"
+				quid       	"3E7AD5D300EA"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$4"
+					quid       	"3E7AD5D3029F"
+					supplier   	"Logical View::Idf::model::ListaConectores"
+					quidu      	"3E7AD56B032C"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$5"
+					quid       	"3E7AD5D302A1"
+					supplier   	"Logical View::Idf::model::CDiagBase"
+					quidu      	"3E31B22E005D"
+					is_aggregate 	TRUE)))
+			    (object Association "$UNNAMED$6"
+				quid       	"3E7AD5DD0157"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$7"
+					quid       	"3E7AD5DD034B"
+					supplier   	"Logical View::Idf::model::ListaBloques"
+					quidu      	"3E7AD56302AF"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$8"
+					quid       	"3E7AD5DD034D"
+					supplier   	"Logical View::Idf::model::CDiagBase"
+					quidu      	"3E31B22E005D"
+					is_aggregate 	TRUE)))
+			    (object Association "$UNNAMED$9"
+				quid       	"3E7AD5E60000"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$10"
+					quid       	"3E7AD5E60290"
+					supplier   	"Logical View::Idf::model::ListaConectores"
+					quidu      	"3E7AD56B032C"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$11"
+					quid       	"3E7AD5E6029F"
+					supplier   	"Logical View::Idf::model::CDiagBase"
+					quidu      	"3E31B22E005D")))
+			    (object Association "$UNNAMED$12"
+				quid       	"3E7AD65D0177"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$13"
+					quid       	"3E7AD65D03D8"
+					supplier   	"Logical View::Idf::model::CBloque"
+					quidu      	"3E33BF8E0232"
+					client_cardinality 	(value cardinality "*")
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$14"
+					quid       	"3E7AD65D03DA"
+					supplier   	"Logical View::Idf::model::ListaBloques"
+					quidu      	"3E7AD56302AF"
+					is_aggregate 	TRUE)))
+			    (object Association "$UNNAMED$15"
+				quid       	"3E7AD6650138"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$16"
+					quid       	"3E7AD66502DE"
+					supplier   	"Logical View::Idf::model::CConect"
+					quidu      	"3E351C5F030D"
+					client_cardinality 	(value cardinality "*")
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$17"
+					quid       	"3E7AD66502E0"
+					supplier   	"Logical View::Idf::model::ListaConectores"
+					quidu      	"3E7AD56B032C"
+					is_aggregate 	TRUE)))
+			    (object Association "$UNNAMED$18"
+				quid       	"3E7EC5D201C5"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$19"
+					quid       	"3E7EC5D2033C"
+					supplier   	"Logical View::Idf::model::CBloqueModo"
+					quidu      	"3E7EC72600EA"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$20"
+					quid       	"3E7EC5D2034B"
+					supplier   	"Logical View::Idf::model::CBloque"
+					quidu      	"3E33BF8E0232"
+					is_navigable 	TRUE
+					is_aggregate 	TRUE)))
+			    (object Association "$UNNAMED$21"
+				quid       	"3E7EC5DE0000"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$22"
+					quid       	"3E7EC5DE0167"
+					supplier   	"Logical View::Idf::model::bdiag::exe::CBloqueDiagExe"
+					quidu      	"3E33C04402EE"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$23"
+					quid       	"3E7EC5DE0169"
+					supplier   	"Logical View::Idf::model::bdiag::CBloqueDiag"
+					quidu      	"3E33C03801F4"
+					is_navigable 	TRUE
+					is_aggregate 	TRUE)))
+			    (object Association "$UNNAMED$24"
+				quid       	"3E7ECD69001F"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$25"
+					quid       	"3E7ECD6901B5"
+					supplier   	"Logical View::Idf::model::dll::des::CBloqueDLLDis"
+					quidu      	"3E33BFB203D8"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$26"
+					quid       	"3E7ECD6901C5"
+					supplier   	"Logical View::Idf::model::dll::CBloqueDLL"
+					quidu      	"3E33BF98031C"
+					is_navigable 	TRUE
+					is_aggregate 	TRUE)))
+			    (object Association "$UNNAMED$27"
+				quid       	"3E7ECD6F00BB"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$28"
+					quid       	"3E7ECD6F0261"
+					supplier   	"Logical View::Idf::model::dll::exe::CBloqueDLLExe"
+					quidu      	"3E33BFA70119"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$29"
+					quid       	"3E7ECD6F0263"
+					supplier   	"Logical View::Idf::model::dll::CBloqueDLL"
+					quidu      	"3E33BF98031C"
+					is_navigable 	TRUE
+					is_aggregate 	TRUE)))
+			    (object Class_Category "bdiag"
+				quid       	"3E7ACFF30000"
+				exportControl 	"Public"
+				logical_models 	(list unit_reference_list
+				    (object Class "CBloqueDiag"
+					quid       	"3E33C03801F4"
+					superclasses 	(list inheritance_relationship_list
+					    (object Inheritance_Relationship
+						quid       	"3E33C05B0119"
+						supplier   	"Logical View::Idf::model::CBloque"
+						quidu      	"3E33BF8E0232"))
+					used_nodes 	(list uses_relationship_list
+					    (object Uses_Relationship
+						quid       	"3E7EDC49029F"
+						supplier   	"Logical View::Idf::model::bdiag::exe::CBloqueDiagExe"
+						quidu      	"3E33C04402EE")
+					    (object Uses_Relationship
+						quid       	"3E7EDC4D0157"
+						supplier   	"Logical View::Idf::model::bdiag::des::CBloqueDiagDis"
+						quidu      	"3E33C063003E")))
+				    (object Class_Category "des"
+					quid       	"3E7ACFFF0138"
+					exportControl 	"Public"
+					logical_models 	(list unit_reference_list
+					    (object Class "CBloqueDiagDis"
+						quid       	"3E33C063003E"
+						superclasses 	(list inheritance_relationship_list
+						    (object Inheritance_Relationship
+							quid       	"3E33C0710177"
+							supplier   	"Logical View::Idf::model::bdiag::CBloqueDiag"
+							quidu      	"3E33C03801F4")
+						    (object Inheritance_Relationship
+							quid       	"3E7EC717038A"
+							supplier   	"Logical View::Idf::model::des::CBloqueDis"
+							quidu      	"3E7EC70B035B"))
+						used_nodes 	(list uses_relationship_list
+						    (object Uses_Relationship
+							quid       	"3E7EDC5B00BB"
+							supplier   	"Logical View::Idf::model::bdiag::CBloqueDiag"
+							quidu      	"3E33C03801F4"))))
+					logical_presentations 	(list unit_reference_list))
+				    (object Class_Category "exe"
+					quid       	"3E7AD006034B"
+					exportControl 	"Public"
+					logical_models 	(list unit_reference_list
+					    (object Class "CBloqueDiagExe"
+						quid       	"3E33C04402EE"
+						superclasses 	(list inheritance_relationship_list
+						    (object Inheritance_Relationship
+							quid       	"3E33C05E037A"
+							supplier   	"Logical View::Idf::model::bdiag::CBloqueDiag"
+							quidu      	"3E33C03801F4")
+						    (object Inheritance_Relationship
+							quid       	"3E7EC6E403A9"
+							supplier   	"Logical View::Idf::model::exe::CBloqueExe"
+							quidu      	"3E7EC6B900CB"))
+						used_nodes 	(list uses_relationship_list
+						    (object Uses_Relationship
+							quid       	"3E7EDC580213"
+							supplier   	"Logical View::Idf::model::bdiag::CBloqueDiag"
+							quidu      	"3E33C03801F4"))))
+					logical_presentations 	(list unit_reference_list)))
+				logical_presentations 	(list unit_reference_list))
+			    (object Class_Category "des"
+				quid       	"3E7AD01A007D"
+				exportControl 	"Public"
+				logical_models 	(list unit_reference_list
+				    (object Class "CConectDis"
+					quid       	"3E351DCE00CB"
+					superclasses 	(list inheritance_relationship_list
+					    (object Inheritance_Relationship
+						quid       	"3E351DE60222"
+						supplier   	"Logical View::Idf::model::CConect"
+						quidu      	"3E351C5F030D")))
+				    (object Class "CDiagDisDoc"
+					quid       	"3E7AD366038A"
+					superclasses 	(list inheritance_relationship_list
+					    (object Inheritance_Relationship
+						quid       	"3E7AD36C030D"
+						supplier   	"Logical View::Idf::model::CBaseDoc"
+						quidu      	"3E31B202030D")))
+				    (object Class "CDiagramaVistasDis"
+					quid       	"3E7ADF0F038A"
+					superclasses 	(list inheritance_relationship_list
+					    (object Inheritance_Relationship
+						quid       	"3E7ADF1702BF"
+						supplier   	"Logical View::Idf::view::CDiagramaVistas"
+						quidu      	"3E7ADA46007D")))
+				    (object Class "CBloqueDis"
+					quid       	"3E7EC70B035B"
+					superclasses 	(list inheritance_relationship_list
+					    (object Inheritance_Relationship
+						quid       	"3E7EC741031C"
+						supplier   	"Logical View::Idf::model::CBloqueModo"
+						quidu      	"3E7EC72600EA"))
+					used_nodes 	(list uses_relationship_list
+					    (object Uses_Relationship
+						quid       	"3E7EDC700232"
+						supplier   	"Logical View::Idf::model::CBloque"
+						quidu      	"3E33BF8E0232"))))
+				logical_presentations 	(list unit_reference_list))
+			    (object Class_Category "exe"
+				quid       	"3E7AD021006D"
+				exportControl 	"Public"
+				logical_models 	(list unit_reference_list
+				    (object Class "CConectExe"
+					quid       	"3E351DC200DA"
+					superclasses 	(list inheritance_relationship_list
+					    (object Inheritance_Relationship
+						quid       	"3E351DE202FD"
+						supplier   	"Logical View::Idf::model::CConect"
+						quidu      	"3E351C5F030D")))
+				    (object Class "CDiagExeBaseDoc"
+					quid       	"3E7AD39E002E"
+					superclasses 	(list inheritance_relationship_list
+					    (object Inheritance_Relationship
+						quid       	"3E7AD3A400CB"
+						supplier   	"Logical View::Idf::model::CBaseDoc"
+						quidu      	"3E31B202030D")))
+				    (object Class "CDiagExeDoc"
+					quid       	"3E7AD3CB035B"
+					superclasses 	(list inheritance_relationship_list
+					    (object Inheritance_Relationship
+						quid       	"3E7AD3D0002E"
+						supplier   	"Logical View::Idf::model::exe::CDiagExeBaseDoc"
+						quidu      	"3E7AD39E002E")))
+				    (object Class "CDiagramaVistasExe"
+					quid       	"3E7ADF250167"
+					superclasses 	(list inheritance_relationship_list
+					    (object Inheritance_Relationship
+						quid       	"3E7ADF2B00EA"
+						supplier   	"Logical View::Idf::view::CDiagramaVistas"
+						quidu      	"3E7ADA46007D")))
+				    (object Class "CBloqueExe"
+					quid       	"3E7EC6B900CB"
+					superclasses 	(list inheritance_relationship_list
+					    (object Inheritance_Relationship
+						quid       	"3E7EC73E031C"
+						supplier   	"Logical View::Idf::model::CBloqueModo"
+						quidu      	"3E7EC72600EA"))
+					used_nodes 	(list uses_relationship_list
+					    (object Uses_Relationship
+						quid       	"3E7EDC6E0148"
+						supplier   	"Logical View::Idf::model::CBloque"
+						quidu      	"3E33BF8E0232"))))
+				logical_presentations 	(list unit_reference_list))
+			    (object Class_Category "dll"
+				quid       	"3E7AD02B0109"
+				exportControl 	"Public"
+				logical_models 	(list unit_reference_list
+				    (object Class "CBloqueDLL"
+					quid       	"3E33BF98031C"
+					superclasses 	(list inheritance_relationship_list
+					    (object Inheritance_Relationship
+						quid       	"3E33BFA20222"
+						supplier   	"Logical View::Idf::model::CBloque"
+						quidu      	"3E33BF8E0232")))
+				    (object Class_Category "des"
+					quid       	"3E7AD0330109"
+					exportControl 	"Public"
+					logical_models 	(list unit_reference_list
+					    (object Class "CBloqueDLLDis"
+						quid       	"3E33BFB203D8"
+						superclasses 	(list inheritance_relationship_list
+						    (object Inheritance_Relationship
+							quid       	"3E33BFDD0186"
+							supplier   	"Logical View::Idf::model::dll::CBloqueDLL"
+							quidu      	"3E33BF98031C")
+						    (object Inheritance_Relationship
+							quid       	"3E7ECDAF01B5"
+							supplier   	"Logical View::Idf::model::des::CBloqueDis"
+							quidu      	"3E7EC70B035B"))
+						used_nodes 	(list uses_relationship_list
+						    (object Uses_Relationship
+							quid       	"3E7EDC62004E"
+							supplier   	"Logical View::Idf::model::dll::CBloqueDLL"
+							quidu      	"3E33BF98031C"))))
+					logical_presentations 	(list unit_reference_list
+					    (object ClassDiagram "Main"
+						quid       	"3E82B6C800EA"
+						title      	"Main"
+						zoom       	100
+						max_height 	28350
+						max_width  	21600
+						origin_x   	0
+						origin_y   	0
+						items      	(list diagram_item_list))))
+				    (object Class_Category "exe"
+					quid       	"3E7AD039009C"
+					exportControl 	"Public"
+					logical_models 	(list unit_reference_list
+					    (object Class "CBloqueDLLExe"
+						quid       	"3E33BFA70119"
+						superclasses 	(list inheritance_relationship_list
+						    (object Inheritance_Relationship
+							quid       	"3E33BFDA03B9"
+							supplier   	"Logical View::Idf::model::dll::CBloqueDLL"
+							quidu      	"3E33BF98031C")
+						    (object Inheritance_Relationship
+							quid       	"3E7ECDA201C5"
+							supplier   	"Logical View::Idf::model::exe::CBloqueExe"
+							quidu      	"3E7EC6B900CB"))
+						used_nodes 	(list uses_relationship_list
+						    (object Uses_Relationship
+							quid       	"3E7EDC5F0186"
+							supplier   	"Logical View::Idf::model::dll::CBloqueDLL"
+							quidu      	"3E33BF98031C"))))
+					logical_presentations 	(list unit_reference_list)))
+				logical_presentations 	(list unit_reference_list)))
+			logical_presentations 	(list unit_reference_list
+			    (object ClassDiagram "Model"
+				quid       	"3E7AD2EA005D"
+				title      	"Model"
+				zoom       	100
+				max_height 	28350
+				max_width  	21600
+				origin_x   	0
+				origin_y   	0
+				items      	(list diagram_item_list
+				    (object ClassView "Class" "Logical View::Idf::model::CBloque" @1
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(1760, 560)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@1
+					    location   	(1668, 514)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	184
+					    justify    	0
+					    label      	"CBloque")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E33BF8E0232"
+					width      	202
+					height     	114
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::model::CBaseDoc" @2
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(240, 304)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@2
+					    location   	(119, 258)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	242
+					    justify    	0
+					    label      	"CBaseDoc")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E31B202030D"
+					width      	260
+					height     	114
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::model::ListaBloques" @3
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(768, 720)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@3
+					    location   	(632, 674)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	272
+					    justify    	0
+					    label      	"ListaBloques")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7AD56302AF"
+					width      	290
+					height     	114
+					annotation 	8
+					autoResize 	TRUE)
+				    (object AssociationViewNew "$UNNAMED$12" @4
+					location   	(1285, 636)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7AD65D0177"
+					roleview_list 	(list RoleViews
+					    (object RoleView "$UNNAMED$13" @5
+						Parent_View 	@4
+						location   	(-155, 124)
+						font       	(object Font
+						    size       	10
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"3E7AD65D03D8"
+						client     	@4
+						supplier   	@1
+						line_style 	0
+						label      	(object SegLabel @6
+						    Parent_View 	@5
+						    location   	(1630, 635)
+						    font       	(object Font
+							size       	10
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    anchor     	2
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	15
+						    justify    	0
+						    label      	"*"
+						    pctDist    	0.900000
+						    height     	54
+						    orientation 	1))
+					    (object RoleView "$UNNAMED$14" @7
+						Parent_View 	@4
+						location   	(-155, 124)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"3E7AD65D03DA"
+						client     	@4
+						supplier   	@3
+						line_style 	0)))
+				    (object ClassView "Class" "Logical View::Idf::model::CDiagBase" @8
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(672, 320)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@8
+					    location   	(549, 274)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	246
+					    justify    	0
+					    label      	"CDiagBase")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E31B22E005D"
+					width      	264
+					height     	114
+					annotation 	8
+					autoResize 	TRUE)
+				    (object AssociationViewNew "$UNNAMED$0" @9
+					location   	(454, 311)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7AD59200DA"
+					roleview_list 	(list RoleViews
+					    (object RoleView "$UNNAMED$1" @10
+						Parent_View 	@9
+						location   	(-186, 39)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"3E7AD5920251"
+						client     	@9
+						supplier   	@8
+						line_style 	0)
+					    (object RoleView "$UNNAMED$2" @11
+						Parent_View 	@9
+						location   	(-186, 39)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"3E7AD5920253"
+						client     	@9
+						supplier   	@2
+						line_style 	0)))
+				    (object AssociationViewNew "$UNNAMED$6" @12
+					location   	(719, 519)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7AD5DD0157"
+					roleview_list 	(list RoleViews
+					    (object RoleView "$UNNAMED$7" @13
+						Parent_View 	@12
+						location   	(-353, 247)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"3E7AD5DD034B"
+						client     	@12
+						supplier   	@3
+						line_style 	0)
+					    (object RoleView "$UNNAMED$8" @14
+						Parent_View 	@12
+						location   	(-353, 247)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"3E7AD5DD034D"
+						client     	@12
+						supplier   	@8
+						line_style 	0)))
+				    (object ClassView "Class" "Logical View::Idf::model::CConect" @15
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(1440, 400)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@15
+					    location   	(1348, 354)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	184
+					    justify    	0
+					    label      	"CConect")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E351C5F030D"
+					width      	202
+					height     	114
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::model::ListaConectores" @16
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(1072, 544)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@16
+					    location   	(914, 498)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	316
+					    justify    	0
+					    label      	"ListaConectores")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7AD56B032C"
+					width      	334
+					height     	114
+					annotation 	8
+					autoResize 	TRUE)
+				    (object AssociationViewNew "$UNNAMED$3" @17
+					location   	(872, 431)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7AD5D300EA"
+					roleview_list 	(list RoleViews
+					    (object RoleView "$UNNAMED$4" @18
+						Parent_View 	@17
+						location   	(-200, 159)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"3E7AD5D3029F"
+						client     	@17
+						supplier   	@16
+						line_style 	0)
+					    (object RoleView "$UNNAMED$5" @19
+						Parent_View 	@17
+						location   	(-200, 159)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"3E7AD5D302A1"
+						client     	@17
+						supplier   	@8
+						line_style 	0)))
+				    (object AssociationViewNew "$UNNAMED$15" @20
+					location   	(1277, 462)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7AD6650138"
+					roleview_list 	(list RoleViews
+					    (object RoleView "$UNNAMED$16" @21
+						Parent_View 	@20
+						location   	(-195, 270)
+						font       	(object Font
+						    size       	10
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"3E7AD66502DE"
+						client     	@20
+						supplier   	@15
+						line_style 	0
+						label      	(object SegLabel @22
+						    Parent_View 	@21
+						    location   	(1350, 493)
+						    font       	(object Font
+							size       	10
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    anchor     	2
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	15
+						    justify    	0
+						    label      	"*"
+						    pctDist    	0.900000
+						    height     	54
+						    orientation 	1))
+					    (object RoleView "$UNNAMED$17" @23
+						Parent_View 	@20
+						location   	(-195, 270)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"3E7AD66502E0"
+						client     	@20
+						supplier   	@16
+						line_style 	0)))
+				    (object ClassView "Class" "Logical View::Idf::model::ListaGestor" @24
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(1008, 160)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@24
+					    location   	(886, 114)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	244
+					    justify    	0
+					    label      	"ListaGestor")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7AD57900BB"
+					width      	262
+					height     	114
+					annotation 	8
+					autoResize 	TRUE)
+				    (object InheritView "" @25
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7AD6BD0157"
+					client     	@3
+					supplier   	@24
+					line_style 	0)
+				    (object InheritView "" @26
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7AD6BF0242"
+					client     	@16
+					supplier   	@24
+					line_style 	0)
+				    (object ClassView "Class" "Logical View::Idf::model::CComponenteDiag" @27
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(1584, 176)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@27
+					    location   	(1390, 130)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	388
+					    justify    	0
+					    label      	"CComponenteDiag")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7AD51E0203"
+					width      	406
+					height     	114
+					annotation 	8
+					autoResize 	TRUE)
+				    (object InheritView "" @28
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7AD6DF0213"
+					client     	@15
+					supplier   	@27
+					line_style 	0)
+				    (object InheritView "" @29
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7AD6E200CB"
+					client     	@1
+					supplier   	@27
+					line_style 	0)))
+			    (object ClassDiagram "Document"
+				quid       	"3E7AD772029F"
+				title      	"Document"
+				zoom       	100
+				max_height 	28350
+				max_width  	21600
+				origin_x   	0
+				origin_y   	28
+				items      	(list diagram_item_list
+				    (object ClassView "Class" "Logical View::Idf::model::des::CDiagDisDoc" @30
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(256, 720)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@30
+					    location   	(117, 651)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	278
+					    justify    	0
+					    label      	"CDiagDisDoc")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7AD366038A"
+					width      	296
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::model::exe::CDiagExeBaseDoc" @31
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(848, 720)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@31
+					    location   	(658, 651)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	380
+					    justify    	0
+					    label      	"CDiagExeBaseDoc")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7AD39E002E"
+					width      	398
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::model::exe::CDiagExeDoc" @32
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(848, 992)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@32
+					    location   	(705, 923)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	286
+					    justify    	0
+					    label      	"CDiagExeDoc")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7AD3CB035B"
+					width      	304
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::model::CBaseDoc" @33
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(592, 480)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@33
+					    location   	(471, 434)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	242
+					    justify    	0
+					    label      	"CBaseDoc")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E31B202030D"
+					width      	260
+					height     	114
+					annotation 	8
+					autoResize 	TRUE)
+				    (object InheritView "" @34
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7AD3D0002E"
+					client     	@32
+					supplier   	@31
+					line_style 	0)
+				    (object InheritView "" @35
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7AD36C030D"
+					client     	@30
+					supplier   	@33
+					line_style 	0)
+				    (object InheritView "" @36
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7AD3A400CB"
+					client     	@31
+					supplier   	@33
+					line_style 	0)
+				    (object ClassView "Class" "Logical View::mfc::COleServerDoc" @37
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(592, 208)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@37
+					    location   	(439, 139)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	306
+					    justify    	0
+					    label      	"COleServerDoc")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E31B1F30261"
+					width      	324
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object InheritView "" @38
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E31B21802DE"
+					client     	@33
+					supplier   	@37
+					line_style 	0)))
+			    (object ClassDiagram "Bloque"
+				quid       	"3E7AD7B601C5"
+				title      	"Bloque"
+				zoom       	100
+				max_height 	28350
+				max_width  	21600
+				origin_x   	110
+				origin_y   	35
+				items      	(list diagram_item_list
+				    (object ClassView "Class" "Logical View::Idf::model::CComponenteDiag" @39
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(752, 272)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@39
+					    location   	(558, 226)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	388
+					    justify    	0
+					    label      	"CComponenteDiag")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7AD51E0203"
+					width      	406
+					height     	114
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::model::bdiag::des::CBloqueDiagDis" @40
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(1648, 1216)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@40
+					    location   	(1476, 1147)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	344
+					    justify    	0
+					    label      	"CBloqueDiagDis")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E33C063003E"
+					width      	362
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::model::bdiag::CBloqueDiag" @41
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(784, 608)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@41
+					    location   	(647, 539)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	274
+					    justify    	0
+					    label      	"CBloqueDiag")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E33C03801F4"
+					width      	292
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::model::bdiag::exe::CBloqueDiagExe" @42
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(640, 1312)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@42
+					    location   	(467, 1243)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	346
+					    justify    	0
+					    label      	"CBloqueDiagExe")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E33C04402EE"
+					width      	364
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::model::exe::CBloqueExe" @43
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(976, 992)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@43
+					    location   	(845, 923)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	262
+					    justify    	0
+					    label      	"CBloqueExe")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7EC6B900CB"
+					width      	280
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object InheritView "" @44
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7EC6E403A9"
+					client     	@42
+					supplier   	@43
+					line_style 	0)
+				    (object ClassView "Class" "Logical View::Idf::model::des::CBloqueDis" @45
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(1744, 912)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@45
+					    location   	(1619, 843)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	250
+					    justify    	0
+					    label      	"CBloqueDis")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7EC70B035B"
+					width      	268
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object InheritView "" @46
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7EC717038A"
+					client     	@40
+					supplier   	@45
+					line_style 	0)
+				    (object ClassView "Class" "Logical View::Idf::model::dll::des::CBloqueDLLDis" @47
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(2176, 1216)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@47
+					    location   	(2016, 1147)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	320
+					    justify    	0
+					    label      	"CBloqueDLLDis")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E33BFB203D8"
+					width      	338
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::model::dll::CBloqueDLL" @48
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(1792, 624)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@48
+					    location   	(1661, 555)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	262
+					    justify    	0
+					    label      	"CBloqueDLL")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E33BF98031C"
+					width      	280
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::model::dll::exe::CBloqueDLLExe" @49
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(1184, 1312)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@49
+					    location   	(1022, 1243)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	324
+					    justify    	0
+					    label      	"CBloqueDLLExe")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E33BFA70119"
+					width      	342
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object InheritView "" @50
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7ECDA201C5"
+					client     	@49
+					supplier   	@43
+					line_style 	0)
+				    (object InheritView "" @51
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7ECDAF01B5"
+					client     	@47
+					supplier   	@45
+					line_style 	0)
+				    (object ClassView "Class" "Logical View::Idf::model::CBloqueModo" @52
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(1296, 704)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@52
+					    location   	(1208, 636)
+					    fill_color 	13434879
+					    nlines     	2
+					    max_width  	176
+					    justify    	0
+					    label      	"CBloqueModo")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7EC72600EA"
+					width      	194
+					height     	158
+					annotation 	8
+					autoResize 	TRUE)
+				    (object InheritView "" @53
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7EC73E031C"
+					client     	@43
+					supplier   	@52
+					line_style 	0)
+				    (object InheritView "" @54
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7EC741031C"
+					client     	@45
+					supplier   	@52
+					line_style 	0)
+				    (object ClassView "Class" "Logical View::Idf::model::CBloque" @55
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(1200, 400)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@55
+					    location   	(1108, 354)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	184
+					    justify    	0
+					    label      	"CBloque")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E33BF8E0232"
+					width      	202
+					height     	114
+					annotation 	8
+					autoResize 	TRUE)
+				    (object InheritView "" @56
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E33C05B0119"
+					client     	@41
+					supplier   	@55
+					line_style 	0)
+				    (object InheritView "" @57
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E33BFA20222"
+					client     	@48
+					supplier   	@55
+					line_style 	0)
+				    (object InheritView "" @58
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7AD6E200CB"
+					client     	@55
+					supplier   	@39
+					line_style 	0)
+				    (object AssociationViewNew "$UNNAMED$18" @59
+					location   	(1244, 540)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7EC5D201C5"
+					roleview_list 	(list RoleViews
+					    (object RoleView "$UNNAMED$19" @60
+						Parent_View 	@59
+						location   	(908, -20)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"3E7EC5D2033C"
+						client     	@59
+						supplier   	@52
+						line_style 	0)
+					    (object RoleView "$UNNAMED$20" @61
+						Parent_View 	@59
+						location   	(908, -20)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"3E7EC5D2034B"
+						client     	@59
+						supplier   	@55
+						line_style 	0)))
+				    (object UsesView "" @62
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7EDC580213"
+					client     	@42
+					supplier   	@41
+					line_style 	0)
+				    (object UsesView "" @63
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7EDC5B00BB"
+					client     	@40
+					supplier   	@41
+					line_style 	0)
+				    (object UsesView "" @64
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7EDC5F0186"
+					client     	@49
+					supplier   	@48
+					line_style 	0)
+				    (object UsesView "" @65
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7EDC62004E"
+					client     	@47
+					supplier   	@48
+					line_style 	0)
+				    (object UsesView "" @66
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7EDC6E0148"
+					client     	@43
+					supplier   	@55
+					line_style 	0)
+				    (object UsesView "" @67
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7EDC700232"
+					client     	@45
+					supplier   	@55
+					line_style 	0)))
+			    (object ClassDiagram "Conector"
+				quid       	"3E7F3F730128"
+				title      	"Conector"
+				zoom       	100
+				max_height 	28350
+				max_width  	21600
+				origin_x   	0
+				origin_y   	0
+				items      	(list diagram_item_list
+				    (object ClassView "Class" "Logical View::Idf::model::CConect" @68
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(624, 320)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@68
+					    location   	(532, 274)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	184
+					    justify    	0
+					    label      	"CConect")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E351C5F030D"
+					width      	202
+					height     	114
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::model::exe::CConectExe" @69
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(368, 576)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@69
+					    location   	(239, 507)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	258
+					    justify    	0
+					    label      	"CConectExe")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E351DC200DA"
+					width      	276
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object InheritView "" @70
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E351DE202FD"
+					client     	@69
+					supplier   	@68
+					line_style 	0)
+				    (object ClassView "Class" "Logical View::Idf::model::des::CConectDis" @71
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(880, 592)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@71
+					    location   	(757, 523)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	246
+					    justify    	0
+					    label      	"CConectDis")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E351DCE00CB"
+					width      	264
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object InheritView "" @72
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E351DE60222"
+					client     	@71
+					supplier   	@68
+					line_style 	0)))))
+		    (object Class_Category "util"
+			quid       	"3E7ACFD300BB"
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list)
+			logical_presentations 	(list unit_reference_list))
+		    (object Class_Category "view"
+			quid       	"3E7ACFDC01D4"
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list
+			    (object Class "CBaseView"
+				quid       	"3E7AD8E40213"
+				superclasses 	(list inheritance_relationship_list
+				    (object Inheritance_Relationship
+					quid       	"3E7AD95003D8"
+					supplier   	"Logical View::mfc::CScrollView"
+					quidu      	"3E7AD943032C")))
+			    (object Class "CBloqueVistas"
+				quid       	"3E7ADA350109")
+			    (object Class "CDiagramaVistas"
+				quid       	"3E7ADA46007D")
+			    (object Class "CDibBloque"
+				quid       	"3E7ADBC00128")
+			    (object Class "CDibDiagrama"
+				quid       	"3E7ADF6302FD")
+			    (object Class "CBloqueVistasModo"
+				quid       	"3E7F45FB0177")
+			    (object Association "$UNNAMED$30"
+				quid       	"3E7ADA730232"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$31"
+					quid       	"3E7ADA740109"
+					supplier   	"Logical View::Idf::view::CBloqueVistas"
+					quidu      	"3E7ADA350109"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$32"
+					quid       	"3E7ADA74010B"
+					supplier   	"Logical View::Idf::model::CBloque"
+					quidu      	"3E33BF8E0232"
+					is_navigable 	TRUE
+					is_aggregate 	TRUE)))
+			    (object Association "$UNNAMED$33"
+				quid       	"3E7ADBC60128"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$34"
+					quid       	"3E7ADBC602AF"
+					supplier   	"Logical View::Idf::view::CDibBloque"
+					quidu      	"3E7ADBC00128"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$35"
+					quid       	"3E7ADBC602BF"
+					supplier   	"Logical View::Idf::view::CBloqueVistas"
+					quidu      	"3E7ADA350109"
+					is_navigable 	TRUE
+					is_aggregate 	TRUE)))
+			    (object Association "$UNNAMED$36"
+				quid       	"3E7ADEE80251"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$37"
+					quid       	"3E7ADEE803A9"
+					supplier   	"Logical View::Idf::view::CDiagramaVistas"
+					quidu      	"3E7ADA46007D"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$38"
+					quid       	"3E7ADEE803B9"
+					supplier   	"Logical View::Idf::model::CDiagBase"
+					quidu      	"3E31B22E005D"
+					is_navigable 	TRUE
+					is_aggregate 	TRUE)))
+			    (object Association "$UNNAMED$39"
+				quid       	"3E7ADF6D006D"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$40"
+					quid       	"3E7ADF6D01F4"
+					supplier   	"Logical View::Idf::view::CDibDiagrama"
+					quidu      	"3E7ADF6302FD"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$41"
+					quid       	"3E7ADF6D01F6"
+					supplier   	"Logical View::Idf::view::CDiagramaVistas"
+					quidu      	"3E7ADA46007D"
+					is_navigable 	TRUE
+					is_aggregate 	TRUE)))
+			    (object Association "$UNNAMED$42"
+				quid       	"3E7F45B102AF"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$43"
+					quid       	"3E7F45B200DA"
+					supplier   	"Logical View::Idf::view::CBloqueVistasModo"
+					quidu      	"3E7F45FB0177"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$44"
+					quid       	"3E7F45B200EB"
+					supplier   	"Logical View::Idf::view::CBloqueVistas"
+					quidu      	"3E7ADA350109"
+					is_navigable 	TRUE
+					is_aggregate 	TRUE)))
+			    (object Association "$UNNAMED$45"
+				quid       	"3E7F45BB001F"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$46"
+					quid       	"3E7F45BB01B5"
+					supplier   	"Logical View::Idf::view::bdiag::des::CBloqueDiagVistasDis"
+					quidu      	"3E7ADA9800CB"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$47"
+					quid       	"3E7F45BB01C5"
+					supplier   	"Logical View::Idf::view::bdiag::CBloqueDiagVistas"
+					quidu      	"3E7ADA5D0261"
+					is_navigable 	TRUE
+					is_aggregate 	TRUE)))
+			    (object Class_Category "bdiag"
+				quid       	"3E7AD06000FA"
+				exportControl 	"Public"
+				logical_models 	(list unit_reference_list
+				    (object Class "CBloqueDiagVistas"
+					quid       	"3E7ADA5D0261"
+					superclasses 	(list inheritance_relationship_list
+					    (object Inheritance_Relationship
+						quid       	"3E7ADA70009C"
+						supplier   	"Logical View::Idf::view::CBloqueVistas"
+						quidu      	"3E7ADA350109")))
+				    (object Class_Category "des"
+					quid       	"3E7AD06900AB"
+					exportControl 	"Public"
+					logical_models 	(list unit_reference_list
+					    (object Class "CBloqueDiagVistasDis"
+						quid       	"3E7ADA9800CB"
+						superclasses 	(list inheritance_relationship_list
+						    (object Inheritance_Relationship
+							quid       	"3E7ADAC201F4"
+							supplier   	"Logical View::Idf::view::bdiag::CBloqueDiagVistas"
+							quidu      	"3E7ADA5D0261")
+						    (object Inheritance_Relationship
+							quid       	"3E7F466400AB"
+							supplier   	"Logical View::Idf::view::des::CBloqueVistasDis"
+							quidu      	"3E7F4594003E"))
+						used_nodes 	(list uses_relationship_list
+						    (object Uses_Relationship
+							quid       	"3E7F4699035B"
+							supplier   	"Logical View::Idf::view::bdiag::CBloqueDiagVistas"
+							quidu      	"3E7ADA5D0261"))))
+					logical_presentations 	(list unit_reference_list))
+				    (object Class_Category "exe"
+					quid       	"3E7AD074008C"
+					exportControl 	"Public"
+					logical_models 	(list unit_reference_list
+					    (object Class "CBloqueDiagVistasExe"
+						quid       	"3E7ADAA40242"
+						superclasses 	(list inheritance_relationship_list
+						    (object Inheritance_Relationship
+							quid       	"3E7ADAAF033C"
+							supplier   	"Logical View::Idf::view::bdiag::CBloqueDiagVistas"
+							quidu      	"3E7ADA5D0261")
+						    (object Inheritance_Relationship
+							quid       	"3E7F45DD01E4"
+							supplier   	"Logical View::Idf::view::exe::CBloqueVistasExe"
+							quidu      	"3E7F458102DE"))
+						used_nodes 	(list uses_relationship_list
+						    (object Uses_Relationship
+							quid       	"3E7F469D0232"
+							supplier   	"Logical View::Idf::view::bdiag::CBloqueDiagVistas"
+							quidu      	"3E7ADA5D0261"))))
+					logical_presentations 	(list unit_reference_list)))
+				logical_presentations 	(list unit_reference_list))
+			    (object Class_Category "des"
+				quid       	"3E7AD07D00BB"
+				exportControl 	"Public"
+				logical_models 	(list unit_reference_list
+				    (object Class "CDiagDisView"
+					quid       	"3E7AD96E003E"
+					superclasses 	(list inheritance_relationship_list
+					    (object Inheritance_Relationship
+						quid       	"3E7AD98D0138"
+						supplier   	"Logical View::Idf::view::CBaseView"
+						quidu      	"3E7AD8E40213")))
+				    (object Class "CDibBloqueDis"
+					quid       	"3E7ADBDB031C"
+					superclasses 	(list inheritance_relationship_list
+					    (object Inheritance_Relationship
+						quid       	"3E7ADBE60138"
+						supplier   	"Logical View::Idf::view::CDibBloque"
+						quidu      	"3E7ADBC00128")))
+				    (object Class "CDibDiagramaDis"
+					quid       	"3E7ADF7B038A"
+					superclasses 	(list inheritance_relationship_list
+					    (object Inheritance_Relationship
+						quid       	"3E7ADF8B004E"
+						supplier   	"Logical View::Idf::view::CDibDiagrama"
+						quidu      	"3E7ADF6302FD")))
+				    (object Class "CBloqueVistasDis"
+					quid       	"3E7F4594003E"
+					superclasses 	(list inheritance_relationship_list
+					    (object Inheritance_Relationship
+						quid       	"3E7F465D00EA"
+						supplier   	"Logical View::Idf::view::CBloqueVistasModo"
+						quidu      	"3E7F45FB0177"))))
+				logical_presentations 	(list unit_reference_list))
+			    (object Class_Category "exe"
+				quid       	"3E7AD083032C"
+				exportControl 	"Public"
+				logical_models 	(list unit_reference_list
+				    (object Class "CDiagExeView"
+					quid       	"3E7AD9800138"
+					superclasses 	(list inheritance_relationship_list
+					    (object Inheritance_Relationship
+						quid       	"3E7AD98F0196"
+						supplier   	"Logical View::Idf::view::CBaseView"
+						quidu      	"3E7AD8E40213")))
+				    (object Class "CDibDiagramaExe"
+					quid       	"3E7ADF9301F4"
+					superclasses 	(list inheritance_relationship_list
+					    (object Inheritance_Relationship
+						quid       	"3E7ADF9B0290"
+						supplier   	"Logical View::Idf::view::CDibDiagrama"
+						quidu      	"3E7ADF6302FD")))
+				    (object Class "CBloqueVistasExe"
+					quid       	"3E7F458102DE"
+					superclasses 	(list inheritance_relationship_list
+					    (object Inheritance_Relationship
+						quid       	"3E7F4607034B"
+						supplier   	"Logical View::Idf::view::CBloqueVistasModo"
+						quidu      	"3E7F45FB0177")))
+				    (object Class "CDibBloqueExe"
+					quid       	"3E82A8DD0109"
+					superclasses 	(list inheritance_relationship_list
+					    (object Inheritance_Relationship
+						quid       	"3E82A8E5030D"
+						supplier   	"Logical View::Idf::view::CDibBloque"
+						quidu      	"3E7ADBC00128"))))
+				logical_presentations 	(list unit_reference_list))
+			    (object Class_Category "dll"
+				quid       	"3E7AD08A03B9"
+				exportControl 	"Public"
+				logical_models 	(list unit_reference_list
+				    (object Class "CBloqueDLLVistas"
+					quid       	"3E7ADADA032C"
+					superclasses 	(list inheritance_relationship_list
+					    (object Inheritance_Relationship
+						quid       	"3E7ADAE10203"
+						supplier   	"Logical View::Idf::view::CBloqueVistas"
+						quidu      	"3E7ADA350109")))
+				    (object Class_Category "des"
+					quid       	"3E7AD0A0036B"
+					exportControl 	"Public"
+					logical_models 	(list unit_reference_list
+					    (object Class "CBloqueDLLVistasDis"
+						quid       	"3E7ADAF203A9"
+						superclasses 	(list inheritance_relationship_list
+						    (object Inheritance_Relationship
+							quid       	"3E7ADB0A031C"
+							supplier   	"Logical View::Idf::view::dll::CBloqueDLLVistas"
+							quidu      	"3E7ADADA032C")
+						    (object Inheritance_Relationship
+							quid       	"3E7F467503B9"
+							supplier   	"Logical View::Idf::view::des::CBloqueVistasDis"
+							quidu      	"3E7F4594003E"))
+						used_nodes 	(list uses_relationship_list
+						    (object Uses_Relationship
+							quid       	"3E7F49BD0157"
+							supplier   	"Logical View::Idf::view::dll::CBloqueDLLVistas"
+							quidu      	"3E7ADADA032C"))))
+					logical_presentations 	(list unit_reference_list))
+				    (object Class_Category "exe"
+					quid       	"3E7AD0AF008C"
+					exportControl 	"Public"
+					logical_models 	(list unit_reference_list
+					    (object Class "CBloqueDLLVistasExe"
+						quid       	"3E7ADB02038A"
+						superclasses 	(list inheritance_relationship_list
+						    (object Inheritance_Relationship
+							quid       	"3E7ADB0C02AF"
+							supplier   	"Logical View::Idf::view::dll::CBloqueDLLVistas"
+							quidu      	"3E7ADADA032C")
+						    (object Inheritance_Relationship
+							quid       	"3E7F468A0203"
+							supplier   	"Logical View::Idf::view::exe::CBloqueVistasExe"
+							quidu      	"3E7F458102DE"))
+						used_nodes 	(list uses_relationship_list
+						    (object Uses_Relationship
+							quid       	"3E7F49BF0148"
+							supplier   	"Logical View::Idf::view::dll::CBloqueDLLVistas"
+							quidu      	"3E7ADADA032C"))))
+					logical_presentations 	(list unit_reference_list)))
+				logical_presentations 	(list unit_reference_list)))
+			logical_presentations 	(list unit_reference_list
+			    (object ClassDiagram "View"
+				quid       	"3E7AD8C3001F"
+				title      	"View"
+				zoom       	100
+				max_height 	28350
+				max_width  	21600
+				origin_x   	0
+				origin_y   	0
+				items      	(list diagram_item_list
+				    (object ClassView "Class" "Logical View::Idf::view::CBaseView" @73
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(640, 416)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@73
+					    location   	(517, 370)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	246
+					    justify    	0
+					    label      	"CBaseView")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7AD8E40213"
+					width      	264
+					height     	114
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::mfc::CScrollView" @74
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(640, 160)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@74
+					    location   	(513, 91)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	254
+					    justify    	0
+					    label      	"CScrollView")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7AD943032C"
+					width      	272
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object InheritView "" @75
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7AD95003D8"
+					client     	@73
+					supplier   	@74
+					line_style 	0)
+				    (object ClassView "Class" "Logical View::Idf::view::des::CDiagDisView" @76
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(400, 688)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@76
+					    location   	(254, 619)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	292
+					    justify    	0
+					    label      	"CDiagDisView")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7AD96E003E"
+					width      	310
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::view::exe::CDiagExeView" @77
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(832, 688)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@77
+					    location   	(682, 619)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	300
+					    justify    	0
+					    label      	"CDiagExeView")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7AD9800138"
+					width      	318
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object InheritView "" @78
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7AD98D0138"
+					client     	@76
+					supplier   	@73
+					line_style 	0)
+				    (object InheritView "" @79
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7AD98F0196"
+					client     	@77
+					supplier   	@73
+					line_style 	0)))
+			    (object ClassDiagram "Bloque"
+				quid       	"3E7AD9EA0251"
+				title      	"Bloque"
+				zoom       	95
+				max_height 	28350
+				max_width  	21600
+				origin_x   	0
+				origin_y   	700
+				items      	(list diagram_item_list
+				    (object ClassView "Class" "Logical View::Idf::view::dll::CBloqueDLLVistas" @80
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(2032, 592)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@80
+					    location   	(1843, 523)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	378
+					    justify    	0
+					    label      	"CBloqueDLLVistas")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7ADADA032C"
+					width      	396
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::view::dll::des::CBloqueDLLVistasDis" @81
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(1840, 1200)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@81
+					    location   	(1621, 1131)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	438
+					    justify    	0
+					    label      	"CBloqueDLLVistasDis")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7ADAF203A9"
+					width      	456
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::view::dll::exe::CBloqueDLLVistasExe" @82
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(2464, 1136)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@82
+					    location   	(2239, 1067)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	450
+					    justify    	0
+					    label      	"CBloqueDLLVistasExe")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7ADB02038A"
+					width      	468
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::view::des::CDibBloqueDis" @83
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(2240, 368)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@83
+					    location   	(2079, 299)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	322
+					    justify    	0
+					    label      	"CDibBloqueDis")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7ADBDB031C"
+					width      	340
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::view::exe::CBloqueVistasExe" @84
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(1376, 784)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@84
+					    location   	(1197, 715)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	358
+					    justify    	0
+					    label      	"CBloqueVistasExe")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7F458102DE"
+					width      	376
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::view::bdiag::exe::CBloqueDiagVistasExe" @85
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(1104, 1216)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@85
+					    location   	(877, 1147)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	454
+					    justify    	0
+					    label      	"CBloqueDiagVistasExe")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7ADAA40242"
+					width      	472
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::view::bdiag::CBloqueDiagVistas" @86
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(304, 736)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@86
+					    location   	(111, 667)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	386
+					    justify    	0
+					    label      	"CBloqueDiagVistas")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7ADA5D0261"
+					width      	404
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::view::bdiag::des::CBloqueDiagVistasDis" @87
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(448, 1216)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@87
+					    location   	(227, 1147)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	442
+					    justify    	0
+					    label      	"CBloqueDiagVistasDis")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7ADA9800CB"
+					width      	460
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object InheritView "" @88
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7F45DD01E4"
+					client     	@85
+					supplier   	@84
+					line_style 	0)
+				    (object ClassView "Class" "Logical View::Idf::view::des::CBloqueVistasDis" @89
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(832, 784)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@89
+					    location   	(653, 714)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	358
+					    justify    	0
+					    label      	"CBloqueVistasDis")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7F4594003E"
+					width      	376
+					height     	162
+					annotation 	8
+					autoResize 	TRUE)
+				    (object InheritView "" @90
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7F466400AB"
+					client     	@87
+					supplier   	@89
+					line_style 	0)
+				    (object InheritView "" @91
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7F467503B9"
+					client     	@81
+					supplier   	@89
+					line_style 	0)
+				    (object ClassView "Class" "Logical View::Idf::model::CBloque" @92
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(320, 272)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@92
+					    location   	(228, 203)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	184
+					    justify    	0
+					    label      	"CBloque")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E33BF8E0232"
+					width      	202
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::view::CDibBloque" @93
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(2000, 144)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@93
+					    location   	(1876, 98)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	248
+					    justify    	0
+					    label      	"CDibBloque")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7ADBC00128"
+					width      	266
+					height     	114
+					annotation 	8
+					autoResize 	TRUE)
+				    (object InheritView "" @94
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7ADBE60138"
+					client     	@83
+					supplier   	@93
+					line_style 	0)
+				    (object ClassView "Class" "Logical View::Idf::view::CBloqueVistasModo" @95
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(1008, 496)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@95
+					    location   	(809, 450)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	398
+					    justify    	0
+					    label      	"CBloqueVistasModo")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7F45FB0177"
+					width      	416
+					height     	114
+					annotation 	8
+					autoResize 	TRUE)
+				    (object InheritView "" @96
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7F4607034B"
+					client     	@84
+					supplier   	@95
+					line_style 	0)
+				    (object InheritView "" @97
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7F465D00EA"
+					client     	@89
+					supplier   	@95
+					line_style 	0)
+				    (object ClassView "Class" "Logical View::Idf::view::CBloqueVistas" @98
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(864, 240)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@98
+					    location   	(719, 194)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	290
+					    justify    	0
+					    label      	"CBloqueVistas")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7ADA350109"
+					width      	308
+					height     	114
+					annotation 	8
+					autoResize 	TRUE)
+				    (object InheritView "" @99
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7ADA70009C"
+					client     	@86
+					supplier   	@98
+					line_style 	0)
+				    (object AssociationViewNew "$UNNAMED$30" @100
+					location   	(565, 257)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7ADA730232"
+					roleview_list 	(list RoleViews
+					    (object RoleView "$UNNAMED$31" @101
+						Parent_View 	@100
+						location   	(245, -15)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"3E7ADA740109"
+						client     	@100
+						supplier   	@98
+						line_style 	0)
+					    (object RoleView "$UNNAMED$32" @102
+						Parent_View 	@100
+						location   	(245, -15)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"3E7ADA74010B"
+						client     	@100
+						supplier   	@92
+						line_style 	0)))
+				    (object InheritView "" @103
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7ADAE10203"
+					client     	@80
+					supplier   	@98
+					line_style 	0)
+				    (object AssociationViewNew "$UNNAMED$33" @104
+					location   	(1442, 190)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7ADBC60128"
+					roleview_list 	(list RoleViews
+					    (object RoleView "$UNNAMED$34" @105
+						Parent_View 	@104
+						location   	(418, -98)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"3E7ADBC602AF"
+						client     	@104
+						supplier   	@93
+						line_style 	0)
+					    (object RoleView "$UNNAMED$35" @106
+						Parent_View 	@104
+						location   	(418, -98)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"3E7ADBC602BF"
+						client     	@104
+						supplier   	@98
+						line_style 	0)))
+				    (object AssociationViewNew "$UNNAMED$42" @107
+					location   	(935, 367)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7F45B102AF"
+					roleview_list 	(list RoleViews
+					    (object RoleView "$UNNAMED$43" @108
+						Parent_View 	@107
+						location   	(519, -193)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"3E7F45B200DA"
+						client     	@107
+						supplier   	@95
+						line_style 	0)
+					    (object RoleView "$UNNAMED$44" @109
+						Parent_View 	@107
+						location   	(519, -193)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"3E7F45B200EB"
+						client     	@107
+						supplier   	@98
+						line_style 	0)))
+				    (object InheritView "" @110
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7F468A0203"
+					client     	@82
+					supplier   	@84
+					line_style 	0)
+				    (object UsesView "" @111
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7F4699035B"
+					client     	@87
+					supplier   	@86
+					line_style 	0)
+				    (object UsesView "" @112
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7F469D0232"
+					client     	@85
+					supplier   	@86
+					line_style 	0)
+				    (object UsesView "" @113
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7F49BD0157"
+					client     	@81
+					supplier   	@80
+					line_style 	0)
+				    (object UsesView "" @114
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7F49BF0148"
+					client     	@82
+					supplier   	@80
+					line_style 	0)
+				    (object ClassView "Class" "Logical View::Idf::view::exe::CDibBloqueExe" @115
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(1728, 368)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@115
+					    location   	(1565, 298)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	326
+					    justify    	0
+					    label      	"CDibBloqueExe")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E82A8DD0109"
+					width      	344
+					height     	162
+					annotation 	8
+					autoResize 	TRUE)
+				    (object InheritView "" @116
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E82A8E5030D"
+					client     	@115
+					supplier   	@93
+					line_style 	0)))
+			    (object ClassDiagram "Diagrama"
+				quid       	"3E7ADC300148"
+				title      	"Diagrama"
+				zoom       	100
+				max_height 	28350
+				max_width  	21600
+				origin_x   	0
+				origin_y   	0
+				items      	(list diagram_item_list
+				    (object ClassView "Class" "Logical View::Idf::model::des::CDiagramaVistasDis" @117
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(496, 528)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@117
+					    location   	(291, 459)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	410
+					    justify    	0
+					    label      	"CDiagramaVistasDis")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7ADF0F038A"
+					width      	428
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::model::exe::CDiagramaVistasExe" @118
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(720, 752)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@118
+					    location   	(509, 683)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	422
+					    justify    	0
+					    label      	"CDiagramaVistasExe")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7ADF250167"
+					width      	440
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::model::CDiagBase" @119
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(288, 208)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@119
+					    location   	(165, 139)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	246
+					    justify    	0
+					    label      	"CDiagBase")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E31B22E005D"
+					width      	264
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::view::CDibDiagrama" @120
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(1344, 224)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@120
+					    location   	(1191, 178)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	306
+					    justify    	0
+					    label      	"CDibDiagrama")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7ADF6302FD"
+					width      	324
+					height     	114
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Idf::view::CDiagramaVistas" @121
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(784, 208)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@121
+					    location   	(610, 162)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	348
+					    justify    	0
+					    label      	"CDiagramaVistas")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7ADA46007D"
+					width      	366
+					height     	114
+					annotation 	8
+					autoResize 	TRUE)
+				    (object AssociationViewNew "$UNNAMED$36" @122
+					location   	(510, 208)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7ADEE80251"
+					roleview_list 	(list RoleViews
+					    (object RoleView "$UNNAMED$37" @123
+						Parent_View 	@122
+						location   	(222, 0)
+						font       	(object Font
+						    size       	10
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"3E7ADEE803A9"
+						client     	@122
+						supplier   	@121
+						line_style 	0)
+					    (object RoleView "$UNNAMED$38" @124
+						Parent_View 	@122
+						location   	(222, 0)
+						font       	(object Font
+						    size       	10
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"3E7ADEE803B9"
+						client     	@122
+						supplier   	@119
+						line_style 	0)))
+				    (object InheritView "" @125
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7ADF1702BF"
+					client     	@117
+					supplier   	@121
+					line_style 	0)
+				    (object InheritView "" @126
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7ADF2B00EA"
+					client     	@118
+					supplier   	@121
+					line_style 	0)
+				    (object AssociationViewNew "$UNNAMED$39" @127
+					location   	(1074, 216)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7ADF6D006D"
+					roleview_list 	(list RoleViews
+					    (object RoleView "$UNNAMED$40" @128
+						Parent_View 	@127
+						location   	(290, 8)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"3E7ADF6D01F4"
+						client     	@127
+						supplier   	@120
+						line_style 	0)
+					    (object RoleView "$UNNAMED$41" @129
+						Parent_View 	@127
+						location   	(290, 8)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"3E7ADF6D01F6"
+						client     	@127
+						supplier   	@121
+						line_style 	0)))
+				    (object ClassView "Class" "Logical View::Idf::view::des::CDibDiagramaDis" @130
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(1232, 544)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@130
+					    location   	(1045, 475)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	374
+					    justify    	0
+					    label      	"CDibDiagramaDis")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7ADF7B038A"
+					width      	392
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object InheritView "" @131
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7ADF8B004E"
+					client     	@130
+					supplier   	@120
+					line_style 	0)
+				    (object ClassView "Class" "Logical View::Idf::view::exe::CDibDiagramaExe" @132
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(1616, 720)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@132
+					    location   	(1434, 651)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	364
+					    justify    	0
+					    label      	"CDibDiagramaExe")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"3E7ADF9301F4"
+					width      	382
+					height     	160
+					annotation 	8
+					autoResize 	TRUE)
+				    (object InheritView "" @133
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"3E7ADF9B0290"
+					client     	@132
+					supplier   	@120
+					line_style 	0)))))
+		    (object Class_Category "xmlutil"
+			quid       	"3E7ACFE501C5"
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list)
+			logical_presentations 	(list unit_reference_list)))
+		logical_presentations 	(list unit_reference_list
+		    (object ClassDiagram "Idf"
+			quid       	"3E82B6DD01F4"
+			title      	"Idf"
+			zoom       	100
+			max_height 	28350
+			max_width  	21600
+			origin_x   	0
+			origin_y   	0
+			items      	(list diagram_item_list
+			    (object CategoryView "Logical View::Idf::model" @134
+				location   	(304, 384)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@134
+				    location   	(160, 300)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"model")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"3E7ACFC80213"
+				width      	300
+				height     	180)
+			    (object CategoryView "Logical View::Idf::view" @135
+				location   	(848, 384)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@135
+				    location   	(704, 300)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"view")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"3E7ACFDC01D4"
+				width      	300
+				height     	180)))))
+	    (object Class_Category "IdfDllLib"
+		quid       	"3E7ACFA80251"
+		exportControl 	"Public"
+		logical_models 	(list unit_reference_list)
+		logical_presentations 	(list unit_reference_list))
+	    (object Class_Category "IdfEjec"
+		quid       	"3E7ACFBA01F4"
+		exportControl 	"Public"
+		logical_models 	(list unit_reference_list)
+		logical_presentations 	(list unit_reference_list)))
+	logical_presentations 	(list unit_reference_list
+	    (object ClassDiagram "Main"
+		quid       	"3E33BF790074"
+		title      	"Main"
+		zoom       	100
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	0
+		items      	(list diagram_item_list))))
+    root_subsystem 	(object SubSystem "Component View"
+	quid       	"3E31A3F40070"
+	physical_models 	(list unit_reference_list)
+	physical_presentations 	(list unit_reference_list
+	    (object Module_Diagram "Main"
+		quid       	"3E31A3F50157"
+		title      	"Main"
+		zoom       	100
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	0
+		items      	(list diagram_item_list))))
+    process_structure 	(object Processes
+	quid       	"3E31A3F40071"
+	ProcsNDevs 	(list
+	    (object Process_Diagram "Deployment View"
+		quid       	"3E31A3F40073"
+		title      	"Deployment View"
+		zoom       	100
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	0
+		items      	(list diagram_item_list))))
+    properties 	(object Properties
+	attributes 	(list Attribute_Set
+	    (object Attribute
+		tool       	"CORBA"
+		name       	"propertyId"
+		value      	"809135966")
+	    (object Attribute
+		tool       	"CORBA"
+		name       	"default__Project"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"CreateMissingDirectories"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"Editor"
+			value      	("EditorType" 100))
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"IncludePath"
+			value      	"")
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"StopOnError"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"EditorType"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"CORBA"
+				name       	"BuiltIn"
+				value      	100)
+			    (object Attribute
+				tool       	"CORBA"
+				name       	"WindowsShell"
+				value      	101)))
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"PathSeparator"
+			value      	"")))
+	    (object Attribute
+		tool       	"CORBA"
+		name       	"default__Class"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"ArrayDimensions"
+			value      	"")
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"ConstValue"
+			value      	"")
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"ImplementationType"
+			value      	"")))
+	    (object Attribute
+		tool       	"CORBA"
+		name       	"default__Module-Spec"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"AdditionalIncludes"
+			value      	(value Text ""))
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"CmIdentification"
+			value      	(value Text "  %X% %Q% %Z% %W%"))
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"CopyrightNotice"
+			value      	(value Text ""))
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"InclusionProtectionSymbol"
+			value      	"AUTO GENERATE")))
+	    (object Attribute
+		tool       	"CORBA"
+		name       	"default__Module-Body"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"AdditionalIncludes"
+			value      	(value Text ""))
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"CmIdentification"
+			value      	(value Text "  %X% %Q% %Z% %W%"))
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"CopyrightNotice"
+			value      	(value Text ""))
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"InclusionProtectionSymbol"
+			value      	"AUTO GENERATE")))
+	    (object Attribute
+		tool       	"CORBA"
+		name       	"default__Operation"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"Context"
+			value      	"")
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"OperationIsOneWay"
+			value      	FALSE)))
+	    (object Attribute
+		tool       	"CORBA"
+		name       	"default__Attribute"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"ArrayDimensions"
+			value      	"")
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"CaseSpecifier"
+			value      	"")
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"IsReadOnly"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"Order"
+			value      	"")))
+	    (object Attribute
+		tool       	"CORBA"
+		name       	"default__Role"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"ArrayDimensions"
+			value      	"")
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"CaseSpecifier"
+			value      	"")
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"GenerateForwardReference"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"IsReadOnly"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"Order"
+			value      	"")
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"BoundedRoleType"
+			value      	("AssocTypeSet" 47))
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"AssocTypeSet"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"CORBA"
+				name       	"Array"
+				value      	24)
+			    (object Attribute
+				tool       	"CORBA"
+				name       	"Sequence"
+				value      	47)))))
+	    (object Attribute
+		tool       	"CORBA"
+		name       	"default__Uses"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"GenerateForwardReference"
+			value      	FALSE)))
+	    (object Attribute
+		tool       	"CORBA"
+		name       	"HiddenTool"
+		value      	FALSE)
+	    (object Attribute
+		tool       	"Deploy"
+		name       	"HiddenTool"
+		value      	FALSE)
+	    (object Attribute
+		tool       	"framework"
+		name       	"HiddenTool"
+		value      	FALSE)
+	    (object Attribute
+		tool       	"Java"
+		name       	"propertyId"
+		value      	"809135966")
+	    (object Attribute
+		tool       	"Java"
+		name       	"default__Project"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Java"
+			name       	"RootDir"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"CreateMissingDirectories"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"StopOnError"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"UsePrefixes"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"AutoSync"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"NotShowRoseIDDlg"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"ShowCodegenDlg"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"GenerateRoseID"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"GenerateDefaultJ2EEJavadoc"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"GenerateDefaultReturnLine"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"JavadocDefaultAuthor"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"JavadocDefaultVersion"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"JavadocDefaultSince"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"UserDefineJavaDocTags"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"JavadocNumAsterisks"
+			value      	0)
+		    (object Attribute
+			tool       	"Java"
+			name       	"MaxNumChars"
+			value      	80)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Editor"
+			value      	("EditorType" 100))
+		    (object Attribute
+			tool       	"Java"
+			name       	"VM"
+			value      	("VMType" 200))
+		    (object Attribute
+			tool       	"Java"
+			name       	"ClassPath"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"ReferenceClasspath"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"EditorType"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"Java"
+				name       	"BuiltIn"
+				value      	100)))
+		    (object Attribute
+			tool       	"Java"
+			name       	"VMType"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"Java"
+				name       	"Sun"
+				value      	200)))
+		    (object Attribute
+			tool       	"Java"
+			name       	"VAJavaWorkingFolder"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"InstanceVariablePrefix"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"ClassVariablePrefix"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"DefaultAttributeDataType"
+			value      	"int")
+		    (object Attribute
+			tool       	"Java"
+			name       	"DefaultOperationReturnType"
+			value      	"void")
+		    (object Attribute
+			tool       	"Java"
+			name       	"NoClassCustomDlg"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"GlobalImports"
+			value      	(value Text ""))
+		    (object Attribute
+			tool       	"Java"
+			name       	"OpenBraceClassStyle"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"OpenBraceMethodStyle"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"UseTabs"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"UseSpaces"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"SpacingItems"
+			value      	3)
+		    (object Attribute
+			tool       	"Java"
+			name       	"RoseDefaultCommentStyle"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"AsteriskCommentStyle"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"JavaCommentStyle"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"JavadocAuthor"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"JavadocSince"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"JavadocVersion"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"BeanPrefix"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"BeanSuffix"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"RemotePrefix"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"RemoteSuffix"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"HomePrefix"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"HomeSuffix"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"LocalPrefix"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"LocalSuffix"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"LocalHomePrefix"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"LocalHomeSuffix"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"PrimaryKeyPrefix"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"PrimaryKeySuffix"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"EJBDTDLocation"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"ServletDTDLocation"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"DefaultEJBVersion"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"DefaultServletVersion"
+			value      	"")))
+	    (object Attribute
+		tool       	"Java"
+		name       	"default__Class"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Java"
+			name       	"Final"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Static"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"GenerateDefaultConstructor"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"ConstructorIs"
+			value      	("Ctor_Set" 62))
+		    (object Attribute
+			tool       	"Java"
+			name       	"Ctor_Set"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"Java"
+				name       	"public"
+				value      	62)
+			    (object Attribute
+				tool       	"Java"
+				name       	"protected"
+				value      	63)
+			    (object Attribute
+				tool       	"Java"
+				name       	"private"
+				value      	64)
+			    (object Attribute
+				tool       	"Java"
+				name       	"package"
+				value      	65)))
+		    (object Attribute
+			tool       	"Java"
+			name       	"GenerateFinalizer"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"GenerateStaticInitializer"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"GenerateInstanceInitializer"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"GenerateCode"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"DisableAutoSync"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"ReadOnly"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Strictfp"
+			value      	FALSE)))
+	    (object Attribute
+		tool       	"Java"
+		name       	"Default_Servlet__Class"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Java"
+			name       	"ServletName"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"ServletContextRef"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"IsSingleThread"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"ServletInitParameter"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"ServletInitParameterNames"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"ServletIsSecure"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"ServletRequestDispatcher"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"ServletRequestDispatcherPath"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"DispatcherInclude"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"DispatcherForward"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"ServletSecurityRoles"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"ServletgetInfo"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"ServletXMLFilePath"
+			value      	"")))
+	    (object Attribute
+		tool       	"Java"
+		name       	"Http_Servlet__Class"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Java"
+			name       	"ServletRequestAttribute"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"ServletRequestAttributesNames"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"MethodForRequestAttributes"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"ServletRequestParameter"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"ServletRequestParameterNames"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"MethodForRequestParameters"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"ServletHeader"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"ServletHeaderNames"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"MethodForHeaders"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"ServletIntHeader"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"ServletDateHeader"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"ServletCookie"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"MethodForCookie"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"ServletContentType"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"GenerateHTML"
+			value      	FALSE)))
+	    (object Attribute
+		tool       	"Java"
+		name       	"Default_EJB__Class"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Java"
+			name       	"Generate_XML_DD"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"EJBCmpField"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"EJBEnvironmentProperties"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"EJBCnxFactory"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"EJBReferences"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"EJBSecurityRoles"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"EJBNameInJAR"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"EJBSessionType"
+			value      	("EJBSessionType_Set" 200))
+		    (object Attribute
+			tool       	"Java"
+			name       	"EJBSessionType_Set"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"Java"
+				name       	""
+				value      	200)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Stateless"
+				value      	201)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Stateful"
+				value      	202)))
+		    (object Attribute
+			tool       	"Java"
+			name       	"EJBTransactionType"
+			value      	("EJBTransactionType_Set" 211))
+		    (object Attribute
+			tool       	"Java"
+			name       	"EJBTransactionType_Set"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"Java"
+				name       	"Container"
+				value      	211)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Bean"
+				value      	212)))
+		    (object Attribute
+			tool       	"Java"
+			name       	"EJBPersistenceType"
+			value      	("EJBPersistenceType_Set" 220))
+		    (object Attribute
+			tool       	"Java"
+			name       	"EJBPersistenceType_Set"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"Java"
+				name       	""
+				value      	220)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Bean"
+				value      	221)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Container"
+				value      	222)))
+		    (object Attribute
+			tool       	"Java"
+			name       	"EJBReentrant"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"EJBSessionSync"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"EJBVersion"
+			value      	("EJBVersion_Set" 230))
+		    (object Attribute
+			tool       	"Java"
+			name       	"EJBVersion_Set"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"Java"
+				name       	"2.0"
+				value      	230)
+			    (object Attribute
+				tool       	"Java"
+				name       	"1.x"
+				value      	231)))
+		    (object Attribute
+			tool       	"Java"
+			name       	"EJBXMLFilePath"
+			value      	"")))
+	    (object Attribute
+		tool       	"Java"
+		name       	"default__Module-Spec"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Java"
+			name       	"CmIdentification"
+			value      	(value Text ""))
+		    (object Attribute
+			tool       	"Java"
+			name       	"CopyrightNotice"
+			value      	(value Text ""))))
+	    (object Attribute
+		tool       	"Java"
+		name       	"default__Module-Body"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Java"
+			name       	"CmIdentification"
+			value      	(value Text ""))
+		    (object Attribute
+			tool       	"Java"
+			name       	"CopyrightNotice"
+			value      	(value Text ""))))
+	    (object Attribute
+		tool       	"Java"
+		name       	"default__Operation"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Java"
+			name       	"Abstract"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Static"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Final"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Native"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Synchronized"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"GenerateFullyQualifiedReturn"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"ReplaceExistingCode"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Strictfp"
+			value      	FALSE)))
+	    (object Attribute
+		tool       	"Java"
+		name       	"default__Attribute"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Java"
+			name       	"Final"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Transient"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Volatile"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"PropertyType"
+			value      	("BeanProperty_Set" 71))
+		    (object Attribute
+			tool       	"Java"
+			name       	"BeanProperty_Set"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"Java"
+				name       	"Not A Property"
+				value      	71)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Simple"
+				value      	72)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Bound"
+				value      	73)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Constrained"
+				value      	74)))
+		    (object Attribute
+			tool       	"Java"
+			name       	"IndividualChangeMgt"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Read/Write"
+			value      	("Read/Write_Set" 81))
+		    (object Attribute
+			tool       	"Java"
+			name       	"Read/Write_Set"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"Java"
+				name       	"Read & Write"
+				value      	81)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Read Only"
+				value      	82)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Write Only"
+				value      	83)))
+		    (object Attribute
+			tool       	"Java"
+			name       	"GenerateFullyQualifiedTypes"
+			value      	FALSE)))
+	    (object Attribute
+		tool       	"Java"
+		name       	"default__Role"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Java"
+			name       	"ContainerClass"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"InitialValue"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"Final"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Transient"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Volatile"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"PropertyType"
+			value      	("BeanProperty_Set" 71))
+		    (object Attribute
+			tool       	"Java"
+			name       	"BeanProperty_Set"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"Java"
+				name       	"Not A Property"
+				value      	71)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Simple"
+				value      	72)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Bound"
+				value      	73)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Constrained"
+				value      	74)))
+		    (object Attribute
+			tool       	"Java"
+			name       	"IndividualChangeMgt"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Read/Write"
+			value      	("Read/Write_Set" 81))
+		    (object Attribute
+			tool       	"Java"
+			name       	"Read/Write_Set"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"Java"
+				name       	"Read & Write"
+				value      	81)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Read Only"
+				value      	82)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Write Only"
+				value      	83)))
+		    (object Attribute
+			tool       	"Java"
+			name       	"GenerateFullyQualifiedTypes"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"IsNavigable"
+			value      	TRUE)))
+	    (object Attribute
+		tool       	"Java"
+		name       	"HiddenTool"
+		value      	FALSE)
+	    (object Attribute
+		tool       	"Rose Model Integrator"
+		name       	"HiddenTool"
+		value      	FALSE)
+	    (object Attribute
+		tool       	"Rose Web Publisher"
+		name       	"HiddenTool"
+		value      	FALSE)
+	    (object Attribute
+		tool       	"TopLink"
+		name       	"HiddenTool"
+		value      	FALSE)
+	    (object Attribute
+		tool       	"Version Control"
+		name       	"HiddenTool"
+		value      	FALSE))
+	quid       	"3E31A3F40072"))

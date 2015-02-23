@@ -1,0 +1,14 @@
+	CRuntimeClass* prtc = RUNTIME_CLASS(CDiagFrame);
+	CDiagFrame* vista = (CDiagFrame*)prtc->CreateObject();
+
+	CCreateContext ctx;
+	ctx.m_pNewViewClass = RUNTIME_CLASS(CDiagExeView);
+	ctx.m_pCurrentDoc = p_diag->getDoc();
+	ctx.m_pNewDocTemplate = p_diag->getDoc()->GetDocTemplate();
+	ctx.m_pLastView = NULL;
+	ctx.m_pCurrentFrame = (CMDIFrameWnd*)AfxGetMainWnd();
+
+	
+	vista->Create(NULL,"Prueba",WS_CHILD | WS_VISIBLE | WS_OVERLAPPEDWINDOW,
+		CRect(0,0,500,500),(CMDIFrameWnd*)AfxGetMainWnd(),&ctx);
+	vista->InitialUpdateFrame(p_diag->getDoc(),true);

@@ -1,0 +1,289 @@
+
+* Confirmación al usuario antes de eliminar bloque o conector
+
+* Al cambiar el Id de un componente, actualizar las listas correspondientes donde esté el objeto.
+
+* Eliminar NULO y hacer que sea necesario declarar CCom en las clases. Eliminar CComSerial y meterlo en CCom
+
+* Estudiar el posible uso de auto_ptr eliminando deletes
+
+* Quitar los "cout" del código de la parte XML 
+
+* Hacer una clase base "Vistas" común a todas las clases de vistas 
+
+* Revisar el paso de la vista en donde se vería PropUsuario
+
+* Llevar más código al nivel ComponenteDiag sobre todo en las clases Vistas tal que iteraciones que se hacen de forma específica para bloques y conectores se hagan a "conponentes"
+
+* Llevar lo más posible código de las clases diálogo a las clases MFC con el fin de intentar generalizar lo más posible subiendo al nivel View
+
+* Estudiar qué se puede generalizar del nivel MFCView al nivel View aunque sea como funciones abstractas
+
+* Hacer un directorio mfcdoc y poner ahí las clases doumento que están en model
+
+* Cambiar CConNudo por CConectorNudoVistas
+
+* Revisar todos los includes y dependencias
+
+* Encapsular aún más el código de serialización en XML para que sea multi-sistema
+es decir, para que valga incluso para serializar en binario.
+
+
+* Quitar la "C" del comienzo de los nombres de las clases
+
+* Evitar que los Font, brush etc se creen cuando se dibujan, crearlos de forma permanente
+
+
+* Hacer que Etiqueta dependa de ComponenteDiag
+
+* Llevar a una carpeta mfcview todas las clases de visualización no genéricas
+
+* Quitar de las clases XXXVistas todo lo referente a visualización basada en MFC 
+dejarlas genéricas
+
+* La gestión de la etiqueta del conector debería llevarse a ConectorView quizás
+
+* Cambiar ElementView por ComponenteView o similar
+
+
+* Llevar el código de dibujo de las Dib a las "View" adecuadas
+
+* Unificar más BloqueVistas y ConectorVistas en CComponenteDiagVistas
+
+
+
+* Hacer una clase VisualDiagrama que desacople CBaseView de las clases de gestión de vistas
+
+* Pensar si en vez de un CStatic la etiqueta del bloque es mejor dibujar y así reaprovechar código de la clase Etiqueta, o al revés haciendo que las etiquetas de diagrama y conectores se gestionen como en el bloque con un CStatic
+
+* Ver si ante un cambio de visible a no visible de conectores, bloques etc. aparece y desaparece
+
+* El título del diagrama y conectores pasarlo a un diálogo en vez de un CStatic (?)
+
+* Pensar en usar el CRectTracker para el cambio de tamaño y posición (ej. Bloque y etiquetas) primero hacerlo para las etiquetas
+
+* Menú de propiedades de las etiquetas: texto, fuente, a que conector pertenece
+
+* Posibilidad de incluir "notas" libres como etiquetas
+
+* Intentar que al actualizar un conector se llame a UpdateWindow o redibujar sólo
+considerando el conector
+
+* Quizás sobra el botón cancelar de la tabla de diseño
+
+* Llevar el código de edición de CDiagDis a CDiagramaVistasDis y que sean dependientes de la vista (CBaseView) desde la que se ha iniciado, quizás lo mejor
+es crear una nueva clase o clases que memoricen el estado de edición actual (en vez de un simple entero), podría estar controlado por la CDiagViewDis (creación y destrucción) aunque las operaciones se hagan en CDiagramaVistasDis
+
+
+* Hacercarse quizás hacia un diagrama de actividades UML, incluso importando desde archivos UML
+
+* Hacer un bloque iniciador y otro terminador
+
+* Evitar lo más posible que desde clases MFC se llamen a clases del modelo directamente, hacerlo a través de las vistas, ej. en CDlgNudoCon
+
+* Funciones de selección de CDibDiagramaDis llevar a CDiagramaVistasDis, el CDibDiagrama es para dibujar y punto, idem con CDibBloqueDis
+
+* Llevar el atributo m_macro a CBloqueUnidad y cambiar de nombre a "anexo"
+
+* Revisar el papel de activo en entrada y salida, pensar si conviene que el objeto recibido se envíe directamente como parámetro a acción 
+
+* Repasar todos los posibles errores cargando y generando el LDD sobre todo los relativos a la localización de archivos (no existe, no está creado el directorio donde escribir etc.) y si está mal formado el XML. Poner excepciones.
+
+
+* Quitar todos los FlagModificado y poner uno solo al crear y al cargar y se acabó
+
+* Manejar bien el directorio actual al generar los LDD en multidiagrama o que se
+respete el path relativo de un subdiagrama
+
+
+* Sistematizar las llamadas a Actualizar() sobre todo en ejecución porque son un desastre
+
+* Hacer Dockable la consola ??
+
+* Hacer un ActiveX para poder ejecutar desde otro programa, idem por línea de comando
+
+* Revisar static CString temp; de Bloque_enlaces.cpp de IdfDllLib
+
+* Hacer en CDiagExe un gestor de DLLs
+
+* CDiagExe::p_bloqUltimo llevarlo a las vistas quizás o bien pensar en un "continuar"
+que justifique su presencia en DiagExe
+
+* Cambiar los iconos con las letras R y F del cursor por símbolos gráficos
+
+* Hacer una clase desacopladora de las referencias a CBaseView, ejemplo ViewAdapter
+de la que derive una CBaseViewAdapter
+
+
+* Evitar la creación de varios frames por diagrama (inhibir el menú Nueva Ventana).
+
+* Hacer que en Accion en el DLL se pase la clase de entrada, de salida y el contexto
+
+* Mejorar el sistema de colocación del título del diagrama y la etiqueta del conector
+
+* Mejorar el dibujado en modo diseño
+
+* Simplificar el número de funciones en las clases en los DLL
+
+* Intentar que las clases bloques en DLL no necesiten definirse por herencia, que sea por interface.
+
+* Estudiar como prescindir de la serialización y pensar una alternativa a
+XML tanto en ejecución como en diseño (no corre prisa). Sería más tolerante a versiones y el usuario podría evolucionar el archivo manualmente ante cambios de nombres de clases en el DLL por ejemplo.
+
+* Limitar lo más posible los cambios de propiedades que pueden hacerse en ejecución para evitar cambios serios en caliente tal y como el cambio de bloques inicio y fin del subdiagrama
+
+* Objeto de comunicaciones DLL con colección de pares clave-valor
+hacer método de Newton para este caso
+
+* Repasar la carga de fichero permitiendo que esté incompletos los componentes en caso de diseño
+
+
+* Cambiar nombre CDiagExeView a CDiagViewExe idem Dis
+
+* El quitar de la lista de bloques y conectores unificarlo
+
+* Seguir eliminando CConect::m_claseDatosComunic para hacer que esté
+en cada extremo
+
+* Revisar el papel del atributo tiempo (Instante) en el diagrama (CDiagBase)
+
+* El mensaje de "los efectos de este cambio se manifestarán al recargar" mostrarlo tras el Aceptar del diálogo (CDiagBase::AvisoCambioCarga())
+
+* Revisar todos los CDiagBase::FlagModificado() la necesidad de actualizar
+
+* Cambiar CConect por CConector
+
+* Cambiar CDiagBase por CDiagrama
+
+* Revisar la capacidad de poder cambiar claves en ejecución por su impacto en la generación de XML erróneos.
+
+* Evitar múltiples getVistas() de Bloque y Conect, haciendo que en vez de 
+usar punteros al componente sean a las vistas 
+
+* Cambiar DefineBloque y DefineConect por Construir()
+
+* Hacer una clase CDibComponenteDiag y CVistasComponenteDiag y hacer que la selección de elementos esté ahí
+
+* Llevar las clases CDib que partan de las clases Vista como una especialización (el dibujo de elementos). Seguir con bloques y conectores
+
+* Revisar la iniciación de los componentes del DLL
+
+* Cambiar LDD o L.D.D. por otro nombre alternativo (XML)
+
+* Que la etiqueta del bloque y conector también escale
+
+* Hacer una clase CComponenteDiag que tenga como atributo el id y su gestión (y quizás la etiqueta). Idem las clases Dib y Vistas (quizás se pueda subir comportamientos tal y como "seleccionar")
+
+* Revisar la generación automática de nombres internos de bloques y conectores (CDiagBase::getClaveNueva())
+
+* El modelo intrusivo de herencia de las clases Dis y Exe, hacer que sea por agregación, por ejemplo para eliminar CBloque::ActualizaEstadoDis()
+
+* Llevar la gestión de propiedades a los propios diálogos
+
+* Intentar envolver (proteger) lo más posible los atributos con métodos para que su uso sea coherente, coordinado, sin olvidos y no repetitivo, 
+ej el nombre del diagrama.
+
+
+
+* Hacer un XML Schema para los XML
+
+* Revisar lo relacionado con LDD (nombres etc), cambiar como "XML"
+
+* Tratar los errores de lectura XML con Mensaje() o con excepciones
+
+* Validar el XML con un DTD o esquema
+
+* Obligar también en diseño a que el nombre al salvar sea el del LDD como
+en ejecución (en caso de basarse en un XML), llevar esto a CDiagBase o a CBaseDoc
+
+* Arreglar la casuística de que no exista el DLLDiagrama o el directorio por defecto de librerías
+
+* ToolTips para los elementos del árbol de código ( y de componentes quizás)
+
+* Recursos: cambiar PROY por IDF
+
+* Intentar eliminar la clase NULO, que no esté basada en DLL sino directamente en el IDF.
+
+* Pensar si eliminar 	BOOL NuevosObjDatos(); y void DestObjDatos() 
+y dejar que se encargue de ello el programador.
+
+* Cambiar "Inspección" por "Exploración" cuando sale un árbol.
+
+* Pensar en estructuras BEGIN_MAP etc para declaración de clases de Entrada/Salida en DLL
+
+* Añadir un motor de script por ejemplo JavaScript y hacer un ejemplo
+"real". Pensar como hacer para mostrar diálogos Windows.
+
+* Motor de Java también (si es posible)
+
+* Hacer un ejemplo de Newton en donde el diálogo no cambie en la iteración
+
+* Hacer más botones (o más barras) de menú
+
+* Marcar de alguna manera el primer bloque que se ejecuta en modo automático, para poder así poner una opción de "Ejecutar Diagrama" y
+por línea de comando también
+
+* Revisar botones barra de inserción de elementos, pensar si no es mejor iconos (admiten el transparente)
+
+* Etiqueta cambiable con un CRectTracker, posibilidad de añadir más notas textuales en el diagrama
+
+* Botón de Test en el diálogo de propiedades y en el menú pop-up
+de compatibilidad del diagrama con la clase  en el módulo DLL. Interesante en diseño más bien.
+
+* Intentar hacer diálogos de bloques con formas
+
+* Sacar las invocaciones de diálogos de propiedades fuera de las clases principales.
+
+* Hacer un instalador
+
+* En el menú pop-up de un bloque en modo ejecución, incluir una opción que sea "Ejecución Automática", para no tener que aprenderse el CTRL-BOTON
+
+* Quitar los dibujos encima de los bloques, estorban, con cuidado pues
+el código sirve para impresión.
+
+* Pensar en un puente para programar en Java los bloques pero la infraestructura sea C++, ¿CORBA quizás?, ¿JavaBeans?
+
+* Pemitir que el título del diagrama pueda modificarse en plan CRectTracker (modo diseño).
+
+
+* Poder invocar el programa por línea de comandos tal que ejecute un diagrama en modo automático pero sin mostrar la aplicación principal.
+
+
+* Integrar la aplicación VisualDiagrama en el programa principal
+o borrarlo, quizás un diálogo del diagrama que liste los DLLs cargados
+
+
+* Pensar si eliminar las macros de recubrimiento de variables y funciones
+si pueden tener alguna finalidad
+
+
+* Revisar el manual (multiple continuación -> sólo una, CambioEstado() etc), DECLARAR_DIAGRAMA, IMPLEMENTAR_DIAGRAMA etc
+
+
+* Llevar algoritmos que se hagan con las listas de bloques y conectores
+a los gestores de listas, sobre todo aquellos que se repiten siempre para
+ retroanotadores y no retroanotadores
+
+* Hacer un DLLDiag que funcione con otro tipo de compilador y framework (¿Dev-C++?, ¿Borland?, ¿WxWindows?, ¿Qt? ...).
+
+* Hacer todas las variables protegidas o privadas
+
+* Terminar de sacar la gestión de diálogos de las clases Bloque, llevarlas  a los documentos o vistas o auxiliares para el caso etc (propiedades rejilla queda)
+
+
+* Poner derechos de copia en el código fuente.
+
+* Hacer una ayuda de tipo html compilado, y ayuda contextual
+
+* Estudiar el mercado y donde ponerlo y comerciar con él.
+
+* ¿Hacer "undo" en diseño? Estudiar
+
+* Pasar a Inglés
+
+* Pasar a Visual C++ .Net ??
+
+* Pasar a Java.
+	- En Java el LDD pasaría a ser XML y se llamaría XDD o similar
+
+

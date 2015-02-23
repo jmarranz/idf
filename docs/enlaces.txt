@@ -1,0 +1,17 @@
+
+- Artículo: Open source workflow and the BPM-market
+	http://jbpm.org/article.html
+http://www.theserverside.com/home/thread.jsp?thread_id=18436&article_count=13
+
+
+- "The Only Pure J2EE BPM Plattform"
+  "Design and deploy complete applications with UI, Workflow and Integration"
+
+  http://www.qlinktech.com/
+
+
+- Interesante el producto de Intalio
+
+http://www.intalio.com/products/designer/constructs.html
+
+

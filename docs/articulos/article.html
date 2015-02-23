@@ -1,0 +1,460 @@
+<html><head>
+<title>Open source workflow and the BPM-market</title></head>
+
+<body width="100%" bgcolor="#ffffff">
+<h1>Open source workflow and the BPM-market</h1>
+<h3>Introduction</h3>
+<p>This article gives a compact overview of the open source projects, standards
+and commercial tools on business process management and workflow.   The reason
+for this publication is that a lot of companies are not even aware of the
+fact that there are open source alternatives for business process management.
+  This article intends to give those organisations a start in selecting the
+open source workflow engine that best fits their needs.</p>
+<p>
+<a href="mailto:tom@jbpm.org">Tom Baeyens</a>, jBpm.<br>
+<a href="mailto:me@anthonyeden.com">Anthony Eden</a>, Open Business Engine.<br>
+<a href="mailto:bob@werken.com">Bob McWhirter</a>, Werkflow.<br>
+<a href="mailto:jaz@ofbiz.org">Andy Zeneski</a>, OfBiz.<br>
+<a href="mailto:michael@vivtek.com">Michael Roberts</a>, wftk.<br>
+<a href="mailto:garysteinmetz@yahoo.com">Gary Steinmetz</a>, PowerFolder.<br>
+<a href="mailto:d.tarini@icube.it">Daniele Tarini</a>, OpenFlow.
+</p>
+
+<h3>Table of contents</h3>
+<pre><a href="#ossbenefits"><b>Benefits for organisations using open source software (OSS)</b></a>
+<a href="#ossworkflow"><b>The open source workflow projects</b></a>
+  <a href="#jbpm">jBpm</a>
+  <a href="#obe">Open Business Engine</a>
+  <a href="#werkflow">Werkflow</a>
+  <a href="#osworkflow">OSWorkflow</a>
+  <a href="#ofbiz">Open For Business</a>
+  <a href="#wftk">Workflow Toolkit</a>
+  <a href="#powerfolder">PowerFolder</a>
+  <a href="#openflow">OpenFlow</a>
+<a href="#standards"><b>Standards related to workflow</b></a>
+  <a href="#standardscomparisons">Articles discussing the standards</a>
+  <a href="#xpdl">XPDL</a>
+  <a href="#ebxml">ebXML</a>
+  <a href="#bpml">BPML</a>
+  <a href="#wsci">WSCI</a>
+  <a href="#bpel4ws">BPEL4WS</a>
+  <a href="#wfsl">WSFL</a>
+  <a href="#xlang">XLANG</a>
+<a href="#commercial"><b>Commercial tools</b></a>
+<a href="#dicussion"><b>Discussion</b></a>
+</pre>
+
+
+<h3 id="ossbenefits">Benefits for organisations using open source software (OSS)</h3>
+<ul>
+  <li><b>Encourages software re-use</b>. 
+    Open source software development 
+    allows programmers to cooperate freely with other programmers across time and 
+    distance with a minimum of legal frictions. As a result, open source software 
+    development encourages software re-use. Rather than endlessly reinventing 
+    wheels, a programmer can just copy someone else's elegant tire from another 
+    machine. 
+  </li>
+  <li><b>Can increase code quality and security</b> 
+    With closed source 
+    software, it's often difficult to evaluate the quality and security of the code. 
+    In addition, closed source software companies have an incentive to delay 
+    announcing security flaws or bugs in their product. Often this means that their 
+    customers don't learn of security flaws until weeks or months after the security 
+    exploit was known internally.
+  </li>
+  <li><b>High-quality software</b>
+    Open source software is potentially subject to scrutiny by many eyeballs. 
+    Therefore bugs, security flaws, and poor design cannot hide for long, at least 
+    when the software has a community of programmers to support it. And since fixing 
+    the code doesn't depened on a single vendor, patches are often distributed much 
+    more rapidly than patches to closed source software. 
+  </li>
+  <li><b>Avoids vendor lock-in</b> 
+    Businesses no longer have to be 
+    locked-in to the whims of a sole-source vendor. No more paying a vendor for a 
+    needless upgrade, simply to maintain compatability with others using the same 
+    software. Business data is also more "future-proof", since most open source 
+    programs save text files in ANSI standard ASCII files, instead of proprietary 
+    binary formats. If the vendors training materials are inadequate, because they 
+    have access to the source code, external vendors can supply as good or better 
+    manuals. Most successful open source software programs have extensive online 
+    FAQ's, manuals, and mailing lists.  On top of all that, which commercial vendors 
+    can guarantee they will still be in business next year ?
+  </li>
+  <li><b>Reduces total cost of ownership</b> 
+    I'd like to start with the less known cost reductions : consultancy and knowledge
+    base. Afterwards, the more obvious reduction in licenses is discussed. After purchasing 
+    a closed source product, the vendors consultancy has a monopoly. Therefor this 
+    consultancy is more expensive.  The vendors consultancy is also more superficial because 
+    implementation details are not discussed.  The price for consultancy for open source 
+    software has an upper limit because everybody can learn it from the sources.  
+    The consultancy is more profound because consultants
+    know about the implementation.  More knowledge is therefor transferrable to 
+    employees of purchasing company, making them more independant.
+    Most open source software is 
+    available for a nominal cost, often the price of the media, or the time of the 
+    download. No more "per-seat" license fees. Reduced acquisition cost means that 
+    start-ups don't have to part with precious capital when they need it most. 
+    Established companies can try the software with minimual risks. If the company 
+    wants to develop a piece of software that they don't plan to use to 
+    differentiate themselves, they can reduce the cost by collaborating with several 
+    companies on the same code base. If you want to incorporate the code into your 
+    product, you don't have to pay a license fee. 
+  </li>
+  <li><b>Independance</b> 
+    If a bug-fix really matters to you, you're able to fix it yourself.  You're not tied
+    to the prioritisation and release-schedule of the closed-source-vendors.
+  </li>
+  <li><b>Increases customizability</b> 
+    Every business has unique needs 
+    or desires--rather than live with a clumsy interface. Linux has been ported to 
+    everything from embedded microcontrollers, to IBM mainframes. If there's a 
+    nagging bug you want fixed, you can hire someone else to fix it. If two programs 
+    don't play well together, one or both can be modified to eliminate the 
+    incompatability. 
+  </li>
+  <li><b>Meritocratic community</b> 
+    A true meritocracy, in the open 
+    source community, a programmer's status and fame depends on programming skill, 
+    not kissing some pointy haired boss's heiney. Open source expertise travels 
+    well, and you can reuse software you developed for one company at future 
+    employers. 
+  </li>
+  <li><b>Open source business model</b> 
+    The open source business model : "open source software with commercially available 
+    support" is gaining more and more recognition.  It gives the users of the open source
+    software even better support then support for commercial products because there is more
+    competition and they don't have a monopoly.
+  </li>
+</ul>
+
+This is a modified version of the open source benefits published by <a href="http://www.openknowledge.org/writing/open-source/scb/why-open-source.html">Chris Rasch at openknowledge.org</a><br>
+More benefits for open source users can be found here : <a href="http://www.opensource.org/advocacy/case_for_customers.php">Case for Customers by the Open Source Initiative (OSI)</a>
+  
+<h3 id="ossworkflow">The open source workflow projects</h3>
+<h4 id="jbpm">jBpm</h4>
+  <blockquote>
+    <b>URL: </b><a href="http://jbpm.org/">http://jbpm.org</a><br>
+    <b>Licence: </b><a href="http://www.gnu.org/licenses/licenses.html#LGPL">Lesser General Public License (LGPL)</a><br>
+    <b>Quote: "</b>
+    jBpm's process definitions are based on UML activity diagram's.  That
+establishes a clear and effective communication between process developers
+    and managers.  jBpm includes a web-interface that will enable users to
+execute in their browser without having to write code.  jBpm has a unique,
+    powerfull mechanism for integrating existing IT-infrastructure such as
+databases, ERP-systems, LDAP-systems... : it allows to add java-classes to
+    your process definition.  The java-classes can access the process instance
+information as well as the complete J2EE environment.  That feature     
+creates a clear separation between the states of a process and the interactions
+with other systems.  jBpm supports rich process modeling concepts      such
+as parallel flows and process composition (=sub-processes).  The design of
+jBpm is makes it the easiest to learn and use.     <b>"</b>
+  </blockquote>
+  
+<h4 id="obe">Open Business Engine</h4>
+  <blockquote>
+    <b>URL: </b><a href="http://www.openbusinessengine.org/">http://www.openbusinessengine.org</a><br>
+    <b>Licence: </b><a href="http://www.openbusinessengine.org/LICENSE.txt">Modified Apache License</a><br>
+    <b>Quote: "</b>
+    Open Business Engine, also known as OBE, is designed from the ground
+up to conform to WfMC standards for workflow processors.  OBE is still in
+    development but has already acquired the interest of numerous organizations
+who are contributing to the project.  Once complete, OBE will      provide
+support for XPDL for process definition with the ability to plug in parsers
+for other definition languages, WAPI for client access,      using RMI initially
+with XML-RPC and SOAP implementations to follow, a complete implementation
+of the WfMC audit specification and support for      the Workflow Interoperability
+specification.  OBE is J2EE compliant, executing on top of any J2EE application
+server.  OBE will also include      an embedded version of the engine for
+use directly in Java applications.     <b>"</b>
+  </blockquote>
+  
+<h4 id="werkflow">Werkflow</h4>
+  <blockquote>
+    <b>URL: </b><a href="http://werkflow.werken.com/">http://werkflow.werken.com/</a><br>
+    <b>Licence: </b><a href="http://werkflow.werken.com/license.html">Custom open source license</a><br>
+    <b>Quote: "</b>
+    The werkflow system is a Petri net based engine for executing transactional
+workflows. The design has been heavily influenced by the     academic literature
+on workflow such as the papers of Wil van der Aalst and also by suggestions
+from the diverse community of developers      that hang out on the Werken
+company's IRC. Given the current immaturity and volatility of workflow standards,
+the werkflow project has been      architected to be standards-neutral. The
+core engine has a layered architecture on top of which new syntaxes and semantics
+can easily be built.      This approach will alllow users to avoid vendor
+lock-in and enable The Werken Company to rapidly roll out support for the
+most popular standard      of the month. Currently, support for BPML and
+BPEL4WS are being built upon the core engine to support current popular web-services
+coordination      languages. While the current focus is on web-services specifications,
+the werkflow system can support most any sort of process flow. The Werken
+    Company is a small boutique consultancy, specializing in targeted, complex
+problems. By focusing on the esoteric, difficult problems instead of    
+ the every-day commodity problems, The Werken Company can provide improved
+value to critical aspects of projects.     <b>"</b>
+  </blockquote>
+  
+<h4 id="osworkflow">OSWorkflow</h4>
+  <blockquote>
+    <b>URL: </b><a href="http://www.opensymphony.com/osworkflow">http://www.opensymphony.com/osworkflow</a><br>
+    <b>Licence: </b><a href="http://www.opensource.org/licenses/apachepl.php">Apache Software License</a><br>
+    <b>Quote: "</b>
+    OSWorkflow is very different from most other workflow systems available,
+both commercially and in the open source world. What makes      OSWorkflow
+different is that it is extremely flexible. This flexibility can be hard
+to grasp at first, however. In fact, OSWorkflow      does not contain graphical
+user interface components. It is up to the application developer to provide
+this sort of integration, as      well as any integration with existing code
+and databases. These may seem like problems to someone who is looking for
+a quick "plug-and-play"      workflow solution, but we've found that such
+a solution never provides enough flexibility to properly fulfill requirements
+in a full-blown      application. OSWorkflow gives you this flexbility. 
+   <b>"</b>
+  </blockquote>
+  
+<h4 id="ofbiz">Open For Business</h4>
+  <blockquote>
+    <b>URL: </b><a href="http://www.ofbiz.org/">http://www.ofbiz.org</a><br>
+    <b>Licence: </b><a href="http://www.ofbiz.org/ofbizmitlicense.html">MIT license</a><br>
+    <b>Quote: "</b>
+    The Open For Business Project, founded in 2001 by David E. Jones and
+Andy Zeneski, is an open source enterprise automation software project  
+   licensed under the MIT Open Source License. The goal of the project is
+to build a community of end users and developers that work together     
+directly to create easy to customize business software based on best practices.
+The workflow engine in OFBiz is based on the WfMC and OMG      Workflow Standards.
+OFBiz utilizes WfMC's XPDL spec for process definitions, and our Entity and
+Service engines for state and procedure invocations.     <b>"</b>
+  </blockquote>
+  
+<h4 id="wftk">WorkFlow ToolKit</h4>
+  <blockquote>
+    <b>URL: </b><a href="http://www.vivtek.com/wftk/">http://www.vivtek.com/wftk/</a><br>
+    <b>Licence: </b><a href="http://www.gnu.org/licenses/licenses.html#GPL">General Public License (GPL)</a><br>
+    <b>Quote: "</b>
+    The wftk (open-source workflow toolkit) is a workflow engine in library
+form which can be integrated with whatever you need to      integrate with.
+It's designed on a very flexible <i>adaptor</i> architecture,
+whereby interfaces to external functionality are      defined and implemented
+as independently as possible of the core workflow logic. It makes heavy use
+of XML, so that its data      structures are always easily inspected. All
+it lacks (soon to be rectified) is experience in Real Life.      <b>"</b>
+  </blockquote>
+  
+<h4 id="powerfolder">PowerFolder</h4>
+  <blockquote>
+    <b>URL: </b><a href="http://www.powerfolder.org/">http://www.powerfolder.org</a><br>
+    <b>Licence: </b><a href="http://www.gnu.org/licenses/licenses.html#LGPL">Lesser General Public License (LGPL)</a><br>
+    <b>Quote: "</b>
+    PowerFolder is an open source workflow studio and engine. It is easy
+to install and use. The project team currently provides      free email and
+phone support. PowerFolder takes your business process and brings it to life.
+Applications are easy to create      with the web based developer studio.
+The script studio draws the process similar to a flowchart and assigns actions
+to each      state. The web page studio designs the web pages to interface
+with the process.  XML is integral to the lifecycle of a process      and
+its instances. The triggering data, process template, and process instance
+are all formatted in XML. This makes PowerFolder      more flexible and eases
+migration to future versions. PowerFolder is flexible. Processes can be created
+with as little or as      much Java code as desired. A small amount of JSP
+scripting can bring a process to life. Likewise, custom Java classes can
+be      leveraged for more complex functionality. Administration and management
+takes place through the PowerFolder console. Applications      can be deployed
+and undeployed. Process instances can be queried and viewed. PowerFolder
+follows the accepted conventions of      J2EE programming. No native or threading-specific
+code is used. The persistence layer is agnostic and interchangeable.    
+<b>"</b>
+  </blockquote>
+
+<h4 id="openflow">OpenFlow</h4>
+  <blockquote>
+    <b>URL: </b><a href="http://www.openflow.it/">http://www.openflow.it</a><br>
+    <b>Licence: </b><a href="http://www.gnu.org/licenses/licenses.html#GPL">General Public License (GPL)</a><br>
+    <b>Quote: "</b>
+      OpenFlow is a workflow engine developped by Icube and released as free
+software. It is based on an object oriented structure, it        has a powerful
+exception handling system and it supports dynamic redesign. These features
+make OpenFlow much more flexible than        other existing workflow engines.
+OpenFlow supports the open standards (XML/XML-RPC) and the web standards;
+it facilitates integration        between heterogeneous systems thanks to
+simple access to most of relational databases. OpenFlow is activity based,
+multiplatform,        web-based, WfMC inspired, built and integrated with
+the application server Zope, and it is completely free software.      <b>"</b>
+  </blockquote>
+  
+
+<h3 id="standards">Standards related to workflow</h3>
+<h4 id="standardscomparisons">Articles discussing the standards</h4>
+<ul>
+  <li>"Don't go with the flow : Web services composition standards
+exposed" by Wil van der Aalst, University of Eindhoven, The Netherlands :
+<a href="http://tmitwww.tm.tue.nl/research/patterns/download/ieeewebflow.pdf">http://tmitwww.tm.tue.nl/research/patterns/download/ieeewebflow.pdf</a></li>
+  <li>"Workflow Patterns" by Wil van der Aalst et al : <a href="http://tmitwww.tm.tue.nl/research/patterns/">http://tmitwww.tm.tue.nl/research/patterns/</a></li>
+  <li>"Process Business Description Languages" by  : <a href="http://www.cis.unisa.edu.au/%7Ecissh/research/webflow/bpdl.html">http://www.cis.unisa.edu.au/~cissh/research/webflow/bpdl.html</a></li>
+  <li>"Process Modeling Language's" by Jean-Jacques Dubray : <a href="http://www.ebpml.org/status.htm">http://www.ebpml.org/status.htm</a></li>
+  <li>"Business process standards for web services" by David O'Riordan : <a href="http://www.webservicesarchitect.com/content/articles/oriordan01.asp">http://www.webservicesarchitect.com/content/articles/oriordan01.asp</a></li>
+  <li>"Workflow Patterns - Standard's Evaluation" by Wil van der Aalst et al., University of Eindhoven, The Netherlands : <a href="http://tmitwww.tm.tue.nl/research/patterns/start_stand.htm">http://tmitwww.tm.tue.nl/research/patterns/start_stand.htm</a></li>
+  <li>"A Comparison of XPDL and BPMS BPEL" by Robert Shapiro, Cape Visions : <a href="http://www.ebpml.org/A_Comparison_of_XPDL_and_BPML_BPEL.doc">http://www.ebpml.org/A_Comparison_of_XPDL_and_BPML_BPEL.doc</a></li>
+</ul>
+
+<h4 id="xpdl">XPDL</h4>
+  <blockquote>
+    <b>URL: </b><a href="http://www.wfmc.org/standards/docs.htm">XPDL (and other documents)</a><br>
+    <b>Organisation: </b><a href="http://www.wfmc.org/">The workflow management coalition (WfMC)</a><br>
+    <b>Intro: "</b>The
+Workflow Management Coalition, founded in August 1993, is a non-profit, international
+organization of      workflow vendors, users, analysts and university/research
+groups. The Coalition&#8217;s mission is to promote and develop the use of    
+ workflow through the establishment of standards for software terminology,
+interoperability and connectivity between workflow      products. Consisting
+of over 285 members, spread throughout the world, the Coalition has quickly
+become established as the primary      standards body for this rapidly expanding
+software market.<br>
+    Mission Statement:
+    <ul style="margin-top: 0px;">
+      <li>Increase the value of customers&#8217; investment with workflow technology </li>
+      <li>Decrease the risk of using workflow products </li>
+      <li>Expand the workflow market through increasing awareness for workflow <b>"</b> </li>
+    </ul>
+
+  </blockquote>
+
+<h4 id="ebxml">ebXML</h4>
+  <blockquote>
+    <b>URL: </b><a href="http://www.ebxml.org/">http://www.ebxml.org/</a><br>
+    <b>Organisation: </b>UN/CEFACT and OASIS<br>
+    <b>Intro: "</b>ebXML BPSS (Business Process Specification Schema) is part of the 
+      comprehensive ebXML B2B suite of specifications, which also includes core 
+      specifications for reliable and secure messaging based on SOAP, collaboration 
+      agreements and profiles, a registry/repository, and core components.
+      BPSS is a relatively simple but effective schema that describes 
+      public processes only. In a BPSS model different roles (seller, buyer, etc.) 
+      collaborate to carry out a set of transactions. The orchestration of the 
+      transactions is defined using a control flow based on UML activity graph 
+      semantics. There is no explicit support for describing how data flows between 
+      transactions. The transaction part of the model is based on a proven, robust 
+      model for long-lived e-commerce business transactions used by previous B2B 
+      standards such as RosettaNet. There is explicit support for specifying 
+      quality-of-service semantics for transactions such as authentication, 
+      acknowledgements, non-repudiation, and timeouts.
+      <b>"</b>
+  </blockquote>
+
+<h4 id="bpml">BPML</h4>
+  <blockquote>
+    <b>URL: </b><a href="http://www.bpmi.org/specifications.esp">http://www.bpmi.org/specifications.esp</a><br>
+    <b>Organisation: </b><a href="http://www.bpmi.org/">Business Process Management Initiative (BPMI)</a><br>
+    <b>Intro: "</b>BPML (Business Process Management Language) is a specification 
+      from the BPMI.org (Business Process Management Initiative) organization. BPML 
+      aims to provide a comprehensive means of specifying the processes of an 
+      enterprise. It is positioned as complementary to public process standards such 
+      as ebXML BPSS - the BPMI FAQ (from the BPMI.org Web site, <a href="http://www.bpmi.org/faq.esp">http://www.bpmi.org/faq.esp</a>) states: 
+      <code>'BPMI.org and ebXML are addressing complementary aspects of 
+      e-Business process management. While ebXML provides a standard way to describe 
+      the Public Interface of e-Business processes, BPMI.org provides a standard way 
+      to describe their Private Implementation.'</code>
+      BPML describes comprehensive control flow and data flow 
+      constructs. It supports both short- and long-running transactions with 
+      compensating activities. It also supports exception handling and timeouts. It 
+      does not provide a means to specify characteristics that are important to B2B 
+      processes, such as authentication and non-repudiation.
+    <b>"</b>
+  </blockquote>
+  
+<h4 id="wsci">WSCI</h4>
+  <blockquote>
+    <b>URL: </b><a href="http://wwws.sun.com/software/xml/developers/wsci/">http://wwws.sun.com/software/xml/developers/wsci/</a><br>
+    <b>Organisation: </b><a href="http://www.bea.com/">BEA</a>, <a href="http://www.intalio.com/">Intalio</a>, 
+      <a href="http://www.sap.com/">SAP</a>, and <a href="http://www.sun.com/">Sun Microsystems</a><br>
+    <b>Intro: "</b>The Web Service Choreography Interface (WSCI) is an XML-based interface description language that describes 
+    the flow of messages exchanged by a Web Service participating in choreographed interactions with other services.<b>"</b>
+  </blockquote>
+  
+<h4 id="bpel4ws">BPEL4WS</h4>
+  <blockquote>
+    <b>URL: </b><a href="http://www-106.ibm.com/developerworks/webservices/library/ws-bpel/">http://www-106.ibm.com/developerworks/webservices/library/ws-bpel/</a><br>
+    <b>Organisation: </b><a href="http://www.bea.com/">BEA</a>, 
+      <a href="http://www.ibm.com/">IBM</a>, 
+      <a href="http://www.microsoft.com/">Microsoft</a><br>
+    <b>Intro: "</b>BPEL4WS
+provides a language for the formal specification of business processes and
+business interaction protocols.      By doing so, it extends the Web services
+interaction model and enables it to support business transactions. BPEL4WS
+defines an      interoperable integration model that should facilitate the
+expansion of automated process integration in both the intracorporate and
+the      business-to-business spaces.<b>"</b>
+  </blockquote>
+  
+<h4 id="wfsl">WFSL</h4>
+  <blockquote>
+    <b>URL: </b><a href="http://www-3.ibm.com/software/solutions/webservices/pdf/WSFL.pdf">Web Services Flow Language (WSFL)</a> <br>
+    <b>Organisation: </b><a href="http://www.ibm.com/">IBM</a><br>
+    <b>Intro: "</b>WSFL (Web Services Flow Language) is IBM's proposal in this area. 
+      It covers both public and private processes. WSFL is primarily focused on 
+      describing Web Service compositions, and like XLANG uses WSDL to describe the 
+      service interfaces.
+      A <i>flow model</i> describes the workflow for a process. Both 
+      control flow and data flow can be defined using a state-transition model. 
+      Transactions and exception handling are not explicitly supported, but some of 
+      the semantics can be implemented using conditional transitions. Activities in a 
+      workflow can be exported as Web Service operations, and activities can also be 
+      implemented by delegation to a Web Service. In this way WSFL supports Web 
+      Service aggregation.
+      A <i>global model</i> defines how the various Web Services are 
+      linked together in the process. It is similar therefore to the business process 
+      contracts of XLANG.
+      Quality-of-service characteristics are delegated to a separate 
+      specification called WSEL (Web Services Endpoint Language).
+    <b>"</b>
+  </blockquote>
+  
+<h4 id="xlang">XLANG</h4>
+  <blockquote>
+    <b>URL: </b><a href="http://www.gotdotnet.com/team/xml_wsspecs/xlang-c/default.htm">XLANG</a><br>
+    <b>Organisation: </b><a href="http://www.microsoft.com/">Microsoft</a><br>
+    <b>Intro: "</b>XLANG is Microsoft's proposal in this space, and like BPSS is 
+      currently focused entirely on public processes.
+      XLANG uses WSDL to describe the service interfaces of each 
+      participant. The behavior is specified with a control flow that choreographs the 
+      WSDL operations. There is no means for specifying data flow between operations. 
+      Long-running transactions encompassing multiple operations are supported and can 
+      be nested. Compensating operations for transactions can be specified. Exceptions 
+      can be caught and recovery operations specified. Acknowledgements and timeouts 
+      can be flexibly incorporated. Some support for agreements is provided in XLANG 
+      by contracts, which defines how to stitch together Web Services of collaborating 
+      partners.
+      XLANG does not define quality-of-service characteristics of Web 
+      Services such as non-repudiation and authentication, or guaranteed messaging 
+      requirements.
+    <b>"</b>
+  </blockquote>
+
+Special thanks to David O'Riordan's from whom I borrowed most comments on the standards, see
+<a href="http://www.webservicesarchitect.com/content/articles/oriordan01.asp">Business process standards for web services</a>
+
+<h3 id="commercial">Commercial tools</h3>
+<p>
+<i><b>Warning: </b>Unlike the tools found above, all tools below will cost
+you a lot of $$$ and they do a damn good job of locking it in your organisation.</i>
+</p>
+Workflow product catalogs : 
+<ul>
+  <li><a href="http://www.anaxagoras.com/Toolbox/index.php?fase=2&amp;category=2">http://www.anaxagoras.com/Toolbox/index.php?fase=2&amp;category=2</a></li>
+  <li><a href="http://dmoz.org/Computers/Software/Workflow/Products/">http://dmoz.org/Computers/Software/Workflow/Products/</a></li>
+</ul>
+Short selection of direct links :<br>
+<ul>
+  <li><a href="http://www.intalio.com/products/index.html">Intalio</a></li>
+  <li><a href="http://e-docs.bea.com/wlintegration/v2_1/interm/bpmhome.htm">Bea's business process management</a></li>
+  <li><a href="http://www-3.ibm.com/software/integration/holosofx/">IBM's holosofx tool</a></li>
+  <li><a href="http://www.oracle.com/ip/deploy/ias/integration/">Oracle's integration platform</a></li>
+  <li><a href="http://www.webmethods.com/content/1,1107,Model,FF.html">WebMethod's process modeling</a></li>
+</ul>
+
+<h3 id="discussion">Discussion</h3>
+If this article is published on a news-site with a discussion (like e.g. www.theserverside.com), links will be provided here.
+
+
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td width="100%" align="right"><i>Tom Baeyens</i></td></tr></tbody></table>
+
+</body></html>

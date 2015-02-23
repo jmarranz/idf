@@ -1,0 +1,15 @@
+
+screen   ->      cliente     ->     lógica (con escala)     ->    lógica (sin escala)   ->    mm
+
+  CWnd::ScreenToClient   CDC::DPtoLP             CBaseView::EscalaInversa    CBaseView::logicTomm 
+
+							   CBaseView::logicTommAndInvScale 
+
+
+mm     ->   lógica (sin escala)   ->    lógica (con escala)    ->     cliente    ->     screen
+
+  CBaseView::mmToLogic       CBaseView::Escala            CDC::LPtoDP     CWnd::ClientToScreen
+
+	   CBaseView::mmToLogicAndScale
+
+
