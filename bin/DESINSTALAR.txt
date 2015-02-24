@@ -1,0 +1,14 @@
+
+Basta eliminar el ejecutable, pero antes te interesa desasociar las extensiones .dds y .dex
+
+* Windows XP
+
+  Sigue estas instrucciones:
+
+  https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/win_fcab_reg_filetype_modify.mspx?mfr=true
+
+* Windows Vista y superiores:
+
+  Ejecutar unassoc.exe presente en esta misma carpeta, eliminar la asociación de las extensiones .dds y .dex
+
+

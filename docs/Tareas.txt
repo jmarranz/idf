@@ -1,4 +1,26 @@
 
+Subir a Git
+Subir binarios a SourceForge
+Hacer README.md (links a manual, diapositivas y SourceForge para binarios)
+
+Como desregistrar extensiones (.DDS y .DEX)
+
+https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/win_fcab_reg_filetype_modify.mspx?mfr=true
+http://www.winhelponline.com/blog/unassociate-file-types-windows-7-vista/
+http://www.howtogeek.com/171932/how-do-you-remove-a-default-file-association-in-windows-7/
+http://superuser.com/questions/49615/how-do-you-remove-a-default-program-association-for-file-types-in-windows-7
+
+
+
+Añadir a RelProxy
+
+http://t.co/WaziJAexYR
+
+
+
+
+
+
 * Confirmación al usuario antes de eliminar bloque o conector
 
 * Al cambiar el Id de un componente, actualizar las listas correspondientes donde esté el objeto.
