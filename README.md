@@ -23,7 +23,7 @@ no debajo).
 Por razones económicas acepté becas y posteriormente contratos de trabajo en el Laboratorio de Informática de la ETSIIM donde me dediqué fundamentalmente a hacer webs en C++ (sí en C++)
 usando ObjectStore y su extensión para el desarrollo web. IDF quedó parado durante algunos años.
 
-Posteriormente con el fin de terminar la carrera retomé IDF y lo terminé en el Laboratorio de Informática y lo presenté a través de dicho departamento.
+Posteriormente con el fin de terminar la carrera retomé IDF y lo terminé en el Laboratorio de Informática y lo presenté como fin de carrera a través de dicho departamento en 1998.
 
 Años después intenté continuarlo con el fin incluso de llegar a venderlo pero no me interesaba suficiente.
 
@@ -37,14 +37,37 @@ IDF es una aplicación Windows tipo MDI (Multi Document Interface), lo habitual d
 1. Archivos (documentos) de diseño de diagramas 
 
    El resultado del diseño de un diagrama es un archivo XML o L.D.D. que describe el "layout" del diagrama y sus bindings con las librerías DLL que contienen el código a ejecutar.
+
    La herramienta permite el diseño visual de los diagramas (bloques y conectores) partiendo de cero o de un L.D.D. ya existente, generando si se quiere el LDD resultado del diseño, 
 también es posible guardar el resultado en binario (serializado) con la extensión .dds asociada automáticamente a la aplicación en su primera ejecución.
+
    Es posible la creación de bloques-diagrama que tienen asociado otro diagrama que será otro documento en la aplicación, IDF se encarga de vincular automáticamente el ciclo 
 de vida de ambos documentos abiertos. 
 
-![Captura Diseño](img/captura_disenyo.png "Captura")
+   A través de la interfase se genera el código .h y .cpp que servirá de punto de entrada al código del usuario programado en una (o varias) DLL (dicha DLL se programa usando IDF headers y lib
+creados con este fin).
+
+![Captura Diseño](img/captura_disenyo.png)
 
 2. Archivos (documentos) de ejecución de diagramas
 
+   A partir de un LDD es posible crear un diagrama "ejecutable", este diagrama no modificable a nivel de diseño, cargará las DLLs declaradas así como los bindings a las clases 
+Es posible guardar el resultado en binario (serializado) con la extensión .dex asociada automáticamente a la aplicación en su primera ejecución.
+
+   De la misma manera que en diseño, en ejecución pueden estar dos o más documentos vinculados cuando hay una relación de jerárquica por la existencia de bloques-diagrama.
+
+![Captura Ejecución](img/captura_ejecucion.png)
+
+
+Documentación
+------
+
+Documentación en detalle se encuentra en la memoria de mi fin de carrera, es posible que algunos cambios realizados posteriormente no se correspondan.
+
+[Portada](docs/Portada.doc)
+
+[Proyecto](docs/Proyecto.doc)
+
+[Diapositivas](docs/IDF_proy.ppt)
 
 
