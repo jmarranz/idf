@@ -98,7 +98,10 @@ IDF fue mi proyecto fin de carrera desarrollado en la Escuela Técnica Superior d
 Departamento de Electrónica, la finalidad era poder simular algoritmos a través de diagramas de flujo con el fin de ser útil para la programación de circuitos digitales.
 
 IDF fue la aplicación que me inclinó de forma definitiva hacia el desarrollo software en el sentido más abierto en vez de seguir el camino de la micro-electrónica digital
-(que hoy día es también básicamente software).
+(que hoy día es también básicamente software). El desarrollo software de propósito general me mostraba un mundo muchísísimo más abierto y de alto nivel que la programación
+de circuitos electrónicos, pronto IDF se convirtió en una herramienta totalmente genérica sin ninguna vinculación directa con la microelectrónica, al mismo tiempo
+que me aportaba experiencia para acceder a trabajos de "programador". Después de tantos años no me arrepiento a pesar del usual maltrato de la profesión de programador,
+en muchos casos considerado como un "peón albañil" o un transitorio entretenimiento para niños avispados.
 
 IDF fue mi primer contacto "serio" con el desarrollo software aunque en el instituto de secundaria diera mis primeros pasos con el BASIC de un Amstrad, GWBASIC en PCs y un 
 poquito de TurboPascal 3.0 en dichos PCs. Ese primer contacto fue entrar por la puerta grande, programación de GUIs (Win32 y MFC) orientado a objetos en C++,  estrenando el flamante 
@@ -119,5 +122,5 @@ Años después intenté continuarlo con el fin incluso de llegar a venderlo pero no
 
 El estado actual del código compila al menos en Visual C++ 2005 y requiere Windows XP como mínimo (ajustes realizados antes de subir a GitHub).
 
-A la hora de valorar la calidad del código fuente, se benebolente y ten en cuenta que es el resultado de un jovencito aprendiz de programador, no se si hoy día soy mucho mejor
+A la hora de valorar la calidad del código fuente, se benevolente y ten en cuenta que es el resultado de un jovencito aprendiz de programador, aunque no se si hoy día soy mucho mejor
 técnico que en aquel entonces :) 
