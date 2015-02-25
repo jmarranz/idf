@@ -98,7 +98,7 @@ IDF fue mi proyecto fin de carrera desarrollado en la Escuela Técnica Superior d
 Departamento de Electrónica, la finalidad era poder simular algoritmos a través de diagramas de flujo con el fin de ser útil para la programación de circuitos digitales.
 
 IDF fue la aplicación que me inclinó de forma definitiva hacia el desarrollo software en el sentido más abierto en vez de seguir el camino de la micro-electrónica digital
-(que hoy día es también básicamente software). El desarrollo software de propósito general me mostraba un mundo muchísísimo más abierto y de alto nivel que la programación
+(que hoy día es también básicamente software). El desarrollo software de propósito general me mostraba un mundo muchísimo más abierto y de alto nivel que la programación
 de circuitos electrónicos, pronto IDF se convirtió en una herramienta totalmente genérica sin ninguna vinculación directa con la microelectrónica, al mismo tiempo
 que me aportaba experiencia para acceder a trabajos de "programador". Después de tantos años no me arrepiento a pesar del usual maltrato de la profesión de programador,
 en muchos casos considerado como un "peón albañil" o un transitorio entretenimiento para niños avispados.
